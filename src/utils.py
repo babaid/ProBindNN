@@ -4,7 +4,6 @@ import shutil
 import torch
 from torch.nn.functional import one_hot
 from tqdm import tqdm
-#import pymol
 import pandas as pd
 import numpy as np
 from IPython.display import clear_output
@@ -48,132 +47,8 @@ def pdb_to_df(pdb_id:str, root:str)->pd.DataFrame:
         raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), path)
 
 
-def mutate_point(pdb_id: str, mutation_id: str, pdb_dir:str = PDB_DIR, destination_dir:str = RAW_DATASET_DIR):
-    """
-    Creates a pointmutation in a PDB Structure and saves it in the destionation folder.
-    pdb_id: str
-        PDB Id of the protein
-    mutation: str
-        3-digit code of the mutation
-    pdb_dir: str
-        Directory containing the PDB files.
-    destination_dir: str
-        Destionation directory in which the mutated PDB structure will be saved.
-    """
-    chain_id, mutation = mutation_id.split(':')
-    base, resid, mut = re.split('(\d+)', mutation)
-    selection = "chain "+ chain_id + " and residue " + resid
-    pdb_file = os.path.join(os.getcwd(), pdb_dir, pdb_id.lower() + ".pdb")
-
-    if os.path.isfile(pdb_file):
-        print("Starting  mutation wizard...")
-        mutant = AMINO_CODES[mut]
-
-        pymol.finish_launching()
-    	
-        pymol.cmd.wizard("mutagenesis")
-        pymol.cmd.load(pdb_file)
-        pymol.cmd.refresh_wizard()
-        print("Selecting ", selection )
-        pymol.cmd.get_wizard().do_select(selection)
-        print("Mutant:", mutant)
-        pymol.cmd.get_wizard().set_mode(mutant)
-
-        pymol.cmd.get_wizard().apply()
-        
-        pymol.cmd.set_wizard()
-
-        save_path = os.path.join(destination_dir, pdb_id + "_" +chain_id + "_" + mutation + ".pdb")
-
-        pymol.cmd.save(save_path, format="pdb")
-        pymol.cmd.delete(name="all")
-        pymol.cmd.refresh_wizard()
-        pymol.cmd.refresh()
-        pymol.finish_launching()
-     
-    else:
-        raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), pdb_file)
 
 
-def mutate_multiple_points(pdb_id:str, mutations:list, pdb_dir:str=PDB_DIR, destination_dir: str=RAW_DATASET_DIR) -> None:
-    """qst_mot_let.pdf
-    Mutates multiple residues in a protein
-
-    pdb_id: str
-        The 4 letter PDB ID of the protein.
-    mutations: list
-        A list caontaining the IDs of the mutations.
-    pdb_dir: str
-        Directory of the raw PDB Files.
-    destination_dit: str
-        The mutated structures will be saved here.
-    """
-    pdb_file = os.path.join(os.getcwd(), pdb_dir, pdb_id.lower() + ".pdb")
-    save_path = os.path.join(destination_dir, pdb_id)
-
-    if os.path.isfile(pdb_file):
-
-        for mutation in mutations:
-
-            selection = mutation[0] + "/" + mutation[1:-1]  + "/"    
-            mutant = AMINO_CODES[mutation[-1]]
-            pymol.finish_launching()
-            pymol.cmd.wizard("mutagenesis")
-            pymol.cmd.load(pdb_file)
-            pymol.cmd.refresh_wizard()
-            pymol.cmd.get_wizard().do_select(selection)
-            pymol.cmd.get_wizard().set_mode(mutant)
-            pymol.cmd.get_wizard().apply()
-            pymol.cmd.set_wizard()
-            pymol.cmd.deselect()
-            save_path += "_" + mutation
-
-        save_path += ".pdb"
-        pymol.cmd.save(save_path, format="pdb")
-        pymol.cmd.delete(name="all")
-        pymol.finish_launching()
-        
-    else:
-        raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), pdb_file)
-
-def create_mutations_pyrosetta(index_df:pd.DataFrame):
-
-    for _, row in tqdm(index_df.iterrows()):
-
-            pdb_id = row["pdb_id"]
-            m_res_num = row["res_renum"]
-            chain_id, mutation = row["mut_id"].split(':')
-            base, resid, mut = re.split('(\d+)', mutation)
-
-            filepath = os.path.join(raw_dir, pdb_id+ "_" +chain_id +"_"+ mutation +".pdb")
-
-            if  not os.path.isfile(filepath):
-                if pdb_id not in ["1mlc", "1vfb", "1yy9", "1ak4", "1ktz", "1n8z"]:
-                    print(pdb_id, mutation)
-                    pose = pose_from_pdb(os.path.join(PDB_DIR, pdb_id+".pdb"));
-                    toolbox.mutants.mutate_residue(pose, m_res_num , mut)
-                    pose.dump_pdb(filepath)
-
-            clear_output(wait=True)
-
-def create_mutations_pymol(index_df:pd.DataFrame, raw_dir:str):
-    
-    for _, row in tqdm(index_df.iterrows()):
-
-            pdb_id = row["pdb_id"]
-            m_res_num = row["res_renum"]
-            chain_id, mutation = row["mut_id"].split(':')
-            base, resid, mut = re.split('(\d+)', mutation)
-
-            filepath = os.path.join(raw_dir, pdb_id+ "_" +chain_id +"_"+ mutation +".pdb")
-
-            if  not os.path.isfile(filepath):
-                
-                print(pdb_id, mutation)
-                mutate_point(pdb_id, row["mut_id"])
-                    
-
-            clear_output(wait=True)
 
 def save_to_pdb(structure:pd.DataFrame, path:str)->None:
     """

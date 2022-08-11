@@ -19,12 +19,16 @@ from graphein.ml.conversion import GraphFormatConvertor
 from graphein.protein.edges.atomic import add_atomic_edges, add_bond_order, add_ring_status
 from graphein.protein.edges.distance import add_hydrogen_bond_interactions, add_ionic_interactions, add_peptide_bonds
 from graphein.protein.edges.distance import compute_distmat
-from src.utils import *
 
+
+
+from src.utils import *
+from src.mutagenesis import create_mutations_pymol
 import argparse
 import logging
 import sys
-import multiprocessing
+import threading
+import time
 #Logging
 logger = logging.getLogger("Dataset creation logger")
 handler = logging.StreamHandler(sys.stdout)
@@ -142,42 +146,54 @@ def make_dataset(index_xlsx: str,root:str):
             clear_output(wait=True)
 
 
-def make_dataset_mp(index_xlsx: str,root:str, chunk_size=2):
+def make_dataset_threaded(index_xlsx: str,root:str, chunk_size=1):
 
     raw_dir = os.path.join(root, "raw")
     processed_dir = os.path.join(root, "processed")
 
-    index_df = pd.read_excel(index_xlsx, converters={"pdb_id":str.lower, "mut_id":str.strip, "ddg":float, "res_renum":int})
+    index_df = pd.read_excel(index_xlsx, converters={"pdb_id":str.lower, "mut_pdb":str.strip,"mut_id":str.strip,"aff_mut":float, "aff_wt":float,"temp":float,  "ddg":float,})
     
+
+
     index_df_chunks = np.array_split(index_df, chunk_size)
     ddg = index_df.ddg.to_list()
+    
 
-       
+    exclude_indices = []
+    print("Mutations...")
+
+    start = time.time()
+    
+    create_mutations_pymol(index_df=index_df, raw_dir=raw_dir)
         
 
-    create_mutations_pymol(index_df, raw_dir)
+    end = time.time()
+    delta = end-start
+    print("Time needed for creating the mutations: {}s".format(delta.total_seconds()))
 
     params_to_change = {"granularity": "atom", "edge_construction_functions": [add_atomic_edges, add_bond_order, add_ring_status, add_hydrogen_bond_interactions, add_ionic_interactions, add_peptide_bonds]}
     config = ProteinGraphConfig(**params_to_change)
     format_convertor = GraphFormatConvertor('nx', 'pyg', verbose="default")
     processes = []
 
+    start = time.time()
     for i, chunk in enumerate(index_df_chunks):
-        processes = []
+        print("Processing Threads {}-{}".format(i, i+chunk_size))
+        threads = []
         for index, row in tqdm(chunk.iterrows()):
             ind = i*chunk_size + index
-            if not os.path.isfile(os.path.join(processed_dir,str(index)+"_mutated.pt" )):
-                processes.append(multiprocessing.Process(target = extract_and_save, args=(row, ind, raw_dir, processed_dir, config, format_convertor)))
+            if not os.path.isfile(os.path.join(processed_dir,str(ind)+"_mutated.pt" )):
+                threads.append(threading.Thread(target = extract_and_save, args=(row, ind, raw_dir, processed_dir, config, format_convertor)))
 
-        for p in processes:
+        for p in threads:
             p.start()
 
-        for p in processes:
+        for p in threads:
             p.join()
-            
-        exit_codes = [p.wait() for p in processes]
-
-        del processes
+    end = time.time()
+    delta = start-end
+    print("Dataset creation finished. Time needed: {}s".format(delta.total_seconds()))
+        
         
            
             
@@ -187,14 +203,23 @@ def make_dataset_mp(index_xlsx: str,root:str, chunk_size=2):
 
 def extract_and_save(df_row, index, raw_dir,processed_dir, config, format_convertor):
 
+
+    
     pdb_id = df_row["pdb_id"]
-    chain_id, mutation = df_row["mut_id"].split(':')
-    base, resid, mut = re.split('(\d+)', mutation)
+    mutation = df_row["mut_id"].split(",")
+
+    if len(mutation)>1:
+        return
+        
+    mutation = mutation[0]
+    wildtype, chain_id, resid, mut_target = mutation[0], mutation[1], mutation[1:-1], mutation[-1]
+    
+    
     ddg = df_row["ddg"]
-    file_mut = pdb_id + "_" + chain_id + "_" + mutation
+    file_mut = pdb_id + "_" + mutation
 
             
-    print("Protein: ", pdb_id, "Mutation: ", mutation)
+    print("Protein: ", pdb_id, "Mutation: ", mut_target)
     
     pdb_mutated = pdb_to_df(file_mut, raw_dir)
     pdb_non_mutated = pdb_to_df(pdb_id, PDB_DIR)
