@@ -50,7 +50,7 @@ class GGNN(torch.nn.Module):
         self.conv4 = GatedGraphConv(features_hidden, 2)
         self.gn4 = GraphNorm(features_hidden)
 
-        #self.conv5 = GatedGraphConv(features_hidden, 1)
+        self.conv5 = GatedGraphConv(features_hidden, 1)
         
     
         
@@ -78,7 +78,7 @@ class GGNN(torch.nn.Module):
         
         
         o = self.conv5(o, edge_index)
-        #o = torch.nn.functional.leaky_relu(o)
+        o = torch.nn.functional.leaky_relu(o)
 
         o = global_mean_pool(o, batch)
 
@@ -102,11 +102,7 @@ class ddGPredictor(torch.nn.Module):
     def forward(self, x, y):
         
         msg_x = self.model_a(x, x.batch)
-        msg_y = self.model_b(y, y.batch)
-
-
-
-        
+        msg_y = self.model_b(y, y.batch)        
 
         out = msg_x- msg_y
 

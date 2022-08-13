@@ -116,19 +116,12 @@ def create_mutations_pymol(index_df:pd.DataFrame, raw_dir:str):
 
 
         pdb_id = row["pdb_id"]
-        mutation = row["mut_id"].split(",")
+        mutation = row["mut_id"]        
+        pdb_id = row["pdb_id"].split('_')[0]
+        wildtype, chain_id, resid, mut_target = mutation[0], mutation[1], mutation[2:-1], mutation[-1]
+        filepath = os.path.join(raw_dir, pdb_id+ "_" + mutation +".pdb")
 
-        if len(mutation)>1:
-            continue
-       
-        else:
-            mutation = mutation[0]
-            pdb_id = row["pdb_id"].split('_')[0]
-            wildtype, chain_id, resid, mut_target = mutation[0], mutation[1], mutation[2:-1], mutation[-1]
-            
-            filepath = os.path.join(raw_dir, pdb_id+ "_" + mutation +".pdb")
-
-            if  not os.path.isfile(filepath):
-                print(pdb_id, mut_target)
-                mutate_point(pdb_id, row["mut_id"])
-            clear_output(wait=True)
+        if  not os.path.isfile(filepath):
+            print(pdb_id, mut_target)
+            mutate_point(pdb_id, row["mut_id"])
+        clear_output(wait=True)
