@@ -38,19 +38,19 @@ class GGNN(torch.nn.Module):
         super(GGNN, self).__init__()
          
         
-        self.conv1 = GatedGraphConv(features_hidden, 4)
+        self.conv1 = GatedGraphConv(features_hidden, 2)
         self.gn1 = GraphNorm(features_hidden)
 
-        self.conv2 = GatedGraphConv(features_hidden, 3)
+        self.conv2 = GatedGraphConv(features_hidden, 2)
         self.gn2 = GraphNorm(features_hidden)
 
-        self.conv3 = GatedGraphConv(features_hidden, 2)
+        self.conv3 = GatedGraphConv(features_hidden, 3)
         self.gn3 = GraphNorm(features_hidden)
 
-        self.conv4 = GatedGraphConv(features_hidden, 2)
+        self.conv4 = GatedGraphConv(features_hidden, 4)
         self.gn4 = GraphNorm(features_hidden)
 
-        self.conv5 = GatedGraphConv(features_hidden, 1)
+        self.conv5 = GatedGraphConv(features_hidden, 5)
         
     
         
@@ -89,7 +89,7 @@ class ddGPredictor(torch.nn.Module):
     """
     The model which calculates the final ddG values.
     """
-    def __init__(self,config = { "features_in" :18, "features_hidden":30, "gnn_features_out":30, "mlp_hidden_dim" : [50, 50], "out_dim":1}):
+    def __init__(self,config = { "features_in" :18, "features_hidden":30, "gnn_features_out":30, "mlp_hidden_dim" : [1000, 500], "out_dim":1}):
         super(ddGPredictor, self).__init__()
 
         self.config = config
