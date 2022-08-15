@@ -19,7 +19,7 @@ class MLP(nn.Module):
             self.mlp.add_module('lay_{}'.format(i),nn.Linear(in_features=dims[i], out_features=dims[i+1]))
             #self.mlp.add_module("dropout_{}".format(i), nn.Dropout(0.1))
             if i+2 < len(dims):
-                self.mlp.add_module('act_{}'.format(i), nn.ReLU())
+                self.mlp.add_module('act_{}'.format(i), nn.LeakyReLU())
     def reset_parameters(self):
         for i, l in enumerate(self.mlp):
             if type(l) == nn.Linear:
@@ -28,7 +28,7 @@ class MLP(nn.Module):
     def forward(self, x):
         return self.mlp(x)
 
-from torch_geometric.nn import global_mean_pool
+from torch_geometric.nn import global_mean_pool, global_add_pool, global_max_pool
 
 class GGNN(torch.nn.Module):
     """
@@ -80,8 +80,8 @@ class GGNN(torch.nn.Module):
         o = self.conv5(o, edge_index)
         o = torch.nn.functional.leaky_relu(o)
 
-        o = global_mean_pool(o, batch)
-
+        o = global_max_pool(o, batch)
+        
         return o
 
 
