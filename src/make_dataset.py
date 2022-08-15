@@ -22,8 +22,8 @@ from graphein.protein.edges.distance import compute_distmat
 
 
 
-from src.utils import *
-from src.mutagenesis import create_mutations_pymol
+from utils import *
+from mutagenesis import create_mutations_pymol
 import argparse
 import logging
 import sys

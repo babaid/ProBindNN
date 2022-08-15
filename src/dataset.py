@@ -13,7 +13,7 @@ import torch
 from torch_geometric.data import Data
 
 
-from src.utils import *
+from utils import *
 
 
 
