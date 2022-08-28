@@ -4,7 +4,9 @@ import torch_geometric
 from torch_geometric.nn import GatedGraphConv, GCNConv, GraphConv 
 from torch import nn
 from torch_geometric.nn.norm import GraphNorm, LayerNorm
+from torch_geometric.utils.dropout import dropout_adj
 
+from src.utils import edge_weights
 
 class MLP(nn.Module):
     """
@@ -38,49 +40,55 @@ class GGNN(torch.nn.Module):
         super(GGNN, self).__init__()
          
         
-        self.conv1 = GatedGraphConv(features_hidden, 2)
+        self.conv1 = GatedGraphConv(features_in, 5)
         self.gn1 = GraphNorm(features_hidden)
 
-        self.conv2 = GatedGraphConv(features_hidden, 2)
+        self.conv2 = GatedGraphConv(features_hidden, 4)
         self.gn2 = GraphNorm(features_hidden)
 
         self.conv3 = GatedGraphConv(features_hidden, 3)
         self.gn3 = GraphNorm(features_hidden)
 
-        self.conv4 = GatedGraphConv(features_hidden, 4)
+        self.conv4 = GatedGraphConv(features_hidden, 2)
         self.gn4 = GraphNorm(features_hidden)
 
-        self.conv5 = GatedGraphConv(features_hidden, 5)
+        self.conv5 = GatedGraphConv(features_hidden, 1)
         
     
         
     def forward(self, data, batch):
+        
+        
+        
         x, edge_index = data.x, data.edge_index
-       
-        o = self.conv1(x, edge_index)
+        ew = data.edge_weights
+        
+        
+        o = self.conv1(x, edge_index, ew)
         o = self.gn1(o)
         o = torch.nn.functional.leaky_relu(o)
-      
-
-        o = self.conv2(o, edge_index)
+        
+        
+        o = self.conv2(o, edge_index, ew)
         o = torch.nn.functional.leaky_relu(o)
         o = self.gn2(o)
         
-        o = self.conv3(o, edge_index)
+        
+        
+        o = self.conv3(o, edge_index, ew)
         o = torch.nn.functional.leaky_relu(o)
         o = self.gn3(o)
 
-       
-
-        o = self.conv4(o, edge_index)
+        
+        o = self.conv4(o, edge_index, ew)
         o = torch.nn.functional.leaky_relu(o)
         o = self.gn4(o)
         
         
         o = self.conv5(o, edge_index)
         o = torch.nn.functional.leaky_relu(o)
-
-        o = global_max_pool(o, batch)
+        
+        o = global_add_pool(o, batch)
         
         return o
 
@@ -89,7 +97,7 @@ class ddGPredictor(torch.nn.Module):
     """
     The model which calculates the final ddG values.
     """
-    def __init__(self,config = { "features_in" :18, "features_hidden":30, "gnn_features_out":30, "mlp_hidden_dim" : [1000, 500], "out_dim":1}):
+    def __init__(self,config = { "features_in" :15, "features_hidden":15, "gnn_features_out":15, "mlp_hidden_dim" : [15, 15, 15], "out_dim":1}):
         super(ddGPredictor, self).__init__()
 
         self.config = config

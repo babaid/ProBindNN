@@ -115,8 +115,8 @@ def make_dataset(index_xlsx: str,root:str):
             
             if pyg_graph_non_mutated.coords.shape[0] == len(pyg_graph_non_mutated.node_id):
 
-                mut = Data(x=node_id_to_feature_matrix(graph_mutated), edge_index=pyg_graph_mutated.edge_index, ddg=ddg)
-                non_mut = Data(x=node_id_to_feature_matrix(graph_non_mutated), edge_index=pyg_graph_non_mutated.edge_index)
+                mut = Data(x=node_id_to_feature_matrix(graph_mutated), edge_index=pyg_graph_mutated.edge_index,edge_weights=edge_weights(graph_mutated), ddg=ddg)
+                non_mut = Data(x=node_id_to_feature_matrix(graph_non_mutated), edge_index=pyg_graph_non_mutated.edge_index, edge_weights=edge_weights(graph_non_mutated))
 
                 torch.save(mut, os.path.join(processed_dir,"mutated", str(index)+".pt"))
                 torch.save(non_mut, os.path.join(processed_dir,"non_mutated",str(index)+".pt"))
@@ -209,8 +209,8 @@ def extract_and_save(df_row, index, raw_dir,processed_dir):
     print("Extracting relevant residues")
     print(chain_id, resid)
 
-    interface_mutated = find_relevant(chain_id, int(resid), pdb_mutated,cutout=2, cutoff=12.)
-    interface_non_mutated = find_relevant(chain_id, int(resid), pdb_non_mutated,cutout=2,cutoff = 12.)
+    interface_mutated = find_relevant(chain_id, int(resid), pdb_mutated,cutout=2, cutoff=8.)
+    interface_non_mutated = find_relevant(chain_id, int(resid), pdb_non_mutated,cutout=2,cutoff = 8.)
     
     path_interface_mutated = os.path.join(raw_dir, "temp", str(index)+"_mutated_interface.pdb")
     path_interface_non_mutated = os.path.join(raw_dir,"temp",  str(index)+"_non_mutated_interface.pdb")
@@ -232,15 +232,15 @@ def extract_and_save(df_row, index, raw_dir,processed_dir):
 
     pyg_graph_non_mutated.y = ddg
     pyg_graph_non_mutated.coords = torch.FloatTensor(pyg_graph_non_mutated.coords[0])
-
+    
     
    
         
     
     if pyg_graph_non_mutated.coords.shape[0] == len(pyg_graph_non_mutated.node_id):
 
-        mut = Data(x=node_id_to_feature_matrix(graph_mutated), edge_index=pyg_graph_mutated.edge_index, ddg=ddg)
-        non_mut = Data(x=node_id_to_feature_matrix(graph_non_mutated), edge_index=pyg_graph_non_mutated.edge_index)
+        mut = Data(x=node_id_to_feature_matrix(graph_mutated), edge_index=pyg_graph_mutated.edge_index, edge_attr=graph_edge_attr(graph_mutated), ddg=ddg)
+        non_mut = Data(x=node_id_to_feature_matrix(graph_non_mutated), edge_index=pyg_graph_non_mutated.edge_index, edge_attr=graph_edge_attr(graph_non_mutated))
 
         torch.save(mut, os.path.join(processed_dir,"mutated", str(index)+".pt"))
         torch.save(non_mut, os.path.join(processed_dir,"non_mutated",str(index)+"_non_mutated.pt"))
@@ -251,4 +251,5 @@ def extract_and_save(df_row, index, raw_dir,processed_dir):
     
 
 
-            
+if __name__ == "__main__":
+    make_dataset(index_xlsx="./index.xlsx", root="datasetmf")

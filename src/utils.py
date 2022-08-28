@@ -12,21 +12,29 @@ import errno
 import glob
 import shutil
 from mendeleev import element
-
 import multiprocessing as mp
+
+
+
+
 AMINO_CODES = {
     'A': 'Ala', 'R': 'Arg', 'N': 'Asn', 'D': 'Asp', 'C': 'Cys', 'Q': 'Gln', 'E': 'Glu', 
     'G': 'Gly', 'H': 'His', 'I': 'Ile', 'L': 'Leu', 'K': 'Lys', 'M': 'Met', 'F': 'Phe', 
     'P': 'Pro', 'O': 'Pyl', 'S': 'Ser', 'U': 'Sec', 'T': 'Thr', 'W': 'Trp', 'Y': 'Tyr', 
     'V': 'Val', 'B': 'Asx', 'Z': 'Glx', 'X': 'Xaa', 'J': 'Xle'}
+
 AMINO_CODES_R = dict((v.upper(), k) for k,v in AMINO_CODES.items())
 COORDINATE_NAMES = ["x_coord", "y_coord", "z_coord"]
 ELEMENTS = {'C':0, 'N':1, 'O':2, 'S':3, 'F':4, 'P':5, 'Cl':6, 'B':7, 'H':8}
 
 AMINO_ACIDS = dict((v.upper(), i) for i, (k, v) in enumerate(AMINO_CODES.items()))
 CHAIN_IDS = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7, 'I': 8, 'J': 9, 'K': 10, 'L': 11, 'M': 12, 'N': 13, 'O': 14, 'P': 15, 'Q': 16, 'R': 17, 'S': 18, 'T': 19, 'U':20, 'V':21, 'W':22, 'X':23, 'Y':24, 'Z':25}
+
 PDB_DIR = "PDBs"
 RAW_DATASET_DIR="dataset/raw"
+
+
+
 
 
 
@@ -45,10 +53,6 @@ def pdb_to_df(pdb_id:str, root:str)->pd.DataFrame:
         return PandasPdb().read_pdb(path).df["ATOM"]
     else:
         raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), path)
-
-
-
-
 
 def save_to_pdb(structure:pd.DataFrame, path:str)->None:
     """
@@ -78,7 +82,7 @@ def fetch_pdbs(pdbids: list, pdb_dir: str, force=False)->None:
             clear_output(wait=True)
 
 
-def find_relevant(chid:str, res_n:int, structure: pd.DataFrame, cutoff:float = 30., cutout:int = 5)->pd.DataFrame:
+def find_relevant(chid:str, res_n:int,structure: pd.DataFrame, cutoff:float = 30., cutout:int = 5)->pd.DataFrame:
     """
     Extracts the relevant residues from a trcuture.
     chid: str
@@ -96,17 +100,23 @@ def find_relevant(chid:str, res_n:int, structure: pd.DataFrame, cutoff:float = 3
     base_res = structure.loc[structure["chain_id"] == chid]
     base_res = base_res.loc[base_res["residue_number"] == res_n]
     
-    base_pos = np.array([sum(base_res["x_coord"].to_list()), sum(base_res["y_coord"].to_list()), sum(base_res["z_coord"].to_list())])/len(base_res)
+    #center of mass for the mutated residue
+    base_pos = np.array([sum(base_res["x_coord"].to_list()), 
+                         sum(base_res["y_coord"].to_list()),
+                         sum(base_res["z_coord"].to_list())])/len(base_res)
     
     relevant = []
 
-    
+    #center of mass of every other residue
     for chain in structure["chain_id"].unique():
         curr_chain = structure.loc[structure["chain_id"]==chain]
         for res in curr_chain["residue_number"].unique():
             residue = curr_chain.loc[curr_chain["residue_number"]==res]
             
-            res_pos = np.array([sum(residue["x_coord"].to_list()), sum(residue["y_coord"].to_list()), sum(residue["z_coord"].to_list())])/len(base_res)
+            res_pos = np.array([sum(residue["x_coord"].to_list()),
+                                sum(residue["y_coord"].to_list()),
+                                sum(residue["z_coord"].to_list())])/len(base_res)
+            
             dist = np.linalg.norm(res_pos-base_pos)
             if dist<cutoff:
                 relevant.append([chain, res, dist])
@@ -119,9 +129,7 @@ def find_relevant(chid:str, res_n:int, structure: pd.DataFrame, cutoff:float = 3
         mid = dist_df.loc[dist_df["chain_id"]==chain]
         mid = mid.loc[mid["distance"] == mid.distance.min()]
         middle.append([mid["chain_id"].values[0], mid["residue_number"].values[0]])
-    
-    
-    
+            
     rel = pd.DataFrame(middle, columns=["chain_id", "residue_number"])
     
     parts = []
@@ -141,6 +149,30 @@ def find_relevant(chid:str, res_n:int, structure: pd.DataFrame, cutoff:float = 3
 
 
 
+def node_id_to_feature_matrix(x):
+    features = []
+    for node in x.nodes:
+        chain, res, res_num, atom = node.split(":")
+        atom = element(atom[0])
+        elem = x.nodes[node]
+        feature = torch.concat([one_hot(torch.tensor(ELEMENTS[atom.symbol]), num_classes=9),
+                            torch.tensor([atom.electronegativity()]),
+                            torch.tensor([atom.nvalence()])])
+        features.append(feature.unsqueeze(0))
+    
+    return torch.concat(features)
+
+
+def edge_weights(x):
+    
+  
+    nodes = {x:i for i, x in enumerate(x.nodes)}
+    w = torch.zeros(len(x.edges))
+    for k, (u, v, a) in enumerate(x.edges(data = True)):
+        i, j = nodes[u], nodes[v]
+        w[k] = a["distance"]
+    return w
+
 
 def copy_pdbs(src, dst):
     files = glob.iglob(os.path.join(src, "*.pdb")) 
@@ -150,57 +182,3 @@ def copy_pdbs(src, dst):
             
     for file in os.listdir(dst):
         os.rename(os.path.join("PDBs", file), os.path.join("PDBs", file.lower()))
-        
-def mutid_to_poseid(pdb_id:str, chain_id:str, residue_number:int, root:str="PDBs"):
-    structure = pdb_to_df(pdb_id, root)
-    chain_len = {}
-    for ch in structure.chain_id.unique():
-        x = structure.loc[structure.chain_id == ch]
-        l = len(x.residue_number.unique())
-        chain_len[ch] = l
-    pid = residue_number
-    for k, v in chain_len.items():
-        if k == chain_id:
-            break
-        pid+=v
-    return pid
-        
-def renumber(index_path:str):
-    index_df = pd.read_excel(index_path, converters={"pdb_id":str.strip, "mut_id":str.strip, "ddg": float})
-    for index, row in tqdm(index_df.iterrows()):
-        chain_id, mut_id = row["mut_id"].split(":")
-        base, resid, mutation = re.split('(\d+)', mut_id)
-
-        index_df.at[index, "res_renum"] = mutid_to_poseid(row["pdb_id"], chain_id, int(resid))
-    index_df.to_excel("renumbered_index.xlsx")
-
-
-def node_id_to_feature_matrix(x):
-    features = []
-
-    for node in x.nodes:
-        chain, res, res_num, atom = node.split(":")
-        atom = element(atom[0])
-        elem = x.nodes[node]
-        feature = torch.concat([one_hot(torch.tensor(ELEMENTS[atom.symbol]), num_classes=9),
-                            
-                            torch.tensor([atom.electronegativity()]),
-                            torch.tensor([atom.nvalence()])])
-        features.append(feature.unsqueeze(0))
-    
-    return torch.concat(features)
-def nx_features(g):
-    features = []
-    for node in list(g.nodes):
-        elem = g.nodes[node]
-        print(elem)
-        atom = element(elem["element_symbol"])
-        feature = torch.concat([one_hot(torch.tensor(ELEMENTS[elem["element_symbol"]]), num_classes=9),
-                            one_hot(torch.tensor(CHAIN_IDS[elem["chain_id"]]), num_classes=9).float(),
-                            torch.tensor([atom.electronegativity()]),
-                            torch.tensor([atom.nvalence()]),
-                            torch.tensor([elem["b_factor"]]),
-                            #torch.tensor([m for m in elem["meiler"]])
-                            ])
-        features.append(feature.unsqueeze(0))
-    return torch.concat(features)

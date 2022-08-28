@@ -5,6 +5,7 @@ __pycache__/
 *$py.class
 dataset12aa/
 *tensorboard*
+datasetmf/
 # C extensions
 *.so
 
