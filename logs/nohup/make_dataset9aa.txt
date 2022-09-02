@@ -50,3 +50,383 @@ Extracting relevant residues
 I 38
 
 
+[2K9it [01:22,  9.06s/it][2KProtein:  1acb Mutation:  LI38I
+Extracting relevant residues
+I 38
+
+
+[2K10it [01:31,  9.02s/it][2KProtein:  1acb Mutation:  LI38D
+Extracting relevant residues
+I 38
+
+
+[2K11it [01:40,  8.98s/it][2KProtein:  1acb Mutation:  LI38E
+Extracting relevant residues
+I 38
+
+
+[2K12it [01:48,  8.96s/it][2KProtein:  1sbn Mutation:  RI38K
+Extracting relevant residues
+I 38
+
+
+[2K13it [01:58,  9.12s/it][2KProtein:  1sib Mutation:  KI46R
+Extracting relevant residues
+I 46
+
+
+[2K14it [02:07,  9.12s/it][2KProtein:  1tm1 Mutation:  YI42A
+Extracting relevant residues
+I 42
+
+
+[2K15it [02:17,  9.36s/it][2KProtein:  1tm1 Mutation:  YI42G
+Extracting relevant residues
+I 42
+
+
+[2K16it [02:27,  9.42s/it][2KProtein:  1tm1 Mutation:  RI46A
+Extracting relevant residues
+I 46
+
+
+[2K17it [02:37,  9.65s/it][2KProtein:  1tm1 Mutation:  RI48A
+Extracting relevant residues
+I 48
+
+
+[2K18it [02:46,  9.48s/it][2KProtein:  1tm1 Mutation:  RI48C
+Extracting relevant residues
+I 48
+
+
+[2K19it [02:55,  9.39s/it][2KProtein:  1tm1 Mutation:  TI39D
+Extracting relevant residues
+I 39
+
+
+[2K20it [03:04,  9.24s/it][2KProtein:  1tm1 Mutation:  TI39A
+Extracting relevant residues
+I 39
+
+
+[2K21it [03:12,  9.01s/it][2KProtein:  1tm1 Mutation:  EI41A
+Extracting relevant residues
+I 41
+
+
+[2K22it [03:23,  9.46s/it][2KProtein:  1tm1 Mutation:  VI51A
+Extracting relevant residues
+I 51
+
+
+[2K23it [03:32,  9.49s/it][2KProtein:  1y1k Mutation:  AI39T
+Extracting relevant residues
+I 39
+
+
+[2K24it [03:40,  8.87s/it][2KProtein:  1y33 Mutation:  PI39T
+Extracting relevant residues
+I 39
+
+
+[2K25it [03:49,  8.84s/it][2KProtein:  1y34 Mutation:  AI41E
+Extracting relevant residues
+I 41
+
+
+[2K26it [03:57,  8.67s/it][2KProtein:  1y3b Mutation:  SI41E
+Extracting relevant residues
+I 41
+
+
+[2K27it [04:06,  8.75s/it][2KProtein:  1y3c Mutation:  AI43R
+Extracting relevant residues
+I 43
+
+
+[2K28it [04:14,  8.68s/it][2KProtein:  1y48 Mutation:  AI46R
+Extracting relevant residues
+I 46
+
+
+[2K29it [04:23,  8.77s/it][2KProtein:  1y3d Mutation:  AI48R
+Extracting relevant residues
+I 48
+
+
+[2K30it [04:32,  8.70s/it][2KProtein:  1tm1 Mutation:  TI39A
+Extracting relevant residues
+I 39
+
+
+[2K31it [04:41,  8.76s/it][2KProtein:  1tm1 Mutation:  TI39P
+Extracting relevant residues
+I 39
+
+
+[2K32it [04:50,  8.81s/it][2KProtein:  1tm1 Mutation:  EI41A
+Extracting relevant residues
+I 41
+
+
+[2K33it [05:01,  9.43s/it][2KProtein:  1tm1 Mutation:  EI41S
+Extracting relevant residues
+I 41
+
+
+[2K34it [05:11,  9.73s/it][2KProtein:  1tm1 Mutation:  RI43A
+Extracting relevant residues
+I 43
+
+
+[2K35it [05:20,  9.63s/it][2KProtein:  1tm1 Mutation:  RI46A
+Extracting relevant residues
+I 46
+
+
+[2K36it [05:31,  9.78s/it][2KProtein:  1tm1 Mutation:  RI48A
+Extracting relevant residues
+I 48
+
+
+[2K37it [05:41, 10.09s/it][2KProtein:  1tm4 Mutation:  GI40M
+Extracting relevant residues
+I 40
+
+
+[2K38it [05:51,  9.82s/it][2KProtein:  1tm5 Mutation:  AI40M
+Extracting relevant residues
+I 40
+
+
+[2K39it [05:59,  9.27s/it][2KProtein:  1tm3 Mutation:  KI40M
+Extracting relevant residues
+I 40
+
+
+[2K40it [06:08,  9.21s/it][2KProtein:  1tm7 Mutation:  YI40M
+Extracting relevant residues
+I 40
+
+
+[2K41it [06:18,  9.61s/it][2KProtein:  1tmg Mutation:  FI40M
+Extracting relevant residues
+I 40
+
+
+[2K42it [06:29,  9.93s/it][2KProtein:  1to1 Mutation:  AI42Y
+Extracting relevant residues
+I 42
+
+
+[2K43it [06:38,  9.76s/it][2KProtein:  1tm1 Mutation:  MI40G
+Extracting relevant residues
+I 40
+
+
+[2K44it [06:47,  9.50s/it][2KProtein:  1tm1 Mutation:  MI40A
+Extracting relevant residues
+I 40
+
+
+[2K45it [06:56,  9.29s/it][2KProtein:  1tm1 Mutation:  MI40K
+Extracting relevant residues
+I 40
+
+
+[2K46it [07:05,  9.17s/it][2KProtein:  1tm1 Mutation:  MI40Y
+Extracting relevant residues
+I 40
+
+
+[2K47it [07:14,  9.10s/it][2KProtein:  1tm1 Mutation:  MI40F
+Extracting relevant residues
+I 40
+
+
+[2K48it [07:23,  9.06s/it][2KProtein:  1tm1 Mutation:  YI42A
+Extracting relevant residues
+I 42
+
+
+[2K49it [07:33,  9.39s/it][2KProtein:  2sic Mutation:  MI67E
+Extracting relevant residues
+I 67
+
+
+[2K50it [07:42,  9.28s/it][2KProtein:  2sic Mutation:  MI67D
+Extracting relevant residues
+I 67
+
+
+[2K51it [07:51,  9.18s/it][2KProtein:  2sic Mutation:  MI67H
+Extracting relevant residues
+I 67
+
+
+[2K52it [08:00,  9.10s/it][2KProtein:  2sic Mutation:  MI67K
+Extracting relevant residues
+I 67
+
+
+[2K53it [08:09,  9.07s/it][2KProtein:  2sic Mutation:  MI67R
+Extracting relevant residues
+I 67
+
+
+[2K54it [08:18,  9.08s/it][2KProtein:  2sic Mutation:  MI67G
+Extracting relevant residues
+I 67
+
+
+[2K55it [08:27,  9.05s/it][2KProtein:  2sic Mutation:  MI67A
+Extracting relevant residues
+I 67
+
+
+[2K56it [08:36,  9.05s/it][2KProtein:  2sic Mutation:  MI67L
+Extracting relevant residues
+I 67
+
+
+[2K57it [08:45,  9.05s/it][2KProtein:  2sic Mutation:  MI67V
+Extracting relevant residues
+I 67
+
+
+[2K58it [08:54,  9.05s/it][2KProtein:  2sic Mutation:  MI67I
+Extracting relevant residues
+I 67
+
+
+[2K59it [09:03,  9.03s/it][2KProtein:  1iar Mutation:  IA5A
+Extracting relevant residues
+A 5
+
+
+[2K60it [09:12,  9.11s/it][2KProtein:  1iar Mutation:  IA5R
+Extracting relevant residues
+A 5
+
+
+[2K61it [09:21,  9.09s/it][2KProtein:  1iar Mutation:  TA6A
+Extracting relevant residues
+A 6
+
+
+[2K62it [09:31,  9.24s/it][2KProtein:  1iar Mutation:  TA6D
+Extracting relevant residues
+A 6
+
+
+[2K63it [09:40,  9.29s/it][2KProtein:  1iar Mutation:  QA8A
+Extracting relevant residues
+A 8
+
+
+[2K64it [09:50,  9.42s/it][2KProtein:  1iar Mutation:  QA8R
+Extracting relevant residues
+A 8
+
+
+[2K65it [09:59,  9.42s/it][2KProtein:  1iar Mutation:  EA9Q
+Extracting relevant residues
+A 9
+
+
+[2K66it [10:09,  9.55s/it][2KProtein:  1iar Mutation:  IA11A
+Extracting relevant residues
+A 11
+
+
+[2K67it [10:19,  9.58s/it][2KProtein:  1iar Mutation:  KA12S
+Extracting relevant residues
+A 12
+
+
+[2K68it [10:29,  9.62s/it][2KProtein:  1iar Mutation:  KA12E
+Extracting relevant residues
+A 12
+
+
+[2K69it [10:38,  9.55s/it][2KProtein:  1iar Mutation:  TA13A
+Extracting relevant residues
+A 13
+
+
+[2K70it [10:47,  9.28s/it][2KProtein:  1iar Mutation:  TA13D
+Extracting relevant residues
+A 13
+
+
+[2K71it [10:55,  9.10s/it][2KProtein:  1iar Mutation:  NA15A
+Extracting relevant residues
+A 15
+
+
+[2K72it [11:04,  8.89s/it][2KProtein:  1iar Mutation:  NA15D
+Extracting relevant residues
+A 15
+
+
+[2K73it [11:12,  8.75s/it][2KProtein:  1iar Mutation:  SA16A
+Extracting relevant residues
+A 16
+
+
+[2K74it [11:21,  8.66s/it][2KProtein:  1iar Mutation:  SA16D
+Extracting relevant residues
+A 16
+
+
+[2K75it [11:29,  8.60s/it][2KProtein:  1iar Mutation:  EA19A
+Extracting relevant residues
+A 19
+
+
+[2K76it [11:39,  9.06s/it][2KProtein:  1iar Mutation:  EA19R
+Extracting relevant residues
+A 19
+
+
+[2K77it [11:49,  9.40s/it][2KProtein:  1iar Mutation:  RA53Q
+Extracting relevant residues
+A 53
+
+
+[2K78it [12:00,  9.77s/it][2KProtein:  1iar Mutation:  KA77A
+Extracting relevant residues
+A 77
+
+
+[2K79it [12:11, 10.04s/it][2KProtein:  1iar Mutation:  KA77E
+Extracting relevant residues
+A 77
+
+
+[2K80it [12:21, 10.21s/it][2KProtein:  1iar Mutation:  QA78A
+Extracting relevant residues
+A 78
+
+
+[2K81it [12:31, 10.17s/it][2KProtein:  1iar Mutation:  QA78E
+Extracting relevant residues
+A 78
+
+
+[2K82it [12:42, 10.22s/it][2KProtein:  1iar Mutation:  RA81A
+Extracting relevant residues
+A 81
+
+
+[2K83it [12:52, 10.31s/it][2KProtein:  1iar Mutation:  RA81E
+Extracting relevant residues
+A 81
+
+
+[2K84it [13:03, 10.39s/it][2KProtein:  1iar Mutation:  FA82A
+Extracting relevant residues
+A 82
+
+

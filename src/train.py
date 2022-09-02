@@ -29,6 +29,9 @@ os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
     
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print("Using {} device".format(device))
+    
     model.train()
     
     t = time.time()
@@ -56,7 +59,7 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
                     epoch_loss += loss.item()
                     clear_output(wait=True)
                     
-                epoch_loss/=len(train_loader)
+                epoch_loss/=len(loaders[loader])
                 
                 writer.add_scalar("Loss/train", epoch_loss, epoch)
                 print("Epoch: {}, Loss: {}".format(epoch, epoch_loss))
@@ -66,14 +69,14 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
                 
                 val_loss = 0
 
-                for i, batch in enumerate(val_loader):
+                for i, batch in enumerate(loaders[loader]):
                     x, y = batch["mutated"].to(device), batch["non_mutated"].to(device)
                     ddg = x.ddg.to(device).squeeze()
                     out = model(x,y).squeeze()
                     loss = loss_fn(out, ddg)
                     val_loss+=loss.item()
                     
-                val_loss /= len(val_dataset) 
+                val_loss /= len(loaders[loader]) 
                 writer.add_scalar("Loss/val", val_loss, epoch)
                 print("Validation loss:", val_loss)
         
@@ -82,7 +85,7 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
             best_model = copy.deepcopy(model)
             t = time.time()
             stamp = datetime.utcfromtimestamp(t).strftime('%Y_%m_%d_%H_%M_%S')
-            best_model_path = "models_{}/model_{}.pt".format(tstamp, stamp)
+            best_model_path = "models/model_{}.pt".format(tstamp, stamp)
             torch.save(model.state_dict(), best_model_path)
             
         else:
@@ -97,8 +100,8 @@ if __name__ == "__main__":
     train_size = int(len(dataset)*0.9)
     val_size = (len(dataset)-train_size)
     train_dataset, val_dataset = torch.utils.data.random_split(dataset, [train_size, val_size])
-    train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
-    val_loader = DataLoader(val_dataset, batch_size=64, shuffle=True)
+    train_loader = DataLoader(train_dataset, batch_size=1, shuffle=True)
+    val_loader = DataLoader(val_dataset, batch_size=1, shuffle=True)
     loaders = {"val_loader": val_loader, "train_loader":train_loader}
     
     device = "cuda" if torch.cuda.is_available() else "cpu"
