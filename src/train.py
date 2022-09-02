@@ -33,7 +33,7 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
     
     t = time.time()
     tstamp = datetime.utcfromtimestamp(t).strftime('%Y_%m_%d_%H_%M_%S')
-    path = "logs/RUN_{}".format(tstamp)
+    path = "logs/tensorboard/RUN_{}".format(tstamp)
     writer = SummaryWriter(path)
     
     for epoch in tqdm(range(1, n_epochs)):
@@ -93,13 +93,14 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
 if __name__ == "__main__":
 
     #Create dataset and dataloaders
-    dataset = MutationDataset(index_xlsx="index.xlsx", root="datasetmf")
+    dataset = MutationDataset(index_xlsx="index.xlsx", root="dataset")
     train_size = int(len(dataset)*0.9)
     val_size = (len(dataset)-train_size)
     train_dataset, val_dataset = torch.utils.data.random_split(dataset, [train_size, val_size])
     train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
     val_loader = DataLoader(val_dataset, batch_size=64, shuffle=True)
-
+    loaders = {"val_loader": val_loader, "train_loader":train_loader}
+    
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model = ProBindNN().to(device)
 
@@ -113,55 +114,5 @@ if __name__ == "__main__":
 
     loss_fn =  nn.MSELoss()
     epochs = 1500
-    model.train()
 
-    t = time.time()
-    stamp = datetime.utcfromtimestamp(t).strftime('%Y_%m_%d_%H_%M_%S')
-
-    path = "logs/RUN_{}".format(stamp)
-    writer = SummaryWriter(path)
-
-    for epoch in tqdm(range(1, epochs)):
-        epoch_loss = 0.
-        best_loss = 1000.
-        model.train()
-        for i, batch in enumerate(train_loader) :
-            x, y = batch["mutated"].to(device), batch["non_mutated"].to(device)
-            ddg = x.ddg.to(device).squeeze()
-            optimizer.zero_grad()
-            out = model(x,y).squeeze()
-            loss = loss_fn(out, ddg)
-            loss.backward()
-            optimizer.step()
-            
-            epoch_loss += loss.item()
-            clear_output(wait=True)
-            
-        epoch_loss/=len(train_loader)
-        
-        writer.add_scalar("Loss/train", epoch_loss, epoch)
-        print("Epoch: {}, Loss: {}".format(epoch, epoch_loss))
-        
-        
-        model.eval()
-        val_loss = 0
-
-        for i, batch in enumerate(val_loader):
-            x, y = batch["mutated"].to(device), batch["non_mutated"].to(device)
-            ddg = x.ddg.to(device).squeeze()
-            out = model(x,y).squeeze()
-            loss = loss_fn(out, ddg)
-            val_loss+=loss.item()
-        val_loss /= len(val_loader) 
-        writer.add_scalar("Loss/val", val_loss, epoch)
-        
-        print("Validation loss:", val_loss)
-    
-    
-    if epoch_loss<best_loss:
-        best_model = copy.deepcopy(model)
-        t = time.time()
-        stamp = datetime.utcfromtimestamp(t).strftime('%Y_%m_%d_%H_%M_%S')
-        torch.save(model.state_dict(), "models/model_{}.pt".format(stamp))
-    else:
-        scheduler.step()
+    train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1500)
