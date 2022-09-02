@@ -430,3 +430,178 @@ Extracting relevant residues
 A 82
 
 
+[2K85it [13:13, 10.44s/it][2KProtein:  1iar Mutation:  FA82D
+Extracting relevant residues
+A 82
+
+
+[2K86it [13:24, 10.40s/it][2KProtein:  1iar Mutation:  KA84A
+Extracting relevant residues
+A 84
+
+
+[2K87it [13:34, 10.44s/it][2KProtein:  1iar Mutation:  KA84D
+Extracting relevant residues
+A 84
+
+
+[2K88it [13:45, 10.44s/it][2KProtein:  1iar Mutation:  RA85A
+Extracting relevant residues
+A 85
+
+
+[2K89it [13:55, 10.39s/it][2KProtein:  1iar Mutation:  RA85E
+Extracting relevant residues
+A 85
+
+
+[2K90it [14:05, 10.35s/it][2KProtein:  1iar Mutation:  RA88Q
+Extracting relevant residues
+A 88
+
+
+[2K91it [14:15, 10.30s/it][2KProtein:  1iar Mutation:  RA88A
+Extracting relevant residues
+A 88
+
+
+[2K92it [14:25, 10.16s/it][2KProtein:  1iar Mutation:  NA89A
+Extracting relevant residues
+A 89
+
+
+[2K93it [14:36, 10.23s/it][2KProtein:  1iar Mutation:  WA91A
+Extracting relevant residues
+A 91
+
+
+[2K94it [14:45, 10.08s/it][2KProtein:  1iar Mutation:  WA91D
+Extracting relevant residues
+A 91
+
+
+[2K95it [14:55,  9.90s/it][2KProtein:  1brs Mutation:  KA25A
+Extracting relevant residues
+A 25
+
+
+[2K96it [15:03,  9.51s/it][2KProtein:  1brs Mutation:  RA57A
+Extracting relevant residues
+A 57
+
+
+[2K97it [15:12,  9.20s/it][2KProtein:  1brs Mutation:  RA81Q
+Extracting relevant residues
+A 81
+
+
+[2K98it [15:22,  9.51s/it][2KProtein:  1brs Mutation:  RA85A
+Extracting relevant residues
+A 85
+
+
+[2K99it [15:32,  9.76s/it][2KProtein:  1brs Mutation:  HA100A
+Extracting relevant residues
+A 100
+
+
+[2K100it [15:43, 10.03s/it][2KProtein:  1brs Mutation:  YD29F
+Extracting relevant residues
+D 29
+
+
+[2K101it [15:52,  9.72s/it][2KProtein:  1brs Mutation:  YD29A
+Extracting relevant residues
+D 29
+
+
+[2K102it [16:01,  9.51s/it][2KProtein:  1brs Mutation:  DD35A
+Extracting relevant residues
+D 35
+
+
+[2K103it [16:11,  9.47s/it][2KProtein:  1brs Mutation:  WD38F
+Extracting relevant residues
+D 38
+
+
+[2K104it [16:16,  8.21s/it][2KProtein:  1brs Mutation:  DD39A
+Extracting relevant residues
+D 39
+
+
+[2K105it [16:27,  9.14s/it][2KProtein:  1brs Mutation:  TD42A
+Extracting relevant residues
+D 42
+
+
+[2K106it [16:36,  9.08s/it][2KProtein:  1brs Mutation:  WD44F
+Extracting relevant residues
+D 44
+
+
+[2K107it [16:46,  9.28s/it][2KProtein:  1brs Mutation:  ED74A
+Extracting relevant residues
+D 74
+
+
+[2K108it [16:55,  9.40s/it][2KProtein:  1brs Mutation:  ED78A
+Extracting relevant residues
+D 78
+
+
+[2K109it [17:04,  9.12s/it][2KProtein:  1brs Mutation:  EA71Q
+Extracting relevant residues
+A 71
+
+
+[2K110it [17:15,  9.59s/it][2KProtein:  1brs Mutation:  EA71W
+Extracting relevant residues
+A 71
+
+
+[2K111it [17:25,  9.93s/it][2KProtein:  1brs Mutation:  EA71Y
+Extracting relevant residues
+A 71
+
+
+[2K112it [17:36, 10.13s/it][2KProtein:  1brs Mutation:  EA71F
+Extracting relevant residues
+A 71
+
+
+[2K113it [17:47, 10.27s/it][2KProtein:  1brs Mutation:  EA71C
+Extracting relevant residues
+A 71
+
+
+[2K114it [17:57, 10.37s/it][2KProtein:  1brs Mutation:  EA71S
+Extracting relevant residues
+A 71
+
+
+[2K115it [18:08, 10.54s/it][2KProtein:  1brs Mutation:  EA71A
+Extracting relevant residues
+A 71
+
+
+[2K116it [18:19, 10.57s/it][2KProtein:  1brs Mutation:  RA57K
+Extracting relevant residues
+A 57
+
+
+[2K117it [18:27,  9.81s/it][2KProtein:  1brs Mutation:  RA57A
+Extracting relevant residues
+A 57
+
+
+[2K118it [18:35,  9.40s/it][2KProtein:  1brs Mutation:  HA100Q
+Extracting relevant residues
+A 100
+
+
+[2K119it [18:46,  9.81s/it][2KProtein:  1brs Mutation:  HA100D
+Extracting relevant residues
+A 100
+
+
