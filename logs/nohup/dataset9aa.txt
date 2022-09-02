@@ -1,25 +1,0 @@
-Using cuda device
-  0%|          | 0/1499 [00:00<?, ?it/s]  0%|          | 0/1499 [00:00<?, ?it/s]
-Traceback (most recent call last):
-  File "/home/babaid/miniconda3/envs/bio/lib/python3.7/site-packages/torch_geometric/data/storage.py", line 50, in __getattr__
-    return self[key]
-  File "/home/babaid/miniconda3/envs/bio/lib/python3.7/site-packages/torch_geometric/data/storage.py", line 70, in __getitem__
-    return self._mapping[key]
-KeyError: 'edge_weights'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "src/train.py", line 118, in <module>
-    train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1500)
-  File "src/train.py", line 72, in train
-    out = model(x,y).squeeze()
-  File "/home/babaid/miniconda3/envs/bio/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/home/babaid/ProBindNN/src/model.py", line 101, in forward
-    out_a = self.GGNN_a(x.x, x.edge_index, x.edge_weights)
-  File "/home/babaid/miniconda3/envs/bio/lib/python3.7/site-packages/torch_geometric/data/data.py", line 362, in __getattr__
-    return getattr(self._store, key)
-  File "/home/babaid/miniconda3/envs/bio/lib/python3.7/site-packages/torch_geometric/data/storage.py", line 53, in __getattr__
-    f"'{self.__class__.__name__}' object has no attribute '{key}'")
-AttributeError: 'GlobalStorage' object has no attribute 'edge_weights'
