@@ -1,17 +1,11 @@
 import os
-import re
 import errno
 import pymol
 from tqdm import tqdm
 from IPython.display import clear_output
 import pandas as pd
-PDB_DIR = "PDBs"
-RAW_DATASET_DIR="dataset/raw"
-AMINO_CODES = {
-    'A': 'Ala', 'R': 'Arg', 'N': 'Asn', 'D': 'Asp', 'C': 'Cys', 'Q': 'Gln', 'E': 'Glu', 
-    'G': 'Gly', 'H': 'His', 'I': 'Ile', 'L': 'Leu', 'K': 'Lys', 'M': 'Met', 'F': 'Phe', 
-    'P': 'Pro', 'O': 'Pyl', 'S': 'Ser', 'U': 'Sec', 'T': 'Thr', 'W': 'Trp', 'Y': 'Tyr', 
-    'V': 'Val', 'B': 'Asx', 'Z': 'Glx', 'X': 'Xaa', 'J': 'Xle'}
+
+from utils import AMINO_CODES, RAW_DATASET_DIR, PDB_DIR
 
 
 
@@ -52,7 +46,6 @@ def mutate_point(pdb_id: str, mutation_id: str, pdb_dir:str = PDB_DIR, destinati
         pymol.cmd.get_wizard().set_mode(mutant)
 
         pymol.cmd.get_wizard().apply()
-        
         pymol.cmd.set_wizard()
 
         save_path = os.path.join(destination_dir, pdb_id + "_" + mutation_id + ".pdb")
@@ -70,7 +63,7 @@ def mutate_point(pdb_id: str, mutation_id: str, pdb_dir:str = PDB_DIR, destinati
 
 
 def mutate_multiple_points(pdb_id:str, mutations:list, pdb_dir:str=PDB_DIR, destination_dir: str=RAW_DATASET_DIR) -> None:
-    """qst_mot_let.pdf
+    """
     Mutates multiple residues in a protein
 
     pdb_id: str

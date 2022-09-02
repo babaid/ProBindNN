@@ -1,12 +1,13 @@
+from turtle import forward
 import torch
 import torch.nn.functional as F
 import torch_geometric
-from torch_geometric.nn import GatedGraphConv, GCNConv, GraphConv 
+from torch_geometric.nn import GatedGraphConv
 from torch import nn
 from torch_geometric.nn.norm import GraphNorm, LayerNorm
 from torch_geometric.utils.dropout import dropout_adj
 
-from src.utils import edge_weights
+
 
 class MLP(nn.Module):
     """
@@ -40,21 +41,9 @@ class GGNN(torch.nn.Module):
         super(GGNN, self).__init__()
          
         
-        self.conv1 = GatedGraphConv(features_in, 5)
-        self.gn1 = GraphNorm(features_hidden)
-
-        self.conv2 = GatedGraphConv(features_hidden, 4)
-        self.gn2 = GraphNorm(features_hidden)
-
-        self.conv3 = GatedGraphConv(features_hidden, 3)
-        self.gn3 = GraphNorm(features_hidden)
-
-        self.conv4 = GatedGraphConv(features_hidden, 2)
-        self.gn4 = GraphNorm(features_hidden)
-
-        self.conv5 = GatedGraphConv(features_hidden, 1)
+        self.conv1 = GatedGraphConv(features_in, 50)
         
-    
+        
         
     def forward(self, data, batch):
         
@@ -65,29 +54,8 @@ class GGNN(torch.nn.Module):
         
         
         o = self.conv1(x, edge_index, ew)
-        o = self.gn1(o)
         o = torch.nn.functional.leaky_relu(o)
-        
-        
-        o = self.conv2(o, edge_index, ew)
-        o = torch.nn.functional.leaky_relu(o)
-        o = self.gn2(o)
-        
-        
-        
-        o = self.conv3(o, edge_index, ew)
-        o = torch.nn.functional.leaky_relu(o)
-        o = self.gn3(o)
-
-        
-        o = self.conv4(o, edge_index, ew)
-        o = torch.nn.functional.leaky_relu(o)
-        o = self.gn4(o)
-        
-        
-        o = self.conv5(o, edge_index)
-        o = torch.nn.functional.leaky_relu(o)
-        
+      
         o = global_add_pool(o, batch)
         
         return o
@@ -117,3 +85,32 @@ class ddGPredictor(torch.nn.Module):
 
         out = self.mlp(out)
         return out
+    
+    
+    
+class ProBindNN(torch.nn.Module):
+    def __init__(self, config={"features_in":15, "layers":30, "gnn_features_out":15, "out_dim":1, "mlp_hidden_dim":[15, 15, 15]}):
+        super(ProBindNN, self).__init__()
+    
+        self.GGNN_a = GatedGraphConv(config["features_in"], config["layers"]).jittable()
+        self.GGNN_b = GatedGraphConv(config["features_in"], config["layers"]).jittable()
+        
+        self.mlp = MLP(config["gnn_features_out"], config["mlp_hidden_dim"], config["out_dim"])
+    
+    def forward(self, x, y):
+        out_a = self.GGNN_a(x.x, x.edge_index, x.edge_weights)
+        out_b = self.GGNN_b(y.x, y.edge_index, y.edge_weights)
+        
+        out_a = torch.nn.functional.leaky_relu(out_a)
+        out_b = torch.nn.functional.leaky_relu(out_b)
+        
+        out_a = global_add_pool(out_a, x.batch)
+        out_b = global_add_pool(out_b, y.batch)
+        
+        out =out_a-out_b
+        
+        out = self.mlp(out)
+        
+        return out
+    
+    

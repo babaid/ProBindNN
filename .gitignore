@@ -6,6 +6,12 @@ __pycache__/
 dataset12aa/
 *tensorboard*
 datasetmf/
+probinder_runs/
+probinder_runs2/
+probind*
+validation*
+runs/
+model*
 # C extensions
 *.so
 
