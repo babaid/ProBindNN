@@ -96,12 +96,12 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
 if __name__ == "__main__":
 
     #Create dataset and dataloaders
-    dataset = MutationDataset(index_xlsx="index.xlsx", root="dataset")
+    dataset = MutationDataset(index_xlsx="index.xlsx", root="dataset12aa")
     train_size = int(len(dataset)*0.9)
     val_size = (len(dataset)-train_size)
     train_dataset, val_dataset = torch.utils.data.random_split(dataset, [train_size, val_size])
-    train_loader = DataLoader(train_dataset, batch_size=1, shuffle=True)
-    val_loader = DataLoader(val_dataset, batch_size=1, shuffle=True)
+    train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
+    val_loader = DataLoader(val_dataset, batch_size=64, shuffle=True)
     loaders = {"val_loader": val_loader, "train_loader":train_loader}
     
     device = "cuda" if torch.cuda.is_available() else "cpu"

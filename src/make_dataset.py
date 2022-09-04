@@ -114,4 +114,4 @@ def make_dataset(index_xlsx: str,root:str):
             clear_output(wait=True)
     
 if __name__ == "__main__":
-    make_dataset(index_xlsx="./index.xlsx", root="dataset9aa")
+    make_dataset(index_xlsx="./index.xlsx", root="dataset6aa")

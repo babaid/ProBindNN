@@ -6,7 +6,7 @@ from torch_geometric.nn import GatedGraphConv
 from torch import nn
 from torch_geometric.nn.norm import GraphNorm, LayerNorm
 from torch_geometric.utils.dropout import dropout_adj
-
+from torch_geometric.nn import global_mean_pool, global_add_pool, global_max_pool
 
 
 class MLP(nn.Module):
@@ -31,7 +31,7 @@ class MLP(nn.Module):
     def forward(self, x):
         return self.mlp(x)
 
-from torch_geometric.nn import global_mean_pool, global_add_pool, global_max_pool
+
 
 class GGNN(torch.nn.Module):
     """
@@ -40,7 +40,6 @@ class GGNN(torch.nn.Module):
     def __init__(self, features_in, features_hidden, features_out):
         super(GGNN, self).__init__()
          
-        
         self.conv1 = GatedGraphConv(features_in, 50)
         
         
@@ -89,11 +88,26 @@ class ddGPredictor(torch.nn.Module):
     
     
 class ProBindNN(torch.nn.Module):
+    """
+        The neural network designed for ddG prediction.
+        config: dict
+            The configuration dictionary with relevant parameters for the underlying architecture.
+            features in: int
+                Size of a feature vector
+            layers: int
+                Passes of the GRU in each GNN 
+            gnn_features_out: int
+                The feature vectors will be padded to this value, it has to be greater than features in
+            out_dim: int
+                The dimension of the values that we want to predict. In our case its just the ddG (1), but it can be extended for other descriptors.
+            mlp_hidden_dim: List[int]
+                A list of length of the layers in the MLP with does the final predictions, integers in the list are the number of neurons for each layer. 
+    """
     def __init__(self, config={"features_in":15, "layers":30, "gnn_features_out":15, "out_dim":1, "mlp_hidden_dim":[15, 15, 15]}):
         super(ProBindNN, self).__init__()
     
-        self.GGNN_a = GatedGraphConv(config["features_in"], config["layers"]).jittable()
-        self.GGNN_b = GatedGraphConv(config["features_in"], config["layers"]).jittable()
+        self.GGNN_a = GatedGraphConv(config["features_in"], config["layers"])
+        self.GGNN_b = GatedGraphConv(config["features_in"], config["layers"])
         
         self.mlp = MLP(config["gnn_features_out"], config["mlp_hidden_dim"], config["out_dim"])
     
