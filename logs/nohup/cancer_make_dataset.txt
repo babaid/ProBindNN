@@ -1,0 +1,6557 @@
+To use the Graphein submodule graphein.protein.features.sequence.embeddings, you need to install: biovec 
+biovec cannot be installed via conda
+To use the Graphein submodule graphein.protein.visualisation, you need to install: pytorch3d 
+To do so, use the following command: conda install -c pytorch3d pytorch3d
+Mutations...
+0it [00:00, ?it/s]1n8z D
+Selector: chain C and residue 21 --------------------------
+Starting  mutation wizard...
+ PyMOL not running, entering library mode (experimental)
+Selecting  chain C and residue 21
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+Mutant: Asp
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+[2K1it [00:01,  1.05s/it][2K1n8z P
+Selector: chain B and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 18
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+Mutant: Pro
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+[2K2it [00:02,  1.13s/it][2K1n8z V
+Selector: chain A and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 25
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Val
+ Mutagenesis: no rotamers found in library.
+[2K3it [00:03,  1.04s/it][2K1n8z E
+Selector: chain B and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 9
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Glu
+ Mutagenesis: no rotamers found in library.
+[2K4it [00:04,  1.01it/s][2K1n8z Y
+Selector: chain B and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 7
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+Mutant: Tyr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+[2K5it [00:05,  1.01it/s][2K1n8z V
+Selector: chain B and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 13
+Selected!
+ Mutagenesis: 16 rotamers loaded.
+ Rotamer 9/16, strain=18.23
+Mutant: Val
+ Mutagenesis: 16 rotamers loaded.
+ Rotamer 9/16, strain=18.23
+[2K6it [00:06,  1.10s/it][2K1n8z V
+Selector: chain B and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 5
+Selected!
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=5.45
+Mutant: Val
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=5.45
+[2K7it [00:07,  1.06s/it][2K1n8z L
+Selector: chain C and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 10
+Selected!
+ Mutagenesis: 11 rotamers loaded.
+ Rotamer 6/11, strain=14.37
+Mutant: Leu
+ Mutagenesis: 11 rotamers loaded.
+ Rotamer 6/11, strain=14.37
+[2K8it [00:08,  1.13s/it][2K1n8z F
+Selector: chain A and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 8
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=14.82
+Mutant: Phe
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=14.82
+[2K9it [00:09,  1.09s/it][2K1n8z G
+Selector: chain A and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Gly
+ Mutagenesis: no rotamers found in library.
+[2K10it [00:10,  1.04s/it][2K1n8z F
+Selector: chain A and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Phe
+ Mutagenesis: no rotamers found in library.
+[2K11it [00:11,  1.00s/it][2K1n8z R
+Selector: chain C and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Arg
+ Mutagenesis: no rotamers found in library.
+[2K12it [00:12,  1.02it/s][2K1n8z Q
+Selector: chain A and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 5
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=21.03
+Mutant: Gln
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=21.03
+[2K13it [00:13,  1.02it/s][2K1n8z E
+Selector: chain A and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 23
+Selected!
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=24.17
+Mutant: Glu
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=24.17
+[2K14it [00:14,  1.03it/s][2K1n8z F
+Selector: chain A and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 15
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=25.06
+Mutant: Phe
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=25.06
+[2K15it [00:15,  1.03it/s][2K1n8z L
+Selector: chain C and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 16
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+Mutant: Leu
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+[2K16it [00:16,  1.02it/s][2K1n8z K
+Selector: chain A and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 5
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=21.03
+Mutant: Lys
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=21.03
+[2K17it [00:17,  1.02it/s][2K1n8z N
+Selector: chain A and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+Mutant: Asn
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+[2K18it [00:18,  1.02it/s][2K1n8z I
+Selector: chain C and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 24
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+Mutant: Ile
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+[2K19it [00:19,  1.00it/s][2K1n8z Q
+Selector: chain B and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 20
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=4.28
+Mutant: Gln
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=4.28
+[2K20it [00:20,  1.01s/it][2K1n8z K
+Selector: chain C and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 3
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+Mutant: Lys
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+[2K21it [00:21,  1.00it/s][2K1n8z H
+Selector: chain B and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 21
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+Mutant: His
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+[2K22it [00:22,  1.00it/s][2K1n8z V
+Selector: chain B and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 6
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+Mutant: Val
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+[2K23it [00:23,  1.12s/it][2K1n8z V
+Selector: chain A and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 4
+Selected!
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 8/12, strain=11.00
+Mutant: Val
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 8/12, strain=11.00
+[2K24it [00:25,  1.21s/it][2K1n8z I
+Selector: chain C and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 13
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+Mutant: Ile
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+[2K25it [00:26,  1.16s/it][2K1n8z D
+Selector: chain C and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 7
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=13.71
+Mutant: Asp
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=13.71
+[2K26it [00:27,  1.11s/it][2K1n8z V
+Selector: chain A and residue 11 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 11
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 3/6, strain=14.01
+Mutant: Val
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 3/6, strain=14.01
+[2K27it [00:28,  1.09s/it][2K1n8z K
+Selector: chain A and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 24
+Selected!
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+Mutant: Lys
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+[2K28it [00:29,  1.24s/it][2K1n8z L
+Selector: chain B and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 18
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+Mutant: Leu
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+[2K29it [00:30,  1.18s/it][2K1n8z M
+Selector: chain A and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 20
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.62
+Mutant: Met
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.62
+[2K30it [00:31,  1.11s/it][2K1n8z L
+Selector: chain B and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 13
+Selected!
+ Mutagenesis: 16 rotamers loaded.
+ Rotamer 9/16, strain=18.23
+Mutant: Leu
+ Mutagenesis: 16 rotamers loaded.
+ Rotamer 9/16, strain=18.23
+[2K31it [00:33,  1.17s/it][2K1n8z K
+Selector: chain B and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 23
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Lys
+ Mutagenesis: no rotamers found in library.
+[2K32it [00:34,  1.10s/it][2K1n8z P
+Selector: chain A and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 4
+Selected!
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 8/12, strain=11.00
+Mutant: Pro
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 8/12, strain=11.00
+[2K33it [00:35,  1.14s/it][2K1n8z R
+Selector: chain A and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 23
+Selected!
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=24.17
+Mutant: Arg
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=24.17
+[2K34it [00:36,  1.09s/it][2K1n8z V
+Selector: chain B and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 20
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=4.28
+Mutant: Val
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=4.28
+[2K35it [00:37,  1.07s/it][2K1n8z C
+Selector: chain A and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+Mutant: Cys
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+[2K36it [00:38,  1.05s/it][2K[2K[2K1n8z F
+Selector: chain A and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 21
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+Mutant: Phe
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+[2K38it [00:39,  1.23it/s][2K1n8z T
+Selector: chain C and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 16
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+Mutant: Thr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+[2K39it [00:40,  1.17it/s][2K1n8z A
+Selector: chain C and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+Mutant: Ala
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+[2K40it [00:41,  1.12it/s][2K1n8z R
+Selector: chain C and residue 17 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 17
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=44.96
+Mutant: Arg
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=44.96
+[2K41it [00:42,  1.09it/s][2K1n8z L
+Selector: chain B and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 3
+Selected!
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+Mutant: Leu
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+[2K42it [00:43,  1.05s/it][2K1n8z K
+Selector: chain A and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 10
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=6.22
+Mutant: Lys
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=6.22
+[2K43it [00:44,  1.04it/s][2K1n8z F
+Selector: chain C and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 23
+Selected!
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 9/13, strain=15.55
+Mutant: Phe
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 9/13, strain=15.55
+[2K44it [00:45,  1.04s/it][2K1n8z I
+Selector: chain C and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 25
+Selected!
+ Mutagenesis: 22 rotamers loaded.
+ Rotamer 11/22, strain=1.96
+Mutant: Ile
+ Mutagenesis: 22 rotamers loaded.
+ Rotamer 11/22, strain=1.96
+[2K45it [00:47,  1.20s/it][2K1n8z R
+Selector: chain A and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 21
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+Mutant: Arg
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+[2K46it [00:48,  1.15s/it][2K1n8z Y
+Selector: chain C and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 12
+Selected!
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 17/21, strain=10.42
+Mutant: Tyr
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 17/21, strain=10.42
+[2K47it [00:50,  1.32s/it][2K1n8z F
+Selector: chain B and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 5
+Selected!
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=5.45
+Mutant: Phe
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=5.45
+[2K48it [00:50,  1.19s/it][2K1n8z C
+Selector: chain A and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 22
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+Mutant: Cys
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+[2K49it [00:51,  1.13s/it][2K[2K[2K1n8z C
+Selector: chain C and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 8
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+Mutant: Cys
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+[2K51it [00:52,  1.17it/s][2K1n8z A
+Selector: chain A and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 13
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ala
+ Mutagenesis: no rotamers found in library.
+[2K52it [00:53,  1.15it/s][2K1n8z H
+Selector: chain C and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=17.19
+Mutant: His
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=17.19
+[2K53it [00:54,  1.10it/s][2K1n8z T
+Selector: chain B and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 10
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Thr
+ Mutagenesis: no rotamers found in library.
+[2K54it [00:55,  1.10it/s][2K1n8z W
+Selector: chain C and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 16
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+Mutant: Trp
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+[2K55it [00:56,  1.07it/s][2K1n8z N
+Selector: chain C and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 16
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+Mutant: Asn
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+[2K56it [00:57,  1.11it/s][2K1n8z M
+Selector: chain C and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 10
+Selected!
+ Mutagenesis: 11 rotamers loaded.
+ Rotamer 6/11, strain=14.37
+Mutant: Met
+ Mutagenesis: 11 rotamers loaded.
+ Rotamer 6/11, strain=14.37
+[2K57it [00:58,  1.10it/s][2K1n8z S
+Selector: chain B and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 6
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+Mutant: Ser
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+[2K58it [00:59,  1.02it/s][2K1n8z K
+Selector: chain B and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 7
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+Mutant: Lys
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+[2K59it [01:00,  1.09it/s][2K1n8z L
+Selector: chain B and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 24
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Leu
+ Mutagenesis: no rotamers found in library.
+[2K60it [01:01,  1.10it/s][2K1n8z W
+Selector: chain B and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 4
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 4/4, strain=9.34
+Mutant: Trp
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 4/4, strain=9.34
+[2K61it [01:02,  1.05it/s][2K1n8z V
+Selector: chain C and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 6
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Val
+ Mutagenesis: no rotamers found in library.
+[2K62it [01:03,  1.06it/s][2K1n8z M
+Selector: chain A and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 6
+Selected!
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 5/13, strain=19.83
+Mutant: Met
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 5/13, strain=19.83
+[2K63it [01:04,  1.04s/it][2K1n8z K
+Selector: chain C and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 25
+Selected!
+ Mutagenesis: 22 rotamers loaded.
+ Rotamer 11/22, strain=1.96
+Mutant: Lys
+ Mutagenesis: 22 rotamers loaded.
+ Rotamer 11/22, strain=1.96
+[2K64it [01:06,  1.20s/it][2K1n8z F
+Selector: chain A and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 9
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=50.92
+Mutant: Phe
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=50.92
+[2K65it [01:07,  1.14s/it][2K1n8z E
+Selector: chain C and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=17.19
+Mutant: Glu
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=17.19
+[2K66it [01:08,  1.10s/it][2K1n8z M
+Selector: chain A and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 7
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=12.04
+Mutant: Met
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=12.04
+[2K67it [01:09,  1.06s/it][2K1n8z E
+Selector: chain C and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 9
+Selected!
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+Mutant: Glu
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+[2K68it [01:10,  1.13s/it][2K1n8z N
+Selector: chain C and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 9
+Selected!
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+Mutant: Asn
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+[2K69it [01:11,  1.17s/it][2K1n8z K
+Selector: chain B and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 24
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Lys
+ Mutagenesis: no rotamers found in library.
+[2K70it [01:12,  1.15s/it][2K1n8z N
+Selector: chain C and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 12
+Selected!
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 17/21, strain=10.42
+Mutant: Asn
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 17/21, strain=10.42
+[2K71it [01:14,  1.27s/it][2K1n8z F
+Selector: chain B and residue 11 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 11
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=14.63
+Mutant: Phe
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=14.63
+[2K72it [01:15,  1.20s/it][2K1n8z D
+Selector: chain B and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Asp
+ Mutagenesis: no rotamers found in library.
+[2K73it [01:16,  1.12s/it][2K1n8z C
+Selector: chain C and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 6
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Cys
+ Mutagenesis: no rotamers found in library.
+[2K74it [01:17,  1.06s/it][2K1n8z P
+Selector: chain A and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 26
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+Mutant: Pro
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+[2K75it [01:18,  1.04s/it][2K[2K[2K1n8z G
+Selector: chain C and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 8
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+Mutant: Gly
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+[2K77it [01:19,  1.24it/s][2K1n8z P
+Selector: chain C and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 3
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+Mutant: Pro
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+[2K78it [01:20,  1.18it/s][2K[2K[2K1n8z G
+Selector: chain C and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 16
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+Mutant: Gly
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+[2K80it [01:21,  1.42it/s][2K1n8z F
+Selector: chain C and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 21
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+Mutant: Phe
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+[2K81it [01:22,  1.29it/s][2K1n8z K
+Selector: chain C and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 18
+Selected!
+ Mutagenesis: 15 rotamers loaded.
+ Rotamer 10/15, strain=29.47
+Mutant: Lys
+ Mutagenesis: 15 rotamers loaded.
+ Rotamer 10/15, strain=29.47
+[2K82it [01:23,  1.11it/s][2K1n8z W
+Selector: chain A and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+Mutant: Trp
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+[2K83it [01:24,  1.08it/s][2K1n8z Y
+Selector: chain A and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 22
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+Mutant: Tyr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+[2K84it [01:25,  1.06it/s][2K1n8z W
+Selector: chain B and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 6
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+Mutant: Trp
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+[2K85it [01:26,  1.07s/it][2K1n8z V
+Selector: chain A and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 21
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+Mutant: Val
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+[2K86it [01:28,  1.07s/it][2K1n8z C
+Selector: chain C and residue 11 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 11
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.21
+Mutant: Cys
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.21
+[2K87it [01:29,  1.05s/it][2K1n8z S
+Selector: chain A and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+Mutant: Ser
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+[2K88it [01:30,  1.04s/it][2K1n8z L
+Selector: chain C and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=17.19
+Mutant: Leu
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=17.19
+[2K89it [01:31,  1.03s/it][2K1n8z N
+Selector: chain C and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 8
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+Mutant: Asn
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+[2K90it [01:32,  1.03s/it][2K1n8z P
+Selector: chain C and residue 17 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 17
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=44.96
+Mutant: Pro
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=44.96
+[2K91it [01:33,  1.02s/it][2K1n8z R
+Selector: chain B and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 4
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 4/4, strain=9.34
+Mutant: Arg
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 4/4, strain=9.34
+[2K92it [01:34,  1.02s/it][2K1n8z F
+Selector: chain A and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 10
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=6.22
+Mutant: Phe
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=6.22
+[2K93it [01:35,  1.01s/it][2K1n8z L
+Selector: chain C and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 6
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Leu
+ Mutagenesis: no rotamers found in library.
+[2K94it [01:36,  1.01it/s][2K1n8z P
+Selector: chain C and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 22
+Selected!
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 2/7, strain=3.92
+Mutant: Pro
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 2/7, strain=3.92
+[2K95it [01:37,  1.06s/it][2K1n8z L
+Selector: chain A and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 15
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=25.06
+Mutant: Leu
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=25.06
+[2K96it [01:38,  1.04s/it][2K1n8z Y
+Selector: chain B and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 21
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+Mutant: Tyr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+[2K97it [01:39,  1.03s/it][2K1n8z R
+Selector: chain B and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 9
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Arg
+ Mutagenesis: no rotamers found in library.
+[2K98it [01:40,  1.00it/s][2K1n8z S
+Selector: chain A and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 8
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=14.82
+Mutant: Ser
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=14.82
+[2K99it [01:41,  1.00it/s][2K1n8z G
+Selector: chain B and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Gly
+ Mutagenesis: no rotamers found in library.
+[2K100it [01:42,  1.02it/s][2K1n8z A
+Selector: chain A and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 20
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.62
+Mutant: Ala
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.62
+[2K101it [01:43,  1.02it/s][2K1n8z D
+Selector: chain A and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 7
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=12.04
+Mutant: Asp
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=12.04
+[2K102it [01:44,  1.02it/s][2K1n8z D
+Selector: chain B and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 6
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+Mutant: Asp
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+[2K103it [01:45,  1.11s/it][2K1n8z Y
+Selector: chain A and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 6
+Selected!
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 5/13, strain=19.83
+Mutant: Tyr
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 5/13, strain=19.83
+[2K104it [01:46,  1.15s/it][2K1n8z K
+Selector: chain A and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+Mutant: Lys
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+[2K105it [01:47,  1.10s/it][2K1n8z E
+Selector: chain A and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 4
+Selected!
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 8/12, strain=11.00
+Mutant: Glu
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 8/12, strain=11.00
+[2K106it [01:48,  1.14s/it][2K1n8z M
+Selector: chain C and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 20
+Selected!
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 1/7, strain=18.93
+Mutant: Met
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 1/7, strain=18.93
+[2K107it [01:50,  1.12s/it][2K1n8z S
+Selector: chain C and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 6
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ser
+ Mutagenesis: no rotamers found in library.
+[2K108it [01:50,  1.07s/it][2K1n8z H
+Selector: chain C and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: His
+ Mutagenesis: no rotamers found in library.
+[2K109it [01:51,  1.03s/it][2K1n8z A
+Selector: chain B and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 10
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ala
+ Mutagenesis: no rotamers found in library.
+[2K110it [01:52,  1.00it/s][2K1n8z Q
+Selector: chain A and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 6
+Selected!
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 5/13, strain=19.83
+Mutant: Gln
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 5/13, strain=19.83
+[2K111it [01:54,  1.08s/it][2K1n8z I
+Selector: chain B and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 4
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 4/4, strain=9.34
+Mutant: Ile
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 4/4, strain=9.34
+[2K112it [01:55,  1.06s/it][2K1n8z S
+Selector: chain C and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 5
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+Mutant: Ser
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+[2K113it [01:56,  1.04s/it][2K1n8z I
+Selector: chain C and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 8
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+Mutant: Ile
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+[2K114it [01:57,  1.04s/it][2K1n8z Q
+Selector: chain A and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 10
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=6.22
+Mutant: Gln
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=6.22
+[2K115it [01:58,  1.02s/it][2K1n8z K
+Selector: chain A and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 18
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+Mutant: Lys
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+[2K116it [01:59,  1.16s/it][2K1n8z W
+Selector: chain B and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 13
+Selected!
+ Mutagenesis: 16 rotamers loaded.
+ Rotamer 9/16, strain=18.23
+Mutant: Trp
+ Mutagenesis: 16 rotamers loaded.
+ Rotamer 9/16, strain=18.23
+[2K117it [02:00,  1.20s/it][2K1n8z I
+Selector: chain A and residue 17 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 17
+Selected!
+ Mutagenesis: 9 rotamers loaded.
+ Rotamer 1/9, strain=15.81
+Mutant: Ile
+ Mutagenesis: 9 rotamers loaded.
+ Rotamer 1/9, strain=15.81
+[2K118it [02:02,  1.23s/it][2K1n8z L
+Selector: chain A and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Leu
+ Mutagenesis: no rotamers found in library.
+[2K119it [02:03,  1.14s/it][2K1n8z P
+Selector: chain C and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Pro
+ Mutagenesis: no rotamers found in library.
+[2K120it [02:04,  1.07s/it][2K1n8z Y
+Selector: chain A and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 9
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=50.92
+Mutant: Tyr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=50.92
+[2K121it [02:05,  1.05s/it][2K1n8z Y
+Selector: chain A and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 26
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+Mutant: Tyr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+[2K122it [02:06,  1.03s/it][2K1n8z L
+Selector: chain A and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 8
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=14.82
+Mutant: Leu
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=14.82
+[2K123it [02:07,  1.02s/it][2K1n8z A
+Selector: chain A and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ala
+ Mutagenesis: no rotamers found in library.
+[2K124it [02:07,  1.01it/s][2K1n8z A
+Selector: chain B and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 21
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+Mutant: Ala
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+[2K125it [02:08,  1.01it/s][2K1n8z A
+Selector: chain A and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 25
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ala
+ Mutagenesis: no rotamers found in library.
+[2K126it [02:09,  1.03it/s][2K1n8z Q
+Selector: chain A and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 26
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+Mutant: Gln
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+[2K127it [02:10,  1.02it/s][2K1n8z E
+Selector: chain B and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+Mutant: Glu
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+[2K128it [02:11,  1.02it/s][2K1n8z V
+Selector: chain C and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 22
+Selected!
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 2/7, strain=3.92
+Mutant: Val
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 2/7, strain=3.92
+[2K129it [02:12,  1.01s/it][2K1n8z S
+Selector: chain B and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ser
+ Mutagenesis: no rotamers found in library.
+[2K130it [02:13,  1.02it/s][2K1n8z C
+Selector: chain B and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+Mutant: Cys
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+[2K131it [02:14,  1.01it/s][2K1n8z N
+Selector: chain B and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 19
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=4.47
+Mutant: Asn
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=4.47
+[2K132it [02:16,  1.14s/it][2K1n8z A
+Selector: chain B and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 5
+Selected!
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=5.45
+Mutant: Ala
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=5.45
+[2K133it [02:17,  1.09s/it][2K1n8z H
+Selector: chain B and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 6
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+Mutant: His
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+[2K134it [02:18,  1.18s/it][2K1n8z E
+Selector: chain B and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 3
+Selected!
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+Mutant: Glu
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+[2K135it [02:20,  1.25s/it][2K[2K[2K1n8z D
+Selector: chain B and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 21
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+Mutant: Asp
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+[2K137it [02:21,  1.11it/s][2K1n8z R
+Selector: chain C and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+Mutant: Arg
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+[2K138it [02:22,  1.08it/s][2K1n8z W
+Selector: chain A and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 21
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+Mutant: Trp
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+[2K139it [02:23,  1.04it/s][2K1n8z I
+Selector: chain B and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 9
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ile
+ Mutagenesis: no rotamers found in library.
+[2K140it [02:24,  1.05it/s][2K1n8z I
+Selector: chain B and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 20
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=4.28
+Mutant: Ile
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=4.28
+[2K141it [02:25,  1.02s/it][2K1n8z T
+Selector: chain C and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 9
+Selected!
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+Mutant: Thr
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+[2K142it [02:26,  1.09s/it][2K1n8z M
+Selector: chain B and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 13
+Selected!
+ Mutagenesis: 16 rotamers loaded.
+ Rotamer 9/16, strain=18.23
+Mutant: Met
+ Mutagenesis: 16 rotamers loaded.
+ Rotamer 9/16, strain=18.23
+[2K143it [02:27,  1.16s/it][2K1n8z N
+Selector: chain C and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 26
+Selected!
+ Mutagenesis: 8 rotamers loaded.
+ Rotamer 3/8, strain=21.13
+Mutant: Asn
+ Mutagenesis: 8 rotamers loaded.
+ Rotamer 3/8, strain=21.13
+[2K144it [02:28,  1.14s/it][2K1n8z S
+Selector: chain C and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ser
+ Mutagenesis: no rotamers found in library.
+[2K145it [02:29,  1.08s/it][2K1n8z I
+Selector: chain A and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 5
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=21.03
+Mutant: Ile
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=21.03
+[2K146it [02:30,  1.05s/it][2K1n8z I
+Selector: chain B and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 18
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+Mutant: Ile
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+[2K147it [02:31,  1.04s/it][2K1n8z E
+Selector: chain A and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 22
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+Mutant: Glu
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+[2K148it [02:32,  1.03s/it][2K[2K[2K1n8z D
+Selector: chain C and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 18
+Selected!
+ Mutagenesis: 15 rotamers loaded.
+ Rotamer 10/15, strain=29.47
+Mutant: Asp
+ Mutagenesis: 15 rotamers loaded.
+ Rotamer 10/15, strain=29.47
+[2K150it [02:34,  1.18it/s][2K1n8z G
+Selector: chain C and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+Mutant: Gly
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+[2K151it [02:35,  1.13it/s][2K1n8z Y
+Selector: chain B and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 20
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=4.28
+Mutant: Tyr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=4.28
+[2K152it [02:36,  1.09it/s][2K1n8z I
+Selector: chain A and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 26
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+Mutant: Ile
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+[2K153it [02:37,  1.07it/s][2K1n8z Q
+Selector: chain C and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 4
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=24.12
+Mutant: Gln
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=24.12
+[2K154it [02:38,  1.05it/s][2K1n8z G
+Selector: chain C and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 23
+Selected!
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 9/13, strain=15.55
+Mutant: Gly
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 9/13, strain=15.55
+[2K155it [02:39,  1.04s/it][2K1n8z Y
+Selector: chain A and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 8
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=14.82
+Mutant: Tyr
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=14.82
+[2K156it [02:40,  1.03s/it][2K1n8z P
+Selector: chain B and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 3
+Selected!
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+Mutant: Pro
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+[2K157it [02:41,  1.14s/it][2K[2K[2K1n8z G
+Selector: chain C and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 12
+Selected!
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 17/21, strain=10.42
+Mutant: Gly
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 17/21, strain=10.42
+[2K159it [02:43,  1.03it/s][2K1n8z F
+Selector: chain B and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 21
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+Mutant: Phe
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+[2K160it [02:44,  1.02it/s][2K1n8z F
+Selector: chain C and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 3
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+Mutant: Phe
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+[2K161it [02:45,  1.02it/s][2K1n8z L
+Selector: chain C and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 21
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+Mutant: Leu
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+[2K162it [02:46,  1.01it/s][2K1n8z S
+Selector: chain A and residue 11 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 11
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 3/6, strain=14.01
+Mutant: Ser
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 3/6, strain=14.01
+[2K163it [02:47,  1.01s/it][2K1n8z N
+Selector: chain A and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 14
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=2.76
+Mutant: Asn
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=2.76
+[2K164it [02:48,  1.00s/it][2K1n8z Q
+Selector: chain B and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 26
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Gln
+ Mutagenesis: no rotamers found in library.
+[2K165it [02:49,  1.02it/s][2K[2K[2K1n8z N
+Selector: chain B and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 26
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Asn
+ Mutagenesis: no rotamers found in library.
+[2K167it [02:50,  1.27it/s][2K1n8z M
+Selector: chain C and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 24
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+Mutant: Met
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+[2K168it [02:51,  1.18it/s][2K[2K[2K1n8z W
+Selector: chain B and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 18
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+Mutant: Trp
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+[2K170it [02:52,  1.40it/s][2K1n8z K
+Selector: chain C and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 6
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Lys
+ Mutagenesis: no rotamers found in library.
+[2K171it [02:53,  1.31it/s][2K1n8z T
+Selector: chain C and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 13
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+Mutant: Thr
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+[2K172it [02:54,  1.21it/s][2K1n8z V
+Selector: chain C and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 5
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+Mutant: Val
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+[2K173it [02:55,  1.15it/s][2K[2K[2K1n8z L
+Selector: chain A and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 5
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=21.03
+Mutant: Leu
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=21.03
+[2K175it [02:56,  1.41it/s][2K1n8z E
+Selector: chain B and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 18
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+Mutant: Glu
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+[2K176it [02:57,  1.27it/s][2K1n8z M
+Selector: chain A and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 10
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=6.22
+Mutant: Met
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=6.22
+[2K177it [02:58,  1.20it/s][2K1n8z T
+Selector: chain A and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 18
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+Mutant: Thr
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+[2K178it [02:59,  1.01s/it][2K1n8z M
+Selector: chain A and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 18
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+Mutant: Met
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+[2K179it [03:01,  1.14s/it][2K1n8z V
+Selector: chain C and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 16
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+Mutant: Val
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+[2K180it [03:02,  1.10s/it][2K1n8z I
+Selector: chain A and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 23
+Selected!
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=24.17
+Mutant: Ile
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=24.17
+[2K181it [03:03,  1.06s/it][2K1n8z F
+Selector: chain C and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 24
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+Mutant: Phe
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+[2K182it [03:04,  1.05s/it][2K[2K[2K1n8z P
+Selector: chain C and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 8
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+Mutant: Pro
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+[2K184it [03:05,  1.23it/s][2K1n8z P
+Selector: chain C and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 9
+Selected!
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+Mutant: Pro
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+[2K185it [03:06,  1.08it/s][2K1n8z Y
+Selector: chain C and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 4
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=24.12
+Mutant: Tyr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=24.12
+[2K186it [03:07,  1.06it/s][2K[2K[2K1n8z A
+Selector: chain A and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 21
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+Mutant: Ala
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+[2K188it [03:08,  1.30it/s][2K1n8z D
+Selector: chain C and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 26
+Selected!
+ Mutagenesis: 8 rotamers loaded.
+ Rotamer 3/8, strain=21.13
+Mutant: Asp
+ Mutagenesis: 8 rotamers loaded.
+ Rotamer 3/8, strain=21.13
+[2K189it [03:09,  1.18it/s][2K[2K[2K1n8z Q
+Selector: chain C and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 21
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+Mutant: Gln
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+[2K191it [03:10,  1.40it/s][2K1n8z G
+Selector: chain A and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 3
+Selected!
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 5/12, strain=8.66
+Mutant: Gly
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 5/12, strain=8.66
+[2K192it [03:12,  1.21it/s][2K1n8z P
+Selector: chain C and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=17.19
+Mutant: Pro
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=17.19
+[2K193it [03:13,  1.15it/s][2K1n8z M
+Selector: chain B and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Met
+ Mutagenesis: no rotamers found in library.
+[2K194it [03:14,  1.13it/s][2K1n8z W
+Selector: chain A and residue 17 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 17
+Selected!
+ Mutagenesis: 9 rotamers loaded.
+ Rotamer 1/9, strain=15.81
+Mutant: Trp
+ Mutagenesis: 9 rotamers loaded.
+ Rotamer 1/9, strain=15.81
+[2K195it [03:15,  1.01it/s][2K1n8z A
+Selector: chain B and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 19
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=4.47
+Mutant: Ala
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=4.47
+[2K196it [03:16,  1.13s/it][2K1n8z H
+Selector: chain A and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 15
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=25.06
+Mutant: His
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=25.06
+[2K197it [03:17,  1.09s/it][2K1n8z F
+Selector: chain B and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Phe
+ Mutagenesis: no rotamers found in library.
+[2K198it [03:18,  1.04s/it][2K1n8z R
+Selector: chain C and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 21
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+Mutant: Arg
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+[2K199it [03:19,  1.04s/it][2K1n8z D
+Selector: chain C and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 24
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+Mutant: Asp
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+[2K200it [03:20,  1.04s/it][2K1n8z L
+Selector: chain C and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 7
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=13.71
+Mutant: Leu
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=13.71
+[2K201it [03:21,  1.02s/it][2K1n8z L
+Selector: chain B and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 21
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+Mutant: Leu
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+[2K202it [03:22,  1.01s/it][2K1n8z I
+Selector: chain A and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 7
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=12.04
+Mutant: Ile
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=12.04
+[2K203it [03:23,  1.00s/it][2K1n8z Y
+Selector: chain A and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 18
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+Mutant: Tyr
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+[2K204it [03:25,  1.15s/it][2K1n8z Y
+Selector: chain A and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 24
+Selected!
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+Mutant: Tyr
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+[2K205it [03:26,  1.27s/it][2K1n8z T
+Selector: chain A and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+Mutant: Thr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+[2K206it [03:27,  1.18s/it][2K1n8z I
+Selector: chain C and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 16
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+Mutant: Ile
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+[2K207it [03:28,  1.13s/it][2K1n8z F
+Selector: chain B and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 25
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=1.68
+Mutant: Phe
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=1.68
+[2K208it [03:29,  1.08s/it][2K1n8z K
+Selector: chain B and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 13
+Selected!
+ Mutagenesis: 16 rotamers loaded.
+ Rotamer 9/16, strain=18.23
+Mutant: Lys
+ Mutagenesis: 16 rotamers loaded.
+ Rotamer 9/16, strain=18.23
+[2K209it [03:31,  1.15s/it][2K1n8z V
+Selector: chain B and residue 17 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 17
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=13.53
+Mutant: Val
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=13.53
+[2K210it [03:32,  1.10s/it][2K1n8z R
+Selector: chain C and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 10
+Selected!
+ Mutagenesis: 11 rotamers loaded.
+ Rotamer 6/11, strain=14.37
+Mutant: Arg
+ Mutagenesis: 11 rotamers loaded.
+ Rotamer 6/11, strain=14.37
+[2K211it [03:33,  1.15s/it][2K[2K[2K1n8z R
+Selector: chain B and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+Mutant: Arg
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+[2K213it [03:34,  1.18it/s][2K1n8z A
+Selector: chain A and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+Mutant: Ala
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+[2K214it [03:35,  1.13it/s][2K1n8z N
+Selector: chain C and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 21
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+Mutant: Asn
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+[2K215it [03:36,  1.09it/s][2K1n8z T
+Selector: chain C and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 24
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+Mutant: Thr
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+[2K216it [03:37,  1.05it/s][2K1n8z T
+Selector: chain A and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 24
+Selected!
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+Mutant: Thr
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+[2K217it [03:38,  1.12s/it][2K1n8z K
+Selector: chain C and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+Mutant: Lys
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+[2K218it [03:40,  1.13s/it][2K1n8z E
+Selector: chain C and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 18
+Selected!
+ Mutagenesis: 15 rotamers loaded.
+ Rotamer 10/15, strain=29.47
+Mutant: Glu
+ Mutagenesis: 15 rotamers loaded.
+ Rotamer 10/15, strain=29.47
+[2K219it [03:41,  1.18s/it][2K1n8z I
+Selector: chain A and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ile
+ Mutagenesis: no rotamers found in library.
+[2K220it [03:42,  1.10s/it][2K1n8z Q
+Selector: chain C and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 3
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+Mutant: Gln
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+[2K221it [03:43,  1.01s/it][2K1n8z G
+Selector: chain C and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 4
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=24.12
+Mutant: Gly
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=24.12
+[2K222it [03:44,  1.00s/it][2K1n8z M
+Selector: chain A and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 24
+Selected!
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+Mutant: Met
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+[2K223it [03:45,  1.16s/it][2K1n8z V
+Selector: chain A and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 23
+Selected!
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=24.17
+Mutant: Val
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=24.17
+[2K224it [03:46,  1.11s/it][2K1n8z S
+Selector: chain B and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 25
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=1.68
+Mutant: Ser
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=1.68
+[2K225it [03:47,  1.07s/it][2K1n8z V
+Selector: chain B and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 3
+Selected!
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+Mutant: Val
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+[2K226it [03:48,  1.17s/it][2K1n8z H
+Selector: chain C and residue 11 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 11
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.21
+Mutant: His
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.21
+[2K227it [03:49,  1.12s/it][2K1n8z R
+Selector: chain C and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 5
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+Mutant: Arg
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+[2K228it [03:50,  1.08s/it][2K1n8z M
+Selector: chain C and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=17.19
+Mutant: Met
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=17.19
+[2K229it [03:51,  1.05s/it][2K1n8z C
+Selector: chain A and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 23
+Selected!
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=24.17
+Mutant: Cys
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=24.17
+[2K230it [03:52,  1.03s/it][2K[2K[2K1n8z F
+Selector: chain B and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 4
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 4/4, strain=9.34
+Mutant: Phe
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 4/4, strain=9.34
+[2K232it [03:53,  1.26it/s][2K1n8z W
+Selector: chain A and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 6
+Selected!
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 5/13, strain=19.83
+Mutant: Trp
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 5/13, strain=19.83
+[2K233it [03:55,  1.10it/s][2K[2K[2K1n8z C
+Selector: chain A and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 3
+Selected!
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 5/12, strain=8.66
+Mutant: Cys
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 5/12, strain=8.66
+[2K235it [03:56,  1.28it/s][2K1n8z C
+Selector: chain A and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 21
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+Mutant: Cys
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+[2K236it [03:57,  1.18it/s][2K1n8z Q
+Selector: chain C and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+Mutant: Gln
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+[2K237it [03:58,  1.13it/s][2K[2K[2K[2K[2K1n8z T
+Selector: chain B and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+Mutant: Thr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+[2K240it [03:59,  1.67it/s][2K1n8z L
+Selector: chain C and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Leu
+ Mutagenesis: no rotamers found in library.
+[2K241it [04:00,  1.54it/s][2K[2K[2K1n8z T
+Selector: chain A and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 25
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Thr
+ Mutagenesis: no rotamers found in library.
+[2K243it [04:01,  1.72it/s][2K1n8z S
+Selector: chain A and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 13
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ser
+ Mutagenesis: no rotamers found in library.
+[2K244it [04:02,  1.54it/s][2K1n8z L
+Selector: chain B and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Leu
+ Mutagenesis: no rotamers found in library.
+[2K245it [04:03,  1.40it/s][2K1n8z Q
+Selector: chain C and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 6
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Gln
+ Mutagenesis: no rotamers found in library.
+[2K246it [04:04,  1.24it/s][2K1n8z V
+Selector: chain C and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 24
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+Mutant: Val
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+[2K247it [04:05,  1.22it/s][2K1n8z P
+Selector: chain A and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 22
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+Mutant: Pro
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+[2K248it [04:05,  1.26it/s][2K1n8z H
+Selector: chain B and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 24
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: His
+ Mutagenesis: no rotamers found in library.
+[2K249it [04:06,  1.29it/s][2K1n8z F
+Selector: chain A and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 24
+Selected!
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+Mutant: Phe
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+[2K250it [04:07,  1.07it/s][2K[2K[2K1n8z K
+Selector: chain A and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+Mutant: Lys
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+[2K252it [04:08,  1.36it/s][2K1n8z M
+Selector: chain B and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 9
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Met
+ Mutagenesis: no rotamers found in library.
+[2K253it [04:09,  1.28it/s][2K1n8z T
+Selector: chain B and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 6
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+Mutant: Thr
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+[2K254it [04:11,  1.06it/s][2K1n8z F
+Selector: chain A and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 26
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+Mutant: Phe
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+[2K255it [04:12,  1.05it/s][2K1n8z S
+Selector: chain B and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 22
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.94
+Mutant: Ser
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.94
+[2K256it [04:13,  1.04it/s][2K1n8z E
+Selector: chain A and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Glu
+ Mutagenesis: no rotamers found in library.
+[2K257it [04:14,  1.05it/s][2K1n8z L
+Selector: chain B and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 26
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Leu
+ Mutagenesis: no rotamers found in library.
+[2K258it [04:14,  1.06it/s][2K1n8z L
+Selector: chain C and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 9
+Selected!
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+Mutant: Leu
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+[2K259it [04:16,  1.04s/it][2K1n8z W
+Selector: chain B and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 25
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=1.68
+Mutant: Trp
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=1.68
+[2K260it [04:17,  1.03s/it][2K1n8z N
+Selector: chain A and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 5
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=21.03
+Mutant: Asn
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=21.03
+[2K261it [04:18,  1.01s/it][2K1n8z R
+Selector: chain C and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 20
+Selected!
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 1/7, strain=18.93
+Mutant: Arg
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 1/7, strain=18.93
+[2K262it [04:19,  1.03s/it][2K[2K[2K1n8z L
+Selector: chain C and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 12
+Selected!
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 17/21, strain=10.42
+Mutant: Leu
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 17/21, strain=10.42
+[2K264it [04:20,  1.10it/s][2K1n8z E
+Selector: chain B and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 5
+Selected!
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=5.45
+Mutant: Glu
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=5.45
+[2K265it [04:21,  1.08it/s][2K1n8z N
+Selector: chain A and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 20
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.62
+Mutant: Asn
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.62
+[2K266it [04:22,  1.06it/s][2K1n8z I
+Selector: chain C and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 26
+Selected!
+ Mutagenesis: 8 rotamers loaded.
+ Rotamer 3/8, strain=21.13
+Mutant: Ile
+ Mutagenesis: 8 rotamers loaded.
+ Rotamer 3/8, strain=21.13
+[2K267it [04:23,  1.02it/s][2K1n8z W
+Selector: chain C and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 24
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+Mutant: Trp
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=9.06
+[2K268it [04:24,  1.00it/s][2K1n8z I
+Selector: chain A and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+Mutant: Ile
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+[2K269it [04:25,  1.01it/s][2K[2K[2K1n8z K
+Selector: chain B and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 18
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+Mutant: Lys
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+[2K271it [04:27,  1.22it/s][2K1n8z P
+Selector: chain B and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Pro
+ Mutagenesis: no rotamers found in library.
+[2K272it [04:28,  1.18it/s][2K1n8z S
+Selector: chain B and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+Mutant: Ser
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+[2K273it [04:29,  1.12it/s][2K1n8z C
+Selector: chain B and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 9
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Cys
+ Mutagenesis: no rotamers found in library.
+[2K274it [04:29,  1.12it/s][2K1n8z I
+Selector: chain C and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 5
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+Mutant: Ile
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+[2K275it [04:30,  1.09it/s][2K1n8z E
+Selector: chain A and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+Mutant: Glu
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+[2K276it [04:31,  1.07it/s][2K1n8z M
+Selector: chain A and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 26
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+Mutant: Met
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+[2K277it [04:32,  1.05it/s][2K1n8z H
+Selector: chain B and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 22
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.94
+Mutant: His
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.94
+[2K278it [04:33,  1.04it/s][2K1n8z T
+Selector: chain B and residue 11 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 11
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=14.63
+Mutant: Thr
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=14.63
+[2K279it [04:34,  1.01it/s][2K1n8z P
+Selector: chain B and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 20
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=4.28
+Mutant: Pro
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=4.28
+[2K280it [04:36,  1.00it/s][2K1n8z N
+Selector: chain B and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 7
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+Mutant: Asn
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+[2K281it [04:36,  1.00it/s][2K1n8z H
+Selector: chain C and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 21
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+Mutant: His
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+[2K282it [04:38,  1.01s/it][2K1n8z L
+Selector: chain C and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 4
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=24.12
+Mutant: Leu
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=24.12
+[2K283it [04:39,  1.00s/it][2K1n8z I
+Selector: chain B and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+Mutant: Ile
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+[2K284it [04:39,  1.03it/s][2K1n8z I
+Selector: chain A and residue 11 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 11
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 3/6, strain=14.01
+Mutant: Ile
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 3/6, strain=14.01
+[2K285it [04:40,  1.01it/s][2K1n8z Y
+Selector: chain A and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Tyr
+ Mutagenesis: no rotamers found in library.
+[2K286it [04:41,  1.07it/s][2K[2K[2K1n8z H
+Selector: chain A and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 9
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=50.92
+Mutant: His
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=50.92
+[2K288it [04:42,  1.40it/s][2K1n8z T
+Selector: chain B and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Thr
+ Mutagenesis: no rotamers found in library.
+[2K289it [04:43,  1.30it/s][2K1n8z Y
+Selector: chain B and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Tyr
+ Mutagenesis: no rotamers found in library.
+[2K290it [04:44,  1.23it/s][2K1n8z V
+Selector: chain C and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 12
+Selected!
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 17/21, strain=10.42
+Mutant: Val
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 17/21, strain=10.42
+[2K291it [04:46,  1.01s/it][2K1n8z G
+Selector: chain A and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 18
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+Mutant: Gly
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+[2K292it [04:47,  1.14s/it][2K[2K[2K1n8z N
+Selector: chain B and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+Mutant: Asn
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+[2K294it [04:48,  1.17it/s][2K1n8z G
+Selector: chain C and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 3
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+Mutant: Gly
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+[2K295it [04:49,  1.08it/s][2K1n8z A
+Selector: chain A and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+Mutant: Ala
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+[2K296it [04:50,  1.06it/s][2K1n8z V
+Selector: chain C and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 20
+Selected!
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 1/7, strain=18.93
+Mutant: Val
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 1/7, strain=18.93
+[2K297it [04:51,  1.02it/s][2K1n8z E
+Selector: chain A and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+Mutant: Glu
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+[2K298it [04:52,  1.02it/s][2K1n8z C
+Selector: chain A and residue 17 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 17
+Selected!
+ Mutagenesis: 9 rotamers loaded.
+ Rotamer 1/9, strain=15.81
+Mutant: Cys
+ Mutagenesis: 9 rotamers loaded.
+ Rotamer 1/9, strain=15.81
+[2K299it [04:53,  1.02s/it][2K1n8z W
+Selector: chain B and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 3
+Selected!
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+Mutant: Trp
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+[2K300it [04:55,  1.13s/it][2K[2K[2K1n8z C
+Selector: chain B and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 13
+Selected!
+ Mutagenesis: 16 rotamers loaded.
+ Rotamer 9/16, strain=18.23
+Mutant: Cys
+ Mutagenesis: 16 rotamers loaded.
+ Rotamer 9/16, strain=18.23
+[2K302it [04:56,  1.10it/s][2K1n8z R
+Selector: chain B and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Arg
+ Mutagenesis: no rotamers found in library.
+[2K303it [04:57,  1.09it/s][2K1n8z P
+Selector: chain C and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 16
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+Mutant: Pro
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+[2K304it [04:58,  1.07it/s][2K[2K[2K1n8z Q
+Selector: chain A and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 4
+Selected!
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 8/12, strain=11.00
+Mutant: Gln
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 8/12, strain=11.00
+[2K306it [04:59,  1.25it/s][2K1n8z W
+Selector: chain C and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=17.19
+Mutant: Trp
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=17.19
+[2K307it [05:00,  1.18it/s][2K1n8z G
+Selector: chain C and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 5
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+Mutant: Gly
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+[2K308it [05:01,  1.13it/s][2K1n8z R
+Selector: chain A and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 25
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Arg
+ Mutagenesis: no rotamers found in library.
+[2K309it [05:02,  1.12it/s][2K[2K[2K1n8z T
+Selector: chain B and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+Mutant: Thr
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+[2K311it [05:03,  1.38it/s][2K[2K[2K1n8z I
+Selector: chain A and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 25
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ile
+ Mutagenesis: no rotamers found in library.
+[2K313it [05:04,  1.60it/s][2K1n8z G
+Selector: chain C and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 25
+Selected!
+ Mutagenesis: 22 rotamers loaded.
+ Rotamer 11/22, strain=1.96
+Mutant: Gly
+ Mutagenesis: 22 rotamers loaded.
+ Rotamer 11/22, strain=1.96
+[2K314it [05:06,  1.20it/s][2K1n8z M
+Selector: chain A and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 13
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Met
+ Mutagenesis: no rotamers found in library.
+[2K315it [05:07,  1.17it/s][2K1n8z Y
+Selector: chain C and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 6
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Tyr
+ Mutagenesis: no rotamers found in library.
+[2K316it [05:08,  1.15it/s][2K1n8z I
+Selector: chain A and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 14
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=2.76
+Mutant: Ile
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=2.76
+[2K317it [05:09,  1.11it/s][2K[2K[2K1n8z M
+Selector: chain B and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 20
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=4.28
+Mutant: Met
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=4.28
+[2K319it [05:10,  1.37it/s][2K1n8z P
+Selector: chain B and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 23
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Pro
+ Mutagenesis: no rotamers found in library.
+[2K320it [05:10,  1.28it/s][2K[2K[2K1n8z L
+Selector: chain B and residue 11 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 11
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=14.63
+Mutant: Leu
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=14.63
+[2K322it [05:11,  1.48it/s][2K[2K[2K[2K[2K[2K[2K[2K[2K[2K[2K1n8z M
+Selector: chain C and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 23
+Selected!
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 9/13, strain=15.55
+Mutant: Met
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 9/13, strain=15.55
+[2K328it [05:13,  2.63it/s][2K1n8z H
+Selector: chain C and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 3
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+Mutant: His
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+[2K329it [05:14,  2.08it/s][2K1n8z V
+Selector: chain C and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 10
+Selected!
+ Mutagenesis: 11 rotamers loaded.
+ Rotamer 6/11, strain=14.37
+Mutant: Val
+ Mutagenesis: 11 rotamers loaded.
+ Rotamer 6/11, strain=14.37
+[2K330it [05:15,  1.65it/s][2K1n8z A
+Selector: chain C and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 16
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+Mutant: Ala
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+[2K331it [05:16,  1.48it/s][2K1n8z I
+Selector: chain A and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 6
+Selected!
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 5/13, strain=19.83
+Mutant: Ile
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 5/13, strain=19.83
+[2K332it [05:17,  1.26it/s][2K[2K[2K[2K[2K1n8z V
+Selector: chain C and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 18
+Selected!
+ Mutagenesis: 15 rotamers loaded.
+ Rotamer 10/15, strain=29.47
+Mutant: Val
+ Mutagenesis: 15 rotamers loaded.
+ Rotamer 10/15, strain=29.47
+[2K335it [05:19,  1.61it/s][2K1n8z F
+Selector: chain C and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 18
+Selected!
+ Mutagenesis: 15 rotamers loaded.
+ Rotamer 10/15, strain=29.47
+Mutant: Phe
+ Mutagenesis: 15 rotamers loaded.
+ Rotamer 10/15, strain=29.47
+[2K336it [05:20,  1.35it/s][2K1n8z F
+Selector: chain C and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 16
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+Mutant: Phe
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+[2K337it [05:21,  1.26it/s][2K1n8z R
+Selector: chain A and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+Mutant: Arg
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+[2K338it [05:22,  1.20it/s][2K[2K[2K1n8z F
+Selector: chain A and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 22
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+Mutant: Phe
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+[2K340it [05:23,  1.43it/s][2K[2K[2K1n8z S
+Selector: chain B and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 3
+Selected!
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+Mutant: Ser
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+[2K342it [05:24,  1.43it/s][2K1n8z V
+Selector: chain C and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 8
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+Mutant: Val
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+[2K343it [05:25,  1.30it/s][2K1n8z W
+Selector: chain A and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 24
+Selected!
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+Mutant: Trp
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+[2K344it [05:27,  1.06it/s][2K1n8z Y
+Selector: chain B and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 10
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Tyr
+ Mutagenesis: no rotamers found in library.
+[2K345it [05:28,  1.06it/s][2K1n8z P
+Selector: chain B and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 21
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+Mutant: Pro
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+[2K346it [05:29,  1.05it/s][2K[2K[2K1n8z A
+Selector: chain A and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 10
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=6.22
+Mutant: Ala
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=6.22
+[2K348it [05:30,  1.32it/s][2K1n8z C
+Selector: chain B and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 7
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+Mutant: Cys
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+[2K349it [05:31,  1.24it/s][2K1n8z D
+Selector: chain A and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 20
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.62
+Mutant: Asp
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.62
+[2K350it [05:32,  1.17it/s][2K1n8z H
+Selector: chain B and residue 17 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 17
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=13.53
+Mutant: His
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=13.53
+[2K351it [05:33,  1.13it/s][2K1n8z I
+Selector: chain A and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+Mutant: Ile
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+[2K352it [05:34,  1.09it/s][2K[2K[2K[2K[2K1n8z Q
+Selector: chain B and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 9
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Gln
+ Mutagenesis: no rotamers found in library.
+[2K355it [05:35,  1.70it/s][2K1n8z P
+Selector: chain C and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 26
+Selected!
+ Mutagenesis: 8 rotamers loaded.
+ Rotamer 3/8, strain=21.13
+Mutant: Pro
+ Mutagenesis: 8 rotamers loaded.
+ Rotamer 3/8, strain=21.13
+[2K356it [05:36,  1.45it/s][2K[2K[2K1n8z Y
+Selector: chain B and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+Mutant: Tyr
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+[2K358it [05:37,  1.61it/s][2K1n8z Y
+Selector: chain C and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 5
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+Mutant: Tyr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+[2K359it [05:38,  1.44it/s][2K1n8z P
+Selector: chain C and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 5
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+Mutant: Pro
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+[2K360it [05:39,  1.25it/s][2K1n8z Q
+Selector: chain A and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+Mutant: Gln
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=0.79
+[2K361it [05:40,  1.18it/s][2K1n8z M
+Selector: chain B and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 25
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=1.68
+Mutant: Met
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=1.68
+[2K362it [05:41,  1.13it/s][2K1n8z C
+Selector: chain B and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 19
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=4.47
+Mutant: Cys
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=4.47
+[2K363it [05:42,  1.05s/it][2K1n8z P
+Selector: chain A and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+Mutant: Pro
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+[2K364it [05:43,  1.03s/it][2K1n8z T
+Selector: chain B and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 22
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.94
+Mutant: Thr
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.94
+[2K365it [05:44,  1.02s/it][2K1n8z R
+Selector: chain B and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 22
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.94
+Mutant: Arg
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.94
+[2K366it [05:45,  1.01s/it][2K[2K[2K[2K[2K1n8z C
+Selector: chain A and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 4
+Selected!
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 8/12, strain=11.00
+Mutant: Cys
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 8/12, strain=11.00
+[2K369it [05:47,  1.47it/s][2K1n8z H
+Selector: chain B and residue 11 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 11
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=14.63
+Mutant: His
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=14.63
+[2K370it [05:48,  1.33it/s][2K1n8z P
+Selector: chain B and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 22
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.94
+Mutant: Pro
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.94
+[2K371it [05:49,  1.24it/s][2K[2K[2K1n8z S
+Selector: chain B and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+Mutant: Ser
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+[2K373it [05:50,  1.46it/s][2K[2K[2K1n8z A
+Selector: chain C and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 21
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+Mutant: Ala
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 1/4, strain=15.88
+[2K375it [05:51,  1.61it/s][2K1n8z H
+Selector: chain C and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+Mutant: His
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+[2K376it [05:52,  1.43it/s][2K1n8z A
+Selector: chain B and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+Mutant: Ala
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+[2K377it [05:53,  1.30it/s][2K[2K[2K1n8z H
+Selector: chain C and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 4
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=24.12
+Mutant: His
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=24.12
+[2K379it [05:54,  1.51it/s][2K1n8z E
+Selector: chain B and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 19
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=4.47
+Mutant: Glu
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=4.47
+[2K380it [05:55,  1.18it/s][2K[2K[2K[2K[2K1n8z M
+Selector: chain C and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 8
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+Mutant: Met
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 1/6, strain=23.55
+[2K383it [05:56,  1.65it/s][2K1n8z F
+Selector: chain C and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 22
+Selected!
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 2/7, strain=3.92
+Mutant: Phe
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 2/7, strain=3.92
+[2K384it [05:57,  1.44it/s][2K[2K[2K[2K[2K1n8z N
+Selector: chain A and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 13
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Asn
+ Mutagenesis: no rotamers found in library.
+[2K387it [05:58,  1.92it/s][2K1n8z R
+Selector: chain A and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 26
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+Mutant: Arg
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+[2K388it [05:59,  1.66it/s][2K1n8z G
+Selector: chain B and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 19
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=4.47
+Mutant: Gly
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=4.47
+[2K389it [06:01,  1.28it/s][2K1n8z Q
+Selector: chain B and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 7
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+Mutant: Gln
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+[2K390it [06:02,  1.20it/s][2K1n8z A
+Selector: chain C and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 13
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+Mutant: Ala
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+[2K391it [06:03,  1.08it/s][2K1n8z Y
+Selector: chain C and residue 17 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 17
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=44.96
+Mutant: Tyr
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=44.96
+[2K392it [06:04,  1.06it/s][2K[2K[2K1n8z F
+Selector: chain A and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 4
+Selected!
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 8/12, strain=11.00
+Mutant: Phe
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 8/12, strain=11.00
+[2K394it [06:05,  1.24it/s][2K1n8z G
+Selector: chain B and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 23
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Gly
+ Mutagenesis: no rotamers found in library.
+[2K395it [06:06,  1.20it/s][2K1n8z V
+Selector: chain C and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 3
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+Mutant: Val
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=8.10
+[2K396it [06:07,  1.15it/s][2K1n8z R
+Selector: chain B and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 6
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+Mutant: Arg
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+[2K397it [06:08,  1.01it/s][2K[2K[2K[2K[2K[2K[2K1n8z R
+Selector: chain B and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 3
+Selected!
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+Mutant: Arg
+ Mutagenesis: 20 rotamers loaded.
+ Rotamer 18/20, strain=16.64
+[2K401it [06:09,  1.77it/s][2K1n8z V
+Selector: chain B and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 7
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+Mutant: Val
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+[2K402it [06:10,  1.57it/s][2K1n8z N
+Selector: chain B and residue 4 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 4
+Selected!
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 4/4, strain=9.34
+Mutant: Asn
+ Mutagenesis: 4 rotamers loaded.
+ Rotamer 4/4, strain=9.34
+[2K403it [06:11,  1.39it/s][2K1n8z V
+Selector: chain B and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 26
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Val
+ Mutagenesis: no rotamers found in library.
+[2K404it [06:12,  1.30it/s][2K1n8z W
+Selector: chain B and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 5
+Selected!
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=5.45
+Mutant: Trp
+ Mutagenesis: 1 rotamers loaded.
+ Rotamer 1/1, strain=5.45
+[2K405it [06:13,  1.23it/s][2K1n8z S
+Selector: chain A and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 18
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+Mutant: Ser
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+[2K406it [06:15,  1.01it/s][2K1n8z F
+Selector: chain A and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 3
+Selected!
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 5/12, strain=8.66
+Mutant: Phe
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 5/12, strain=8.66
+[2K407it [06:16,  1.05s/it][2K1n8z G
+Selector: chain B and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 21
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+Mutant: Gly
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+[2K408it [06:17,  1.03s/it][2K1n8z M
+Selector: chain B and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 22
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.94
+Mutant: Met
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=16.94
+[2K409it [06:18,  1.00s/it][2K1n8z D
+Selector: chain B and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+Mutant: Asp
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+[2K410it [06:19,  1.00it/s][2K1n8z P
+Selector: chain C and residue 19 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 19
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+Mutant: Pro
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=26.28
+[2K411it [06:20,  1.00it/s][2K1n8z Y
+Selector: chain B and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 9
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Tyr
+ Mutagenesis: no rotamers found in library.
+[2K412it [06:21,  1.02it/s][2K[2K[2K1n8z K
+Selector: chain C and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 13
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+Mutant: Lys
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+[2K414it [06:22,  1.30it/s][2K[2K[2K[2K[2K[2K[2K1n8z W
+Selector: chain B and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+Mutant: Trp
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+[2K418it [06:23,  2.13it/s][2K1n8z N
+Selector: chain A and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 3
+Selected!
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 5/12, strain=8.66
+Mutant: Asn
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 5/12, strain=8.66
+[2K419it [06:24,  1.85it/s][2K1n8z V
+Selector: chain A and residue 24 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 24
+Selected!
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+Mutant: Val
+ Mutagenesis: 21 rotamers loaded.
+ Rotamer 4/21, strain=7.38
+[2K420it [06:25,  1.48it/s][2K[2K[2K1n8z G
+Selector: chain C and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 26
+Selected!
+ Mutagenesis: 8 rotamers loaded.
+ Rotamer 3/8, strain=21.13
+Mutant: Gly
+ Mutagenesis: 8 rotamers loaded.
+ Rotamer 3/8, strain=21.13
+[2K422it [06:26,  1.62it/s][2K1n8z Y
+Selector: chain B and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Tyr
+ Mutagenesis: no rotamers found in library.
+[2K423it [06:27,  1.40it/s][2K1n8z F
+Selector: chain A and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 13
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Phe
+ Mutagenesis: no rotamers found in library.
+[2K424it [06:28,  1.31it/s][2K1n8z H
+Selector: chain C and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 6
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: His
+ Mutagenesis: no rotamers found in library.
+[2K425it [06:29,  1.25it/s][2K[2K[2K1n8z E
+Selector: chain B and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 25
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=1.68
+Mutant: Glu
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=1.68
+[2K427it [06:30,  1.48it/s][2K1n8z F
+Selector: chain C and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 20
+Selected!
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 1/7, strain=18.93
+Mutant: Phe
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 1/7, strain=18.93
+[2K428it [06:31,  1.30it/s][2K1n8z F
+Selector: chain C and residue 5 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 5
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+Mutant: Phe
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=7.14
+[2K429it [06:32,  1.22it/s][2K1n8z E
+Selector: chain A and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 26
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+Mutant: Glu
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=17.77
+[2K430it [06:33,  1.16it/s][2K[2K[2K[2K[2K1n8z L
+Selector: chain C and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 13
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+Mutant: Leu
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+[2K433it [06:34,  1.79it/s][2K1n8z S
+Selector: chain B and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 10
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ser
+ Mutagenesis: no rotamers found in library.
+[2K434it [06:35,  1.61it/s][2K1n8z G
+Selector: chain A and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 7
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=12.04
+Mutant: Gly
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=12.04
+[2K435it [06:36,  1.42it/s][2K[2K[2K[2K[2K1n8z I
+Selector: chain B and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ile
+ Mutagenesis: no rotamers found in library.
+[2K438it [06:37,  1.96it/s][2K1n8z V
+Selector: chain C and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 23
+Selected!
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 9/13, strain=15.55
+Mutant: Val
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 9/13, strain=15.55
+[2K439it [06:38,  1.54it/s][2K1n8z P
+Selector: chain A and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 18
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+Mutant: Pro
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 10/19, strain=-4.23
+[2K440it [06:39,  1.26it/s][2K[2K[2K[2K[2K[2K[2K1n8z C
+Selector: chain A and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 8
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=14.82
+Mutant: Cys
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=14.82
+[2K444it [06:40,  2.02it/s][2K1n8z F
+Selector: chain B and residue 6 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 6
+Selected!
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+Mutant: Phe
+ Mutagenesis: 19 rotamers loaded.
+ Rotamer 8/19, strain=7.62
+[2K445it [06:42,  1.56it/s][2K1n8z E
+Selector: chain C and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 20
+Selected!
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 1/7, strain=18.93
+Mutant: Glu
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 1/7, strain=18.93
+[2K446it [06:43,  1.38it/s][2K1n8z R
+Selector: chain C and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 23
+Selected!
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 9/13, strain=15.55
+Mutant: Arg
+ Mutagenesis: 13 rotamers loaded.
+ Rotamer 9/13, strain=15.55
+[2K447it [06:44,  1.19it/s][2K[2K[2K1n8z T
+Selector: chain C and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 18
+Selected!
+ Mutagenesis: 15 rotamers loaded.
+ Rotamer 10/15, strain=29.47
+Mutant: Thr
+ Mutagenesis: 15 rotamers loaded.
+ Rotamer 10/15, strain=29.47
+[2K449it [06:45,  1.31it/s][2K[2K[2K1n8z H
+Selector: chain C and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 9
+Selected!
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+Mutant: His
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+[2K451it [06:47,  1.39it/s][2K[2K[2K1n8z D
+Selector: chain C and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 9
+Selected!
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+Mutant: Asp
+ Mutagenesis: 14 rotamers loaded.
+ Rotamer 5/14, strain=17.79
+[2K453it [06:48,  1.44it/s][2K1n8z I
+Selector: chain B and residue 11 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 11
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=14.63
+Mutant: Ile
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=14.63
+[2K454it [06:49,  1.33it/s][2K1n8z Y
+Selector: chain C and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 22
+Selected!
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 2/7, strain=3.92
+Mutant: Tyr
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 2/7, strain=3.92
+[2K455it [06:50,  1.22it/s][2K[2K[2K1n8z C
+Selector: chain B and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 21
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+Mutant: Cys
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=10.32
+[2K457it [06:51,  1.43it/s][2K1n8z T
+Selector: chain C and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Thr
+ Mutagenesis: no rotamers found in library.
+[2K458it [06:52,  1.28it/s][2K[2K[2K1n8z K
+Selector: chain C and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Lys
+ Mutagenesis: no rotamers found in library.
+[2K460it [06:53,  1.51it/s][2K1n8z Q
+Selector: chain A and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 22
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+Mutant: Gln
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+[2K461it [06:54,  1.45it/s][2K1n8z G
+Selector: chain C and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 13
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+Mutant: Gly
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+[2K462it [06:54,  1.42it/s][2K1n8z K
+Selector: chain A and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 8
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=14.82
+Mutant: Lys
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=14.82
+[2K463it [06:55,  1.29it/s][2K1n8z M
+Selector: chain B and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 7
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+Mutant: Met
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=8.47
+[2K464it [06:56,  1.20it/s][2K1n8z Q
+Selector: chain C and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 16
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+Mutant: Gln
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=25.73
+[2K465it [06:57,  1.14it/s][2K1n8z N
+Selector: chain A and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Asn
+ Mutagenesis: no rotamers found in library.
+[2K466it [06:58,  1.17it/s][2K[2K[2K1n8z H
+Selector: chain A and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 21
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+Mutant: His
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+[2K468it [06:59,  1.41it/s][2K1n8z I
+Selector: chain A and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 22
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+Mutant: Ile
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=11.52
+[2K469it [07:00,  1.34it/s][2K[2K[2K1n8z T
+Selector: chain A and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Thr
+ Mutagenesis: no rotamers found in library.
+[2K471it [07:01,  1.59it/s][2K1n8z Y
+Selector: chain C and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Tyr
+ Mutagenesis: no rotamers found in library.
+[2K472it [07:02,  1.43it/s][2K1n8z R
+Selector: chain B and residue 18 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 18
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+Mutant: Arg
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 3/5, strain=5.47
+[2K473it [07:03,  1.28it/s][2K1n8z A
+Selector: chain C and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 7
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=13.71
+Mutant: Ala
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 1/2, strain=13.71
+[2K474it [07:04,  1.29it/s][2K[2K[2K1n8z Y
+Selector: chain C and residue 25 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 25
+Selected!
+ Mutagenesis: 22 rotamers loaded.
+ Rotamer 11/22, strain=1.96
+Mutant: Tyr
+ Mutagenesis: 22 rotamers loaded.
+ Rotamer 11/22, strain=1.96
+[2K476it [07:05,  1.28it/s][2K1n8z H
+Selector: chain A and residue 17 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 17
+Selected!
+ Mutagenesis: 9 rotamers loaded.
+ Rotamer 1/9, strain=15.81
+Mutant: His
+ Mutagenesis: 9 rotamers loaded.
+ Rotamer 1/9, strain=15.81
+[2K477it [07:06,  1.19it/s][2K1n8z A
+Selector: chain B and residue 8 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 8
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ala
+ Mutagenesis: no rotamers found in library.
+[2K478it [07:07,  1.19it/s][2K1n8z F
+Selector: chain C and residue 13 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 13
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+Mutant: Phe
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=15.07
+[2K479it [07:08,  1.20it/s][2K[2K[2K1n8z M
+Selector: chain B and residue 11 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 11
+Selected!
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=14.63
+Mutant: Met
+ Mutagenesis: 5 rotamers loaded.
+ Rotamer 1/5, strain=14.63
+[2K481it [07:09,  1.57it/s][2K1n8z D
+Selector: chain A and residue 21 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 21
+Selected!
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+Mutant: Asp
+ Mutagenesis: 6 rotamers loaded.
+ Rotamer 4/6, strain=18.85
+[2K482it [07:10,  1.36it/s][2K1n8z A
+Selector: chain B and residue 26 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 26
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Ala
+ Mutagenesis: no rotamers found in library.
+[2K483it [07:11,  1.28it/s][2K1n8z Y
+Selector: chain A and residue 7 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 7
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=12.04
+Mutant: Tyr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=12.04
+[2K484it [07:12,  1.20it/s][2K1n8z V
+Selector: chain A and residue 3 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 3
+Selected!
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 5/12, strain=8.66
+Mutant: Val
+ Mutagenesis: 12 rotamers loaded.
+ Rotamer 5/12, strain=8.66
+[2K485it [07:13,  1.01it/s][2K1n8z E
+Selector: chain B and residue 14 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 14
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+Mutant: Glu
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.70
+[2K486it [07:14,  1.01it/s][2K1n8z K
+Selector: chain C and residue 22 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 22
+Selected!
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 2/7, strain=3.92
+Mutant: Lys
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 2/7, strain=3.92
+[2K487it [07:15,  1.01s/it][2K1n8z R
+Selector: chain B and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 23
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Arg
+ Mutagenesis: no rotamers found in library.
+[2K488it [07:16,  1.01it/s][2K1n8z I
+Selector: chain C and residue 20 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 20
+Selected!
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 1/7, strain=18.93
+Mutant: Ile
+ Mutagenesis: 7 rotamers loaded.
+ Rotamer 1/7, strain=18.93
+[2K489it [07:17,  1.02s/it][2K1n8z Q
+Selector: chain B and residue 16 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 16
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Gln
+ Mutagenesis: no rotamers found in library.
+[2K490it [07:18,  1.01it/s][2K1n8z Y
+Selector: chain C and residue 10 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 10
+Selected!
+ Mutagenesis: 11 rotamers loaded.
+ Rotamer 6/11, strain=14.37
+Mutant: Tyr
+ Mutagenesis: 11 rotamers loaded.
+ Rotamer 6/11, strain=14.37
+[2K491it [07:19,  1.07s/it][2K1n8z V
+Selector: chain B and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+Mutant: Val
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=22.24
+[2K492it [07:20,  1.05s/it][2K1n8z Q
+Selector: chain A and residue 9 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 9
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=50.92
+Mutant: Gln
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 1/3, strain=50.92
+[2K493it [07:21,  1.03s/it][2K[2K[2K1n8z I
+Selector: chain A and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 15
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=25.06
+Mutant: Ile
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 3/3, strain=25.06
+[2K495it [07:22,  1.28it/s][2K1n8z C
+Selector: chain B and residue 23 --------------------------
+Starting  mutation wizard...
+Selecting  chain B and residue 23
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Cys
+ Mutagenesis: no rotamers found in library.
+[2K496it [07:23,  1.22it/s][2K1n8z E
+Selector: chain C and residue 15 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 15
+Selected!
+ Mutagenesis: no rotamers found in library.
+Mutant: Glu
+ Mutagenesis: no rotamers found in library.
+[2K497it [07:24,  1.18it/s][2K1n8z T
+Selector: chain A and residue 12 --------------------------
+Starting  mutation wizard...
+Selecting  chain A and residue 12
+Selected!
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+Mutant: Thr
+ Mutagenesis: 3 rotamers loaded.
+ Rotamer 2/3, strain=12.59
+[2K498it [07:25,  1.13it/s][2K[2K[2K1n8z W
+Selector: chain C and residue 17 --------------------------
+Starting  mutation wizard...
+Selecting  chain C and residue 17
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=44.96
+Mutant: Trp
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=44.96
+[2K500it [07:26,  1.53it/s]500it [07:26,  1.12it/s]
+[2KTime needed for creating the mutations: 446.4539086818695s
+0it [00:00, ?it/s]Protein:  1n8z Mutation:  KB18P
+Extracting relevant residues
+B 18
+
+
+[2K2it [00:08,  4.28s/it][2KProtein:  1n8z Mutation:  MA25V
+Extracting relevant residues
+A 25
+
+
+[2K3it [00:18,  6.56s/it][2KProtein:  1n8z Mutation:  FB9E
+Extracting relevant residues
+B 9
+
+
+[2K4it [00:23,  5.92s/it][2KProtein:  1n8z Mutation:  LB7Y
+Extracting relevant residues
+B 7
+
+
+[2K5it [00:31,  6.92s/it][2KProtein:  1n8z Mutation:  DB13V
+Extracting relevant residues
+B 13
+
+
+[2K6it [00:41,  7.80s/it][2KProtein:  1n8z Mutation:  QB5V
+Extracting relevant residues
+B 5
+
+
+[2K7it [00:51,  8.61s/it][2KProtein:  1n8z Mutation:  FC10L
+Extracting relevant residues
+C 10
+
+
+[2K8it [00:58,  8.05s/it][2KProtein:  1n8z Mutation:  VA8F
+Extracting relevant residues
+A 8
+
+
+[2K9it [01:07,  8.14s/it][2KProtein:  1n8z Mutation:  SA16G
+Extracting relevant residues
+A 16
+
+
+[2K10it [01:12,  7.41s/it][2KProtein:  1n8z Mutation:  SA16F
+Extracting relevant residues
+A 16
+
+
+[2K11it [01:18,  6.83s/it][2KProtein:  1n8z Mutation:  GC15R
+Extracting relevant residues
+C 15
+
+
+[2K12it [01:23,  6.28s/it][2KProtein:  1n8z Mutation:  QA5Q
+Extracting relevant residues
+A 5
+
+
+[2K13it [01:32,  7.10s/it][2KProtein:  1n8z Mutation:  GA23E
+Extracting relevant residues
+A 23
+
+
+[2K14it [01:42,  7.90s/it][2KProtein:  1n8z Mutation:  GA15F
+Extracting relevant residues
+A 15
+
+
+[2K15it [01:47,  7.09s/it][2KProtein:  1n8z Mutation:  SC16L
+Extracting relevant residues
+C 16
+
+
+[2K16it [01:52,  6.62s/it][2KProtein:  1n8z Mutation:  QA5K
+Extracting relevant residues
+A 5
+
+
+[2K17it [02:01,  7.15s/it][2KProtein:  1n8z Mutation:  GA19N
+Extracting relevant residues
+A 19
+
+
+[2K18it [02:11,  8.16s/it][2KProtein:  1n8z Mutation:  LC24I
+Extracting relevant residues
+C 24
+
+
+[2K19it [02:18,  7.78s/it][2KProtein:  1n8z Mutation:  AB20Q
+Extracting relevant residues
+B 20
+
+
+[2K20it [02:24,  7.33s/it][2KProtein:  1n8z Mutation:  HC3K
+Extracting relevant residues
+C 3
+
+
+[2K21it [02:30,  6.84s/it][2KProtein:  1n8z Mutation:  IB21H
+Extracting relevant residues
+B 21
+
+
+[2K22it [02:36,  6.60s/it][2KProtein:  1n8z Mutation:  KB6V
+Extracting relevant residues
+B 6
+
+
+[2K23it [02:42,  6.27s/it][2KProtein:  1n8z Mutation:  HA4V
+Extracting relevant residues
+A 4
+
+
+[2K24it [02:58,  9.25s/it][2KProtein:  1n8z Mutation:  DC13I
+Extracting relevant residues
+C 13
+
+
+[2K25it [03:04,  8.36s/it][2KProtein:  1n8z Mutation:  LC7D
+Extracting relevant residues
+C 7
+
+
+[2K26it [03:10,  7.52s/it][2KProtein:  1n8z Mutation:  AA11V
+Extracting relevant residues
+A 11
+
+
+[2K27it [03:19,  8.13s/it][2KProtein:  1n8z Mutation:  LA24K
+Extracting relevant residues
+A 24
+
+
+[2K28it [03:29,  8.67s/it][2KProtein:  1n8z Mutation:  KB18L
+Extracting relevant residues
+B 18
+
+
+[2K29it [03:39,  9.00s/it][2KProtein:  1n8z Mutation:  AA20M
+Extracting relevant residues
+A 20
+
+
+[2K30it [03:49,  9.34s/it][2KProtein:  1n8z Mutation:  DB13L
+Extracting relevant residues
+B 13
+
+
+[2K31it [03:59,  9.41s/it][2KProtein:  1n8z Mutation:  GB23K
+Extracting relevant residues
+B 23
+
+
+[2K32it [04:04,  8.09s/it][2KProtein:  1n8z Mutation:  HA4P
+Extracting relevant residues
+A 4
+
+
+[2K33it [04:20, 10.53s/it][2KProtein:  1n8z Mutation:  GA23R
+Extracting relevant residues
+A 23
+
+
+[2K34it [04:29, 10.21s/it][2KProtein:  1n8z Mutation:  AB20V
+Extracting relevant residues
+B 20
+
+
+[2K35it [04:36,  9.05s/it][2KProtein:  1n8z Mutation:  GA19C
+Extracting relevant residues
+A 19
+
+
+[2K36it [04:46,  9.52s/it][2KProtein:  1n8z Mutation:  MA25V
+Extracting relevant residues
+A 25
+
+
+[2K37it [04:56,  9.49s/it][2KProtein:  1n8z Mutation:  IA21F
+Extracting relevant residues
+A 21
+
+
+[2K38it [05:05,  9.48s/it][2KProtein:  1n8z Mutation:  SC16T
+Extracting relevant residues
+C 16
+
+
+[2K39it [05:11,  8.40s/it][2KProtein:  1n8z Mutation:  GC19A
+Extracting relevant residues
+C 19
+
+
+[2K40it [05:17,  7.71s/it][2KProtein:  1n8z Mutation:  NC17R
+Extracting relevant residues
+C 17
+
+
+[2K41it [05:22,  6.95s/it][2KProtein:  1n8z Mutation:  HB3L
+Extracting relevant residues
+B 3
+
+
+[2K42it [05:29,  6.78s/it][2KProtein:  1n8z Mutation:  FA10K
+Extracting relevant residues
+A 10
+
+
+[2K43it [05:39,  7.82s/it][2KProtein:  1n8z Mutation:  GC23F
+Extracting relevant residues
+C 23
+
+
+[2K44it [05:46,  7.49s/it][2KProtein:  1n8z Mutation:  MC25I
+Extracting relevant residues
+C 25
+
+
+[2K45it [05:53,  7.32s/it][2KProtein:  1n8z Mutation:  IA21R
+Extracting relevant residues
+A 21
+
+
+[2K46it [06:02,  8.06s/it][2KProtein:  1n8z Mutation:  EC12Y
+Extracting relevant residues
+C 12
+
+
+[2K47it [06:09,  7.67s/it][2KProtein:  1n8z Mutation:  QB5F
+Extracting relevant residues
+B 5
+
+
+[2K48it [06:18,  7.91s/it][2KProtein:  1n8z Mutation:  IA22C
+Extracting relevant residues
+A 22
+
+
+[2K49it [06:26,  8.00s/it][2KProtein:  1n8z Mutation:  AA20M
+Extracting relevant residues
+A 20
+
+
+[2K50it [06:36,  8.72s/it][2KProtein:  1n8z Mutation:  VC8C
+Extracting relevant residues
+C 8
+
+
+[2K51it [06:42,  7.85s/it][2KProtein:  1n8z Mutation:  DA13A
+Extracting relevant residues
+A 13
+
+
+[2K52it [06:47,  7.10s/it][2KProtein:  1n8z Mutation:  VC14H
+Extracting relevant residues
+C 14
+
+
+[2K53it [06:53,  6.72s/it][2KProtein:  1n8z Mutation:  FB10T
+Extracting relevant residues
+B 10
+
+
+[2K54it [06:58,  6.18s/it][2KProtein:  1n8z Mutation:  SC16W
+Extracting relevant residues
+C 16
+
+
+[2K55it [07:04,  6.09s/it][2KProtein:  1n8z Mutation:  SC16N
+Extracting relevant residues
+C 16
+
+
+[2K56it [07:10,  5.92s/it][2KProtein:  1n8z Mutation:  FC10M
+Extracting relevant residues
+C 10
+
+
+[2K57it [07:16,  6.18s/it][2KProtein:  1n8z Mutation:  KB6S
+Extracting relevant residues
+B 6
+
+
+[2K58it [07:22,  6.08s/it][2KProtein:  1n8z Mutation:  LB7K
+Extracting relevant residues
+B 7
+
+
+[2K59it [07:31,  6.89s/it][2KProtein:  1n8z Mutation:  LB24L
+Extracting relevant residues
+B 24
+
+
+[2K60it [07:36,  6.27s/it][2KProtein:  1n8z Mutation:  HB4W
+Extracting relevant residues
+B 4
+
+
+[2K61it [07:46,  7.37s/it][2KProtein:  1n8z Mutation:  KC6V
+Extracting relevant residues
+C 6
+
+
+[2K62it [07:51,  6.76s/it][2KProtein:  1n8z Mutation:  KA6M
+Extracting relevant residues
+A 6
+
+
+[2K63it [08:07,  9.40s/it][2KProtein:  1n8z Mutation:  MC25K
+Extracting relevant residues
+C 25
+
+
+[2K64it [08:13,  8.64s/it][2KProtein:  1n8z Mutation:  FA9F
+Extracting relevant residues
+A 9
+
+
+[2K65it [08:27, 10.25s/it][2KProtein:  1n8z Mutation:  VC14E
+Extracting relevant residues
+C 14
+
+
+[2K66it [08:34,  9.02s/it][2KProtein:  1n8z Mutation:  LA7M
+Extracting relevant residues
+A 7
+
+
+[2K67it [08:48, 10.58s/it][2KProtein:  1n8z Mutation:  FC9E
+Extracting relevant residues
+C 9
+
+
+[2K68it [08:54,  9.35s/it][2KProtein:  1n8z Mutation:  FC9N
+Extracting relevant residues
+C 9
+
+
+[2K69it [09:01,  8.48s/it][2KProtein:  1n8z Mutation:  LB24K
+Extracting relevant residues
+B 24
+
+
+[2K70it [09:06,  7.39s/it][2KProtein:  1n8z Mutation:  EC12N
+Extracting relevant residues
+C 12
+
+
+[2K71it [09:12,  7.19s/it][2KProtein:  1n8z Mutation:  AB11F
+Extracting relevant residues
+B 11
+
+
+[2K72it [09:21,  7.74s/it][2KProtein:  1n8z Mutation:  SB16D
+Extracting relevant residues
+B 16
+
+
+[2K73it [09:26,  6.95s/it][2KProtein:  1n8z Mutation:  KC6C
+Extracting relevant residues
+C 6
+
+
+[2K74it [09:32,  6.58s/it][2KProtein:  1n8z Mutation:  VA26P
+Extracting relevant residues
+A 26
+
+
+[2K75it [09:43,  7.73s/it][2KProtein:  1n8z Mutation:  GC19A
+Extracting relevant residues
+C 19
+
+
+[2K76it [09:49,  7.37s/it][2KProtein:  1n8z Mutation:  VC8G
+Extracting relevant residues
+C 8
+
+
+[2K77it [09:55,  6.98s/it][2KProtein:  1n8z Mutation:  HC3P
+Extracting relevant residues
+C 3
+
+
+[2K78it [10:01,  6.61s/it][2KProtein:  1n8z Mutation:  VA8F
+Extracting relevant residues
+A 8
+
+
+[2K79it [10:10,  7.43s/it][2KProtein:  1n8z Mutation:  SC16G
+Extracting relevant residues
+C 16
+
+
+[2K80it [10:16,  6.87s/it][2KProtein:  1n8z Mutation:  IC21F
+Extracting relevant residues
+C 21
+
+
+[2K81it [10:22,  6.78s/it][2KProtein:  1n8z Mutation:  KC18K
+Extracting relevant residues
+C 18
+
+
+[2K82it [10:28,  6.47s/it][2KProtein:  1n8z Mutation:  GA19W
+Extracting relevant residues
+A 19
+
+
+[2K83it [10:38,  7.56s/it][2KProtein:  1n8z Mutation:  IA22Y
+Extracting relevant residues
+A 22
+
+
+[2K84it [10:48,  8.16s/it][2KProtein:  1n8z Mutation:  KB6W
+Extracting relevant residues
+B 6
+
+
+[2K85it [10:53,  7.38s/it][2KProtein:  1n8z Mutation:  IA21V
+Extracting relevant residues
+A 21
+
+
+[2K86it [11:03,  8.09s/it][2KProtein:  1n8z Mutation:  AC11C
+Extracting relevant residues
+C 11
+
+
+[2K87it [11:10,  7.70s/it][2KProtein:  1n8z Mutation:  GA19S
+Extracting relevant residues
+A 19
+
+
+[2K88it [11:21,  8.60s/it][2KProtein:  1n8z Mutation:  VC14L
+Extracting relevant residues
+C 14
+
+
+[2K89it [11:27,  7.86s/it][2KProtein:  1n8z Mutation:  VC8N
+Extracting relevant residues
+C 8
+
+
+[2K90it [11:33,  7.24s/it][2KProtein:  1n8z Mutation:  NC17P
+Extracting relevant residues
+C 17
+
+
+[2K91it [11:38,  6.74s/it][2KProtein:  1n8z Mutation:  HB4R
+Extracting relevant residues
+B 4
+
+
+[2K92it [11:48,  7.66s/it][2KProtein:  1n8z Mutation:  FA10F
+Extracting relevant residues
+A 10
+
+
+[2K93it [11:59,  8.56s/it][2KProtein:  1n8z Mutation:  KC6L
+Extracting relevant residues
+C 6
+
+
+[2K94it [12:04,  7.61s/it][2KProtein:  1n8z Mutation:  IC22P
+Extracting relevant residues
+C 22
+
+
+[2K95it [12:11,  7.31s/it][2KProtein:  1n8z Mutation:  GA15L
+Extracting relevant residues
+A 15
+
+
+[2K96it [12:16,  6.68s/it][2KProtein:  1n8z Mutation:  IB21Y
+Extracting relevant residues
+B 21
+
+
+[2K97it [12:22,  6.39s/it][2KProtein:  1n8z Mutation:  FB9R
+Extracting relevant residues
+B 9
+
+
+[2K98it [12:26,  5.92s/it][2KProtein:  1n8z Mutation:  VA8S
+Extracting relevant residues
+A 8
+
+
+[2K99it [12:36,  6.94s/it][2KProtein:  1n8z Mutation:  SB16G
+Extracting relevant residues
+B 16
+
+
+[2K100it [12:41,  6.38s/it][2KProtein:  1n8z Mutation:  AA20A
+Extracting relevant residues
+A 20
+
+
+[2K101it [12:51,  7.59s/it][2KProtein:  1n8z Mutation:  LA7D
+Extracting relevant residues
+A 7
+
+
+[2K102it [13:06,  9.70s/it][2KProtein:  1n8z Mutation:  KB6D
+Extracting relevant residues
+B 6
+
+
+[2K103it [13:12,  8.59s/it][2KProtein:  1n8z Mutation:  KA6Y
+Extracting relevant residues
+A 6
+
+
+[2K104it [13:27, 10.61s/it][2KProtein:  1n8z Mutation:  EA12K
+Extracting relevant residues
+A 12
+
+
+[2K105it [13:32,  9.01s/it][2KProtein:  1n8z Mutation:  HA4E
+Extracting relevant residues
+A 4
+
+
+[2K106it [13:48, 11.09s/it][2KProtein:  1n8z Mutation:  AC20M
+Extracting relevant residues
+C 20
+
+
+[2K107it [13:55,  9.76s/it][2KProtein:  1n8z Mutation:  KC6S
+Extracting relevant residues
+C 6
+
+
+[2K108it [14:01,  8.55s/it][2KProtein:  1n8z Mutation:  GC15H
+Extracting relevant residues
+C 15
+
+
+[2K109it [14:06,  7.62s/it][2KProtein:  1n8z Mutation:  FB10A
+Extracting relevant residues
+B 10
+
+
+[2K110it [14:11,  6.80s/it][2KProtein:  1n8z Mutation:  KA6Q
+Extracting relevant residues
+A 6
+
+
+[2K111it [14:26,  9.32s/it][2KProtein:  1n8z Mutation:  HB4I
+Extracting relevant residues
+B 4
+
+
+[2K112it [14:36,  9.48s/it][2KProtein:  1n8z Mutation:  QC5S
+Extracting relevant residues
+C 5
+
+
+[2K113it [14:42,  8.32s/it][2KProtein:  1n8z Mutation:  VC8I
+Extracting relevant residues
+C 8
+
+
+[2K114it [14:47,  7.54s/it][2KProtein:  1n8z Mutation:  FA10Q
+Extracting relevant residues
+A 10
+
+
+[2K115it [14:58,  8.46s/it][2KProtein:  1n8z Mutation:  KA18K
+Extracting relevant residues
+A 18
+
+
+[2K116it [15:07,  8.54s/it][2KProtein:  1n8z Mutation:  DB13W
+Extracting relevant residues
+B 13
+
+
+[2K117it [15:16,  8.87s/it][2KProtein:  1n8z Mutation:  NA17I
+Extracting relevant residues
+A 17
+
+
+[2K118it [15:22,  7.95s/it][2KProtein:  1n8z Mutation:  SA16L
+Extracting relevant residues
+A 16
+
+
+[2K119it [15:28,  7.34s/it][2KProtein:  1n8z Mutation:  GC15P
+Extracting relevant residues
+C 15
+
+
+[2K120it [15:33,  6.63s/it][2KProtein:  1n8z Mutation:  FA9Y
+Extracting relevant residues
+A 9
+
+
+[2K121it [15:47,  8.71s/it][2KProtein:  1n8z Mutation:  VA26Y
+Extracting relevant residues
+A 26
+
+
+[2K122it [15:57,  9.31s/it][2KProtein:  1n8z Mutation:  VA8L
+Extracting relevant residues
+A 8
+
+
+[2K123it [16:06,  9.24s/it][2KProtein:  1n8z Mutation:  SA16A
+Extracting relevant residues
+A 16
+
+
+[2K124it [16:13,  8.29s/it][2KProtein:  1n8z Mutation:  IB21A
+Extracting relevant residues
+B 21
+
+
+[2K125it [16:18,  7.52s/it][2KProtein:  1n8z Mutation:  MA25A
+Extracting relevant residues
+A 25
+
+
+[2K126it [16:28,  8.10s/it][2KProtein:  1n8z Mutation:  VA26Q
+Extracting relevant residues
+A 26
+
+
+[2K127it [16:38,  8.90s/it][2KProtein:  1n8z Mutation:  EB12E
+Extracting relevant residues
+B 12
+
+
+[2K128it [16:48,  9.08s/it][2KProtein:  1n8z Mutation:  IC22V
+Extracting relevant residues
+C 22
+
+
+[2K129it [16:55,  8.36s/it][2KProtein:  1n8z Mutation:  SB16S
+Extracting relevant residues
+B 16
+
+
+[2K130it [17:00,  7.48s/it][2KProtein:  1n8z Mutation:  EB12C
+Extracting relevant residues
+B 12
+
+
+[2K131it [17:10,  8.09s/it][2KProtein:  1n8z Mutation:  GB19N
+Extracting relevant residues
+B 19
+
+
+[2K132it [17:21,  9.10s/it][2KProtein:  1n8z Mutation:  QB5A
+Extracting relevant residues
+B 5
+
+
+[2K133it [17:32,  9.51s/it][2KProtein:  1n8z Mutation:  KB6H
+Extracting relevant residues
+B 6
+
+
+[2K134it [17:37,  8.43s/it][2KProtein:  1n8z Mutation:  HB3E
+Extracting relevant residues
+B 3
+
+
+[2K135it [17:44,  7.84s/it][2KProtein:  1n8z Mutation:  AC11C
+Extracting relevant residues
+C 11
+
+
+[2K136it [17:51,  7.53s/it][2KProtein:  1n8z Mutation:  IB21D
+Extracting relevant residues
+B 21
+
+
+[2K137it [17:56,  6.98s/it][2KProtein:  1n8z Mutation:  GC19R
+Extracting relevant residues
+C 19
+
+
+[2K138it [18:03,  6.85s/it][2KProtein:  1n8z Mutation:  IA21W
+Extracting relevant residues
+A 21
+
+
+[2K139it [18:13,  7.73s/it][2KProtein:  1n8z Mutation:  FB9I
+Extracting relevant residues
+B 9
+
+
+[2K140it [18:18,  6.86s/it][2KProtein:  1n8z Mutation:  AB20I
+Extracting relevant residues
+B 20
+
+
+[2K141it [18:24,  6.69s/it][2KProtein:  1n8z Mutation:  FC9T
+Extracting relevant residues
+C 9
+
+
+[2K142it [18:30,  6.50s/it][2KProtein:  1n8z Mutation:  DB13M
+Extracting relevant residues
+B 13
+
+
+[2K143it [18:39,  7.33s/it][2KProtein:  1n8z Mutation:  VC26N
+Extracting relevant residues
+C 26
+
+
+[2K144it [18:46,  7.08s/it][2KProtein:  1n8z Mutation:  GC15S
+Extracting relevant residues
+C 15
+
+
+[2K145it [18:50,  6.39s/it][2KProtein:  1n8z Mutation:  QA5I
+Extracting relevant residues
+A 5
+
+
+[2K146it [19:00,  7.40s/it][2KProtein:  1n8z Mutation:  KB18I
+Extracting relevant residues
+B 18
+
+
+[2K147it [19:10,  8.12s/it][2KProtein:  1n8z Mutation:  IA22E
+Extracting relevant residues
+A 22
+
+
+[2K148it [19:19,  8.52s/it][2KProtein:  1n8z Mutation:  KC6C
+Extracting relevant residues
+C 6
+
+
+[2K149it [19:25,  7.68s/it][2KProtein:  1n8z Mutation:  KC18D
+Extracting relevant residues
+C 18
+
+
+[2K150it [19:31,  7.19s/it][2KProtein:  1n8z Mutation:  GC19G
+Extracting relevant residues
+C 19
+
+
+[2K151it [19:38,  6.98s/it][2KProtein:  1n8z Mutation:  AB20Y
+Extracting relevant residues
+B 20
+
+
+[2K152it [19:44,  6.80s/it][2KProtein:  1n8z Mutation:  VA26I
+Extracting relevant residues
+A 26
+
+
+[2K153it [19:55,  7.91s/it][2KProtein:  1n8z Mutation:  HC4Q
+Extracting relevant residues
+C 4
+
+
+[2K154it [20:00,  7.29s/it][2KProtein:  1n8z Mutation:  GC23G
+Extracting relevant residues
+C 23
+
+
+[2K155it [20:07,  7.13s/it][2KProtein:  1n8z Mutation:  VA8Y
+Extracting relevant residues
+A 8
+
+
+[2K156it [20:16,  7.72s/it][2KProtein:  1n8z Mutation:  HB3P
+Extracting relevant residues
+B 3
+
+
+[2K157it [20:23,  7.35s/it][2KProtein:  1n8z Mutation:  MC25I
+Extracting relevant residues
+C 25
+
+
+[2K158it [20:30,  7.23s/it][2KProtein:  1n8z Mutation:  EC12G
+Extracting relevant residues
+C 12
+
+
+[2K159it [20:36,  7.08s/it][2KProtein:  1n8z Mutation:  IB21F
+Extracting relevant residues
+B 21
+
+
+[2K160it [20:43,  6.79s/it][2KProtein:  1n8z Mutation:  HC3F
+Extracting relevant residues
+C 3
+
+
+[2K161it [20:48,  6.49s/it][2KProtein:  1n8z Mutation:  IC21L
+Extracting relevant residues
+C 21
+
+
+[2K162it [20:55,  6.51s/it][2KProtein:  1n8z Mutation:  AA11S
+Extracting relevant residues
+A 11
+
+
+[2K163it [21:05,  7.47s/it][2KProtein:  1n8z Mutation:  VA14N
+Extracting relevant residues
+A 14
+
+
+[2K164it [21:10,  6.74s/it][2KProtein:  1n8z Mutation:  VB26Q
+Extracting relevant residues
+B 26
+
+
+[2K165it [21:20,  7.67s/it][2KProtein:  1n8z Mutation:  AC11C
+Extracting relevant residues
+C 11
+
+
+[2K166it [21:26,  7.43s/it][2KProtein:  1n8z Mutation:  VB26N
+Extracting relevant residues
+B 26
+
+
+[2K167it [21:36,  8.15s/it][2KProtein:  1n8z Mutation:  LC24M
+Extracting relevant residues
+C 24
+
+
+[2K168it [21:43,  7.80s/it][2KProtein:  1n8z Mutation:  KA6M
+Extracting relevant residues
+A 6
+
+
+[2K169it [21:59, 10.07s/it][2KProtein:  1n8z Mutation:  KB18W
+Extracting relevant residues
+B 18
+
+
+[2K170it [22:08, 10.01s/it][2KProtein:  1n8z Mutation:  KC6K
+Extracting relevant residues
+C 6
+
+
+[2K171it [22:14,  8.63s/it][2KProtein:  1n8z Mutation:  DC13T
+Extracting relevant residues
+C 13
+
+
+[2K172it [22:20,  7.95s/it][2KProtein:  1n8z Mutation:  QC5V
+Extracting relevant residues
+C 5
+
+
+[2K173it [22:26,  7.16s/it][2KProtein:  1n8z Mutation:  EB12E
+Extracting relevant residues
+B 12
+
+
+[2K174it [22:35,  7.97s/it][2KProtein:  1n8z Mutation:  QA5L
+Extracting relevant residues
+A 5
+
+
+[2K175it [22:45,  8.53s/it][2KProtein:  1n8z Mutation:  KB18E
+Extracting relevant residues
+B 18
+
+
+[2K176it [22:55,  8.92s/it][2KProtein:  1n8z Mutation:  FA10M
+Extracting relevant residues
+A 10
+
+
+[2K177it [23:05,  9.22s/it][2KProtein:  1n8z Mutation:  KA18T
+Extracting relevant residues
+A 18
+
+
+[2K178it [23:14,  9.04s/it][2KProtein:  1n8z Mutation:  KA18M
+Extracting relevant residues
+A 18
+
+
+[2K179it [23:22,  8.94s/it][2KProtein:  1n8z Mutation:  SC16V
+Extracting relevant residues
+C 16
+
+
+[2K180it [23:28,  8.05s/it][2KProtein:  1n8z Mutation:  GA23I
+Extracting relevant residues
+A 23
+
+
+[2K181it [23:38,  8.60s/it][2KProtein:  1n8z Mutation:  LC24F
+Extracting relevant residues
+C 24
+
+
+[2K182it [23:45,  8.11s/it][2KProtein:  1n8z Mutation:  KA6Q
+Extracting relevant residues
+A 6
+
+
+[2K183it [24:01, 10.29s/it][2KProtein:  1n8z Mutation:  VC8P
+Extracting relevant residues
+C 8
+
+
+[2K184it [24:07,  9.03s/it][2KProtein:  1n8z Mutation:  FC9P
+Extracting relevant residues
+C 9
+
+
+[2K185it [24:13,  8.16s/it][2KProtein:  1n8z Mutation:  HC4Y
+Extracting relevant residues
+C 4
+
+
+[2K186it [24:19,  7.46s/it][2KProtein:  1n8z Mutation:  AA20M
+Extracting relevant residues
+A 20
+
+
+[2K187it [24:29,  8.36s/it][2KProtein:  1n8z Mutation:  IA21A
+Extracting relevant residues
+A 21
+
+
+[2K188it [24:39,  8.81s/it][2KProtein:  1n8z Mutation:  VC26D
+Extracting relevant residues
+C 26
+
+
+[2K189it [24:46,  8.36s/it][2KProtein:  1n8z Mutation:  FC10L
+Extracting relevant residues
+C 10
+
+
+[2K190it [24:53,  7.90s/it][2KProtein:  1n8z Mutation:  IC21Q
+Extracting relevant residues
+C 21
+
+
+[2K191it [25:00,  7.50s/it][2KProtein:  1n8z Mutation:  HA3G
+Extracting relevant residues
+A 3
+
+
+[2K192it [25:10,  8.40s/it][2KProtein:  1n8z Mutation:  VC14P
+Extracting relevant residues
+C 14
+
+
+[2K193it [25:16,  7.74s/it][2KProtein:  1n8z Mutation:  GB15M
+Extracting relevant residues
+B 15
+
+
+[2K194it [25:21,  6.98s/it][2KProtein:  1n8z Mutation:  NA17W
+Extracting relevant residues
+A 17
+
+
+[2K195it [25:28,  6.74s/it][2KProtein:  1n8z Mutation:  GB19A
+Extracting relevant residues
+B 19
+
+
+[2K196it [25:39,  8.05s/it][2KProtein:  1n8z Mutation:  GA15H
+Extracting relevant residues
+A 15
+
+
+[2K197it [25:44,  7.30s/it][2KProtein:  1n8z Mutation:  GB15F
+Extracting relevant residues
+B 15
+
+
+[2K198it [25:50,  6.67s/it][2KProtein:  1n8z Mutation:  IC21R
+Extracting relevant residues
+C 21
+
+
+[2K199it [25:56,  6.63s/it][2KProtein:  1n8z Mutation:  LC24D
+Extracting relevant residues
+C 24
+
+
+[2K200it [26:03,  6.73s/it][2KProtein:  1n8z Mutation:  LC7L
+Extracting relevant residues
+C 7
+
+
+[2K201it [26:09,  6.40s/it][2KProtein:  1n8z Mutation:  IB21L
+Extracting relevant residues
+B 21
+
+
+[2K202it [26:15,  6.30s/it][2KProtein:  1n8z Mutation:  LA7I
+Extracting relevant residues
+A 7
+
+
+[2K203it [26:29,  8.78s/it][2KProtein:  1n8z Mutation:  KA18Y
+Extracting relevant residues
+A 18
+
+
+[2K204it [26:38,  8.73s/it][2KProtein:  1n8z Mutation:  LA24Y
+Extracting relevant residues
+A 24
+
+
+[2K205it [26:48,  9.11s/it][2KProtein:  1n8z Mutation:  GA19T
+Extracting relevant residues
+A 19
+
+
+[2K206it [26:58,  9.53s/it][2KProtein:  1n8z Mutation:  SC16I
+Extracting relevant residues
+C 16
+
+
+[2K207it [27:04,  8.44s/it][2KProtein:  1n8z Mutation:  MB25F
+Extracting relevant residues
+B 25
+
+
+[2K208it [27:14,  8.71s/it][2KProtein:  1n8z Mutation:  DB13K
+Extracting relevant residues
+B 13
+
+
+[2K209it [27:23,  8.99s/it][2KProtein:  1n8z Mutation:  NB17V
+Extracting relevant residues
+B 17
+
+
+[2K210it [27:33,  9.18s/it][2KProtein:  1n8z Mutation:  FC10R
+Extracting relevant residues
+C 10
+
+
+[2K211it [27:40,  8.47s/it][2KProtein:  1n8z Mutation:  IA21W
+Extracting relevant residues
+A 21
+
+
+[2K212it [27:49,  8.85s/it][2KProtein:  1n8z Mutation:  VB14R
+Extracting relevant residues
+B 14
+
+
+[2K213it [27:58,  8.82s/it][2KProtein:  1n8z Mutation:  EA12A
+Extracting relevant residues
+A 12
+
+
+[2K214it [28:03,  7.76s/it][2KProtein:  1n8z Mutation:  IC21N
+Extracting relevant residues
+C 21
+
+
+[2K215it [28:10,  7.39s/it][2KProtein:  1n8z Mutation:  LC24T
+Extracting relevant residues
+C 24
+
+
+[2K216it [28:17,  7.23s/it][2KProtein:  1n8z Mutation:  LA24T
+Extracting relevant residues
+A 24
+
+
+[2K217it [28:27,  8.04s/it][2KProtein:  1n8z Mutation:  GC19K
+Extracting relevant residues
+C 19
+
+
+[2K218it [28:33,  7.58s/it][2KProtein:  1n8z Mutation:  KC18E
+Extracting relevant residues
+C 18
+
+
+[2K219it [28:40,  7.20s/it][2KProtein:  1n8z Mutation:  SA16I
+Extracting relevant residues
+A 16
+
+
+[2K220it [28:46,  6.84s/it][2KProtein:  1n8z Mutation:  HC3Q
+Extracting relevant residues
+C 3
+
+
+[2K221it [28:51,  6.50s/it][2KProtein:  1n8z Mutation:  HC4G
+Extracting relevant residues
+C 4
+
+
+[2K222it [28:57,  6.30s/it][2KProtein:  1n8z Mutation:  LA24M
+Extracting relevant residues
+A 24
+
+
+[2K223it [29:07,  7.38s/it][2KProtein:  1n8z Mutation:  GA23V
+Extracting relevant residues
+A 23
+
+
+[2K224it [29:16,  7.98s/it][2KProtein:  1n8z Mutation:  MB25S
+Extracting relevant residues
+B 25
+
+
+[2K225it [29:26,  8.52s/it][2KProtein:  1n8z Mutation:  HB3V
+Extracting relevant residues
+B 3
+
+
+[2K226it [29:33,  7.89s/it][2KProtein:  1n8z Mutation:  AC11H
+Extracting relevant residues
+C 11
+
+
+[2K227it [29:39,  7.57s/it][2KProtein:  1n8z Mutation:  QC5R
+Extracting relevant residues
+C 5
+
+
+[2K228it [29:45,  6.88s/it][2KProtein:  1n8z Mutation:  VC14M
+Extracting relevant residues
+C 14
+
+
+[2K229it [29:51,  6.66s/it][2KProtein:  1n8z Mutation:  GA23C
+Extracting relevant residues
+A 23
+
+
+[2K230it [30:01,  7.61s/it][2KProtein:  1n8z Mutation:  DB13K
+Extracting relevant residues
+B 13
+
+
+[2K231it [30:10,  8.12s/it][2KProtein:  1n8z Mutation:  HB4F
+Extracting relevant residues
+B 4
+
+
+[2K232it [30:20,  8.67s/it][2KProtein:  1n8z Mutation:  KA6W
+Extracting relevant residues
+A 6
+
+
+[2K233it [30:35, 10.65s/it][2KProtein:  1n8z Mutation:  DB13W
+Extracting relevant residues
+B 13
+
+
+[2K234it [30:45, 10.35s/it][2KProtein:  1n8z Mutation:  HA3C
+Extracting relevant residues
+A 3
+
+
+[2K235it [30:55, 10.36s/it][2KProtein:  1n8z Mutation:  IA21C
+Extracting relevant residues
+A 21
+
+
+[2K236it [31:05, 10.17s/it][2KProtein:  1n8z Mutation:  GC19Q
+Extracting relevant residues
+C 19
+
+
+[2K237it [31:12,  9.06s/it][2KProtein:  1n8z Mutation:  HC3Q
+Extracting relevant residues
+C 3
+
+
+[2K238it [31:18,  8.15s/it][2KProtein:  1n8z Mutation:  EC12Y
+Extracting relevant residues
+C 12
+
+
+[2K239it [31:24,  7.69s/it][2KProtein:  1n8z Mutation:  EB12T
+Extracting relevant residues
+B 12
+
+
+[2K240it [31:34,  8.30s/it][2KProtein:  1n8z Mutation:  GC15L
+Extracting relevant residues
+C 15
+
+
+[2K241it [31:39,  7.45s/it][2KProtein:  1n8z Mutation:  FA9Y
+Extracting relevant residues
+A 9
+
+
+[2K242it [31:53,  9.40s/it][2KProtein:  1n8z Mutation:  MA25T
+Extracting relevant residues
+A 25
+
+
+[2K243it [32:03,  9.50s/it][2KProtein:  1n8z Mutation:  DA13S
+Extracting relevant residues
+A 13
+
+
+[2K244it [32:08,  8.25s/it][2KProtein:  1n8z Mutation:  SB16L
+Extracting relevant residues
+B 16
+
+
+[2K245it [32:13,  7.29s/it][2KProtein:  1n8z Mutation:  KC6Q
+Extracting relevant residues
+C 6
+
+
+[2K246it [32:19,  6.80s/it][2KProtein:  1n8z Mutation:  LC24V
+Extracting relevant residues
+C 24
+
+
+[2K247it [32:26,  6.82s/it][2KProtein:  1n8z Mutation:  IA22P
+Extracting relevant residues
+A 22
+
+
+[2K248it [32:36,  7.69s/it][2KProtein:  1n8z Mutation:  LB24H
+Extracting relevant residues
+B 24
+
+
+[2K249it [32:40,  6.82s/it][2KProtein:  1n8z Mutation:  LA24F
+Extracting relevant residues
+A 24
+
+
+[2K250it [32:50,  7.74s/it][2KProtein:  1n8z Mutation:  HB3V
+Extracting relevant residues
+B 3
+
+
+[2K251it [32:57,  7.33s/it][2KProtein:  1n8z Mutation:  GA19K
+Extracting relevant residues
+A 19
+
+
+[2K252it [33:07,  8.27s/it][2KProtein:  1n8z Mutation:  FB9M
+Extracting relevant residues
+B 9
+
+
+[2K253it [33:12,  7.23s/it][2KProtein:  1n8z Mutation:  KB6T
+Extracting relevant residues
+B 6
+
+
+[2K254it [33:17,  6.71s/it][2KProtein:  1n8z Mutation:  VA26F
+Extracting relevant residues
+A 26
+
+
+[2K255it [33:28,  7.94s/it][2KProtein:  1n8z Mutation:  IB22S
+Extracting relevant residues
+B 22
+
+
+[2K256it [33:33,  7.12s/it][2KProtein:  1n8z Mutation:  SA16E
+Extracting relevant residues
+A 16
+
+
+[2K257it [33:39,  6.70s/it][2KProtein:  1n8z Mutation:  VB26L
+Extracting relevant residues
+B 26
+
+
+[2K258it [33:49,  7.65s/it][2KProtein:  1n8z Mutation:  FC9L
+Extracting relevant residues
+C 9
+
+
+[2K259it [33:55,  7.20s/it][2KProtein:  1n8z Mutation:  MB25W
+Extracting relevant residues
+B 25
+
+
+[2K260it [34:05,  7.98s/it][2KProtein:  1n8z Mutation:  QA5N
+Extracting relevant residues
+A 5
+
+
+[2K261it [34:15,  8.53s/it][2KProtein:  1n8z Mutation:  AC20R
+Extracting relevant residues
+C 20
+
+
+[2K262it [34:21,  7.95s/it][2KProtein:  1n8z Mutation:  GA15L
+Extracting relevant residues
+A 15
+
+
+[2K263it [34:26,  6.99s/it][2KProtein:  1n8z Mutation:  EC12L
+Extracting relevant residues
+C 12
+
+
+[2K264it [34:33,  6.89s/it][2KProtein:  1n8z Mutation:  QB5E
+Extracting relevant residues
+B 5
+
+
+[2K265it [34:43,  7.94s/it][2KProtein:  1n8z Mutation:  AA20N
+Extracting relevant residues
+A 20
+
+
+[2K266it [34:54,  8.67s/it][2KProtein:  1n8z Mutation:  VC26I
+Extracting relevant residues
+C 26
+
+
+[2K267it [35:01,  8.34s/it][2KProtein:  1n8z Mutation:  LC24W
+Extracting relevant residues
+C 24
+
+
+[2K268it [35:08,  7.90s/it][2KProtein:  1n8z Mutation:  EA12I
+Extracting relevant residues
+A 12
+
+
+[2K269it [35:13,  7.10s/it][2KProtein:  1n8z Mutation:  LA24Y
+Extracting relevant residues
+A 24
+
+
+[2K270it [35:23,  7.94s/it][2KProtein:  1n8z Mutation:  KB18K
+Extracting relevant residues
+B 18
+
+
+[2K271it [35:33,  8.48s/it][2KProtein:  1n8z Mutation:  GB15P
+Extracting relevant residues
+B 15
+
+
+[2K272it [35:38,  7.49s/it][2KProtein:  1n8z Mutation:  VB14S
+Extracting relevant residues
+B 14
+
+
+[2K273it [35:47,  8.05s/it][2KProtein:  1n8z Mutation:  FB9C
+Extracting relevant residues
+B 9
+
+
+[2K274it [35:52,  7.08s/it][2KProtein:  1n8z Mutation:  QC5I
+Extracting relevant residues
+C 5
+
+
+[2K275it [35:57,  6.53s/it][2KProtein:  1n8z Mutation:  EA12E
+Extracting relevant residues
+A 12
+
+
+[2K276it [36:03,  6.14s/it][2KProtein:  1n8z Mutation:  VA26M
+Extracting relevant residues
+A 26
+
+
+[2K277it [36:13,  7.50s/it][2KProtein:  1n8z Mutation:  IB22H
+Extracting relevant residues
+B 22
+
+
+[2K278it [36:19,  6.80s/it][2KProtein:  1n8z Mutation:  AB11T
+Extracting relevant residues
+B 11
+
+
+[2K279it [36:28,  7.44s/it][2KProtein:  1n8z Mutation:  AB20P
+Extracting relevant residues
+B 20
+
+
+[2K280it [36:34,  7.10s/it][2KProtein:  1n8z Mutation:  LB7N
+Extracting relevant residues
+B 7
+
+
+[2K281it [36:43,  7.70s/it][2KProtein:  1n8z Mutation:  IC21H
+Extracting relevant residues
+C 21
+
+
+[2K282it [36:49,  7.24s/it][2KProtein:  1n8z Mutation:  HC4L
+Extracting relevant residues
+C 4
+
+
+[2K283it [36:55,  6.79s/it][2KProtein:  1n8z Mutation:  EB12I
+Extracting relevant residues
+B 12
+
+
+[2K284it [37:05,  7.68s/it][2KProtein:  1n8z Mutation:  AA11I
+Extracting relevant residues
+A 11
+
+
+[2K285it [37:14,  8.14s/it][2KProtein:  1n8z Mutation:  SA16Y
+Extracting relevant residues
+A 16
+
+
+[2K286it [37:20,  7.51s/it][2KProtein:  1n8z Mutation:  LC24W
+Extracting relevant residues
+C 24
+
+
+[2K287it [37:27,  7.28s/it][2KProtein:  1n8z Mutation:  FA9H
+Extracting relevant residues
+A 9
+
+
+[2K288it [37:40,  9.18s/it][2KProtein:  1n8z Mutation:  SB16T
+Extracting relevant residues
+B 16
+
+
+[2K289it [37:46,  8.08s/it][2KProtein:  1n8z Mutation:  SB16Y
+Extracting relevant residues
+B 16
+
+
+[2K290it [37:51,  7.15s/it][2KProtein:  1n8z Mutation:  EC12V
+Extracting relevant residues
+C 12
+
+
+[2K291it [37:57,  6.96s/it][2KProtein:  1n8z Mutation:  KA18G
+Extracting relevant residues
+A 18
+
+
+[2K292it [38:06,  7.46s/it][2KProtein:  1n8z Mutation:  VA26Y
+Extracting relevant residues
+A 26
+
+
+[2K293it [38:16,  8.36s/it][2KProtein:  1n8z Mutation:  VB14N
+Extracting relevant residues
+B 14
+
+
+[2K294it [38:26,  8.71s/it][2KProtein:  1n8z Mutation:  HC3G
+Extracting relevant residues
+C 3
+
+
+[2K295it [38:32,  7.82s/it][2KProtein:  1n8z Mutation:  GA19A
+Extracting relevant residues
+A 19
+
+
+[2K296it [38:42,  8.75s/it][2KProtein:  1n8z Mutation:  AC20V
+Extracting relevant residues
+C 20
+
+
+[2K297it [38:49,  8.12s/it][2KProtein:  1n8z Mutation:  GA19E
+Extracting relevant residues
+A 19
+
+
+[2K298it [39:00,  8.83s/it][2KProtein:  1n8z Mutation:  NA17C
+Extracting relevant residues
+A 17
+
+
+[2K299it [39:06,  8.03s/it][2KProtein:  1n8z Mutation:  HB3W
+Extracting relevant residues
+B 3
+
+
+[2K300it [39:12,  7.55s/it][2KProtein:  1n8z Mutation:  AC20M
+Extracting relevant residues
+C 20
+
+
+[2K301it [39:19,  7.28s/it][2KProtein:  1n8z Mutation:  DB13C
+Extracting relevant residues
+B 13
+
+
+[2K302it [39:28,  7.89s/it][2KProtein:  1n8z Mutation:  SB16R
+Extracting relevant residues
+B 16
+
+
+[2K303it [39:33,  7.06s/it][2KProtein:  1n8z Mutation:  SC16P
+Extracting relevant residues
+C 16
+
+
+[2K304it [39:39,  6.72s/it][2KProtein:  1n8z Mutation:  IA21C
+Extracting relevant residues
+A 21
+
+
+[2K305it [39:49,  7.65s/it][2KProtein:  1n8z Mutation:  HA4Q
+Extracting relevant residues
+A 4
+
+
+[2K306it [40:05, 10.15s/it][2KProtein:  1n8z Mutation:  VC14W
+Extracting relevant residues
+C 14
+
+
+[2K307it [40:11,  8.96s/it][2KProtein:  1n8z Mutation:  QC5G
+Extracting relevant residues
+C 5
+
+
+[2K308it [40:16,  7.86s/it][2KProtein:  1n8z Mutation:  MA25R
+Extracting relevant residues
+A 25
+
+
+[2K309it [40:26,  8.45s/it][2KProtein:  1n8z Mutation:  QB5A
+Extracting relevant residues
+B 5
+
+
+[2K310it [40:37,  9.06s/it][2KProtein:  1n8z Mutation:  VB14T
+Extracting relevant residues
+B 14
+
+
+[2K311it [40:46,  9.19s/it][2KProtein:  1n8z Mutation:  FB9C
+Extracting relevant residues
+B 9
+
+
+[2K312it [40:51,  7.78s/it][2KProtein:  1n8z Mutation:  MA25I
+Extracting relevant residues
+A 25
+
+
+[2K313it [41:01,  8.38s/it][2KProtein:  1n8z Mutation:  MC25G
+Extracting relevant residues
+C 25
+
+
+[2K314it [41:08,  8.04s/it][2KProtein:  1n8z Mutation:  DA13M
+Extracting relevant residues
+A 13
+
+
+[2K315it [41:13,  7.24s/it][2KProtein:  1n8z Mutation:  KC6Y
+Extracting relevant residues
+C 6
+
+
+[2K316it [41:19,  6.68s/it][2KProtein:  1n8z Mutation:  VA14I
+Extracting relevant residues
+A 14
+
+
+[2K317it [41:24,  6.18s/it][2KProtein:  1n8z Mutation:  HB3V
+Extracting relevant residues
+B 3
+
+
+[2K318it [41:30,  6.24s/it][2KProtein:  1n8z Mutation:  AB20M
+Extracting relevant residues
+B 20
+
+
+[2K319it [41:36,  6.25s/it][2KProtein:  1n8z Mutation:  GB23P
+Extracting relevant residues
+B 23
+
+
+[2K320it [41:41,  5.87s/it][2KProtein:  1n8z Mutation:  GA19T
+Extracting relevant residues
+A 19
+
+
+[2K321it [41:52,  7.23s/it][2KProtein:  1n8z Mutation:  AB11L
+Extracting relevant residues
+B 11
+
+
+[2K322it [42:01,  7.85s/it][2KProtein:  1n8z Mutation:  KC6K
+Extracting relevant residues
+C 6
+
+
+[2K323it [42:06,  7.10s/it][2KProtein:  1n8z Mutation:  VB14T
+Extracting relevant residues
+B 14
+
+
+[2K324it [42:16,  7.79s/it][2KProtein:  1n8z Mutation:  AB20I
+Extracting relevant residues
+B 20
+
+
+[2K325it [42:22,  7.34s/it][2KProtein:  1n8z Mutation:  GA19C
+Extracting relevant residues
+A 19
+
+
+[2K326it [42:32,  8.27s/it][2KProtein:  1n8z Mutation:  HC4G
+Extracting relevant residues
+C 4
+
+
+[2K327it [42:38,  7.42s/it][2KProtein:  1n8z Mutation:  GC23M
+Extracting relevant residues
+C 23
+
+
+[2K328it [42:44,  7.19s/it][2KProtein:  1n8z Mutation:  HC3H
+Extracting relevant residues
+C 3
+
+
+[2K329it [42:51,  6.85s/it][2KProtein:  1n8z Mutation:  FC10V
+Extracting relevant residues
+C 10
+
+
+[2K330it [42:57,  6.82s/it][2KProtein:  1n8z Mutation:  SC16A
+Extracting relevant residues
+C 16
+
+
+[2K331it [43:03,  6.43s/it][2KProtein:  1n8z Mutation:  KA6I
+Extracting relevant residues
+A 6
+
+
+[2K332it [43:18,  9.06s/it][2KProtein:  1n8z Mutation:  SA16Y
+Extracting relevant residues
+A 16
+
+
+[2K333it [43:24,  8.15s/it][2KProtein:  1n8z Mutation:  FC9P
+Extracting relevant residues
+C 9
+
+
+[2K334it [43:30,  7.64s/it][2KProtein:  1n8z Mutation:  KC18V
+Extracting relevant residues
+C 18
+
+
+[2K335it [43:37,  7.26s/it][2KProtein:  1n8z Mutation:  KC18F
+Extracting relevant residues
+C 18
+
+
+[2K336it [43:43,  6.90s/it][2KProtein:  1n8z Mutation:  SC16F
+Extracting relevant residues
+C 16
+
+
+[2K337it [43:49,  6.61s/it][2KProtein:  1n8z Mutation:  EA12R
+Extracting relevant residues
+A 12
+
+
+[2K338it [43:54,  6.21s/it][2KProtein:  1n8z Mutation:  HB3E
+Extracting relevant residues
+B 3
+
+
+[2K339it [44:01,  6.27s/it][2KProtein:  1n8z Mutation:  IA22F
+Extracting relevant residues
+A 22
+
+
+[2K340it [44:09,  6.95s/it][2KProtein:  1n8z Mutation:  KB18P
+Extracting relevant residues
+B 18
+
+
+[2K341it [44:19,  7.81s/it][2KProtein:  1n8z Mutation:  HB3S
+Extracting relevant residues
+B 3
+
+
+[2K342it [44:25,  7.40s/it][2KProtein:  1n8z Mutation:  VC8V
+Extracting relevant residues
+C 8
+
+
+[2K343it [44:31,  7.01s/it][2KProtein:  1n8z Mutation:  LA24W
+Extracting relevant residues
+A 24
+
+
+[2K344it [44:41,  7.89s/it][2KProtein:  1n8z Mutation:  FB10Y
+Extracting relevant residues
+B 10
+
+
+[2K345it [44:46,  7.00s/it][2KProtein:  1n8z Mutation:  IB21P
+Extracting relevant residues
+B 21
+
+
+[2K346it [44:52,  6.61s/it][2KProtein:  1n8z Mutation:  SC16F
+Extracting relevant residues
+C 16
+
+
+[2K347it [44:58,  6.40s/it][2KProtein:  1n8z Mutation:  FA10A
+Extracting relevant residues
+A 10
+
+
+[2K348it [45:08,  7.61s/it][2KProtein:  1n8z Mutation:  LB7C
+Extracting relevant residues
+B 7
+
+
+[2K349it [45:17,  7.97s/it][2KProtein:  1n8z Mutation:  AA20D
+Extracting relevant residues
+A 20
+
+
+[2K350it [45:28,  8.81s/it][2KProtein:  1n8z Mutation:  NB17H
+Extracting relevant residues
+B 17
+
+
+[2K351it [45:37,  8.96s/it][2KProtein:  1n8z Mutation:  GA19I
+Extracting relevant residues
+A 19
+
+
+[2K352it [45:48,  9.53s/it][2KProtein:  1n8z Mutation:  DB13C
+Extracting relevant residues
+B 13
+
+
+[2K353it [45:58,  9.54s/it][2KProtein:  1n8z Mutation:  KC18E
+Extracting relevant residues
+C 18
+
+
+[2K354it [46:04,  8.48s/it][2KProtein:  1n8z Mutation:  FB9Q
+Extracting relevant residues
+B 9
+
+
+[2K355it [46:08,  7.38s/it][2KProtein:  1n8z Mutation:  VC26P
+Extracting relevant residues
+C 26
+
+
+[2K356it [46:16,  7.45s/it][2KProtein:  1n8z Mutation:  GC19A
+Extracting relevant residues
+C 19
+
+
+[2K357it [46:23,  7.18s/it][2KProtein:  1n8z Mutation:  VB14Y
+Extracting relevant residues
+B 14
+
+
+[2K358it [46:32,  7.75s/it][2KProtein:  1n8z Mutation:  QC5Y
+Extracting relevant residues
+C 5
+
+
+[2K359it [46:37,  7.01s/it][2KProtein:  1n8z Mutation:  QC5P
+Extracting relevant residues
+C 5
+
+
+[2K360it [46:43,  6.59s/it][2KProtein:  1n8z Mutation:  GA19Q
+Extracting relevant residues
+A 19
+
+
+[2K361it [46:53,  7.76s/it][2KProtein:  1n8z Mutation:  MB25M
+Extracting relevant residues
+B 25
+
+
+[2K362it [47:03,  8.34s/it][2KProtein:  1n8z Mutation:  GB19C
+Extracting relevant residues
+B 19
+
+
+[2K363it [47:14,  9.27s/it][2KProtein:  1n8z Mutation:  EA12P
+Extracting relevant residues
+A 12
+
+
+[2K364it [47:19,  8.07s/it][2KProtein:  1n8z Mutation:  IB22T
+Extracting relevant residues
+B 22
+
+
+[2K365it [47:25,  7.20s/it][2KProtein:  1n8z Mutation:  IB22R
+Extracting relevant residues
+B 22
+
+
+[2K366it [47:30,  6.59s/it][2KProtein:  1n8z Mutation:  FB9I
+Extracting relevant residues
+B 9
+
+
+[2K367it [47:35,  6.07s/it][2KProtein:  1n8z Mutation:  SC16A
+Extracting relevant residues
+C 16
+
+
+[2K368it [47:40,  5.89s/it][2KProtein:  1n8z Mutation:  HA4C
+Extracting relevant residues
+A 4
+
+
+[2K369it [47:56,  9.02s/it][2KProtein:  1n8z Mutation:  AB11H
+Extracting relevant residues
+B 11
+
+
+[2K370it [48:06,  9.04s/it][2KProtein:  1n8z Mutation:  IB22P
+Extracting relevant residues
+B 22
+
+
+[2K371it [48:11,  7.91s/it][2KProtein:  1n8z Mutation:  SA16G
+Extracting relevant residues
+A 16
+
+
+[2K372it [48:17,  7.38s/it][2KProtein:  1n8z Mutation:  EB12S
+Extracting relevant residues
+B 12
+
+
+[2K373it [48:27,  8.13s/it][2KProtein:  1n8z Mutation:  LA7D
+Extracting relevant residues
+A 7
+
+
+[2K374it [48:41, 10.07s/it][2KProtein:  1n8z Mutation:  IC21A
+Extracting relevant residues
+C 21
+
+
+[2K375it [48:48,  9.02s/it][2KProtein:  1n8z Mutation:  GC19H
+Extracting relevant residues
+C 19
+
+
+[2K376it [48:54,  8.17s/it][2KProtein:  1n8z Mutation:  VB14A
+Extracting relevant residues
+B 14
+
+
+[2K377it [49:04,  8.55s/it][2KProtein:  1n8z Mutation:  MA25A
+Extracting relevant residues
+A 25
+
+
+[2K378it [49:13,  8.90s/it][2KProtein:  1n8z Mutation:  HC4H
+Extracting relevant residues
+C 4
+
+
+[2K379it [49:19,  7.87s/it][2KProtein:  1n8z Mutation:  GB19E
+Extracting relevant residues
+B 19
+
+
+[2K380it [49:30,  8.90s/it][2KProtein:  1n8z Mutation:  AB11H
+Extracting relevant residues
+B 11
+
+
+[2K381it [49:39,  9.03s/it][2KProtein:  1n8z Mutation:  GA23E
+Extracting relevant residues
+A 23
+
+
+[2K382it [49:49,  9.25s/it][2KProtein:  1n8z Mutation:  VC8M
+Extracting relevant residues
+C 8
+
+
+[2K383it [49:55,  8.19s/it][2KProtein:  1n8z Mutation:  IC22F
+Extracting relevant residues
+C 22
+
+
+[2K384it [50:02,  7.71s/it][2KProtein:  1n8z Mutation:  IC21Q
+Extracting relevant residues
+C 21
+
+
+[2K385it [50:08,  7.35s/it][2KProtein:  1n8z Mutation:  SC16V
+Extracting relevant residues
+C 16
+
+
+[2K386it [50:14,  6.81s/it][2KProtein:  1n8z Mutation:  DA13N
+Extracting relevant residues
+A 13
+
+
+[2K387it [50:19,  6.47s/it][2KProtein:  1n8z Mutation:  VA26R
+Extracting relevant residues
+A 26
+
+
+[2K388it [50:30,  7.66s/it][2KProtein:  1n8z Mutation:  GB19G
+Extracting relevant residues
+B 19
+
+
+[2K389it [50:41,  8.78s/it][2KProtein:  1n8z Mutation:  LB7Q
+Extracting relevant residues
+B 7
+
+
+[2K390it [50:50,  8.80s/it][2KProtein:  1n8z Mutation:  DC13A
+Extracting relevant residues
+C 13
+
+
+[2K391it [50:56,  8.06s/it][2KProtein:  1n8z Mutation:  NC17Y
+Extracting relevant residues
+C 17
+
+
+[2K392it [51:02,  7.32s/it][2KProtein:  1n8z Mutation:  HB4I
+Extracting relevant residues
+B 4
+
+
+[2K393it [51:12,  8.11s/it][2KProtein:  1n8z Mutation:  HA4F
+Extracting relevant residues
+A 4
+
+
+[2K394it [51:27, 10.30s/it][2KProtein:  1n8z Mutation:  GB23G
+Extracting relevant residues
+B 23
+
+
+[2K395it [51:32,  8.56s/it][2KProtein:  1n8z Mutation:  HC3V
+Extracting relevant residues
+C 3
+
+
+[2K396it [51:38,  7.74s/it][2KProtein:  1n8z Mutation:  KB6R
+Extracting relevant residues
+B 6
+
+
+[2K397it [51:44,  7.21s/it][2KProtein:  1n8z Mutation:  GA19I
+Extracting relevant residues
+A 19
+
+
+[2K398it [51:54,  8.15s/it][2KProtein:  1n8z Mutation:  GA23I
+Extracting relevant residues
+A 23
+
+
+[2K399it [52:04,  8.59s/it][2KProtein:  1n8z Mutation:  KC6Q
+Extracting relevant residues
+C 6
+
+
+[2K400it [52:09,  7.63s/it][2KProtein:  1n8z Mutation:  HB3R
+Extracting relevant residues
+B 3
+
+
+[2K401it [52:15,  7.28s/it][2KProtein:  1n8z Mutation:  LB7V
+Extracting relevant residues
+B 7
+
+
+[2K402it [52:25,  7.85s/it][2KProtein:  1n8z Mutation:  HB4N
+Extracting relevant residues
+B 4
+
+
+[2K403it [52:35,  8.50s/it][2KProtein:  1n8z Mutation:  VB26V
+Extracting relevant residues
+B 26
+
+
+[2K404it [52:44,  8.79s/it][2KProtein:  1n8z Mutation:  QB5W
+Extracting relevant residues
+B 5
+
+
+[2K405it [52:54,  9.16s/it][2KProtein:  1n8z Mutation:  KA18S
+Extracting relevant residues
+A 18
+
+
+[2K406it [53:01,  8.53s/it][2KProtein:  1n8z Mutation:  HA3F
+Extracting relevant residues
+A 3
+
+
+[2K407it [53:11,  8.95s/it][2KProtein:  1n8z Mutation:  IB21G
+Extracting relevant residues
+B 21
+
+
+[2K408it [53:17,  8.09s/it][2KProtein:  1n8z Mutation:  IB22M
+Extracting relevant residues
+B 22
+
+
+[2K409it [53:22,  7.23s/it][2KProtein:  1n8z Mutation:  EB12D
+Extracting relevant residues
+B 12
+
+
+[2K410it [53:32,  8.02s/it][2KProtein:  1n8z Mutation:  GC19P
+Extracting relevant residues
+C 19
+
+
+[2K411it [53:39,  7.57s/it][2KProtein:  1n8z Mutation:  FB9Y
+Extracting relevant residues
+B 9
+
+
+[2K412it [53:44,  6.80s/it][2KProtein:  1n8z Mutation:  KB6W
+Extracting relevant residues
+B 6
+
+
+[2K413it [53:49,  6.42s/it][2KProtein:  1n8z Mutation:  DC13K
+Extracting relevant residues
+C 13
+
+
+[2K414it [53:56,  6.40s/it][2KProtein:  1n8z Mutation:  AC11H
+Extracting relevant residues
+C 11
+
+
+[2K415it [54:02,  6.52s/it][2KProtein:  1n8z Mutation:  HC3H
+Extracting relevant residues
+C 3
+
+
+[2K416it [54:08,  6.29s/it][2KProtein:  1n8z Mutation:  QB5F
+Extracting relevant residues
+B 5
+
+
+[2K417it [54:19,  7.64s/it][2KProtein:  1n8z Mutation:  VB14W
+Extracting relevant residues
+B 14
+
+
+[2K418it [54:28,  8.09s/it][2KProtein:  1n8z Mutation:  HA3N
+Extracting relevant residues
+A 3
+
+
+[2K419it [54:39,  8.81s/it][2KProtein:  1n8z Mutation:  LA24V
+Extracting relevant residues
+A 24
+
+
+[2K420it [54:49,  9.17s/it][2KProtein:  1n8z Mutation:  GA23R
+Extracting relevant residues
+A 23
+
+
+[2K421it [54:58,  9.37s/it][2KProtein:  1n8z Mutation:  VC26G
+Extracting relevant residues
+C 26
+
+
+[2K422it [55:06,  8.85s/it][2KProtein:  1n8z Mutation:  GB15Y
+Extracting relevant residues
+B 15
+
+
+[2K423it [55:11,  7.76s/it][2KProtein:  1n8z Mutation:  DA13F
+Extracting relevant residues
+A 13
+
+
+[2K424it [55:17,  7.04s/it][2KProtein:  1n8z Mutation:  KC6H
+Extracting relevant residues
+C 6
+
+
+[2K425it [55:22,  6.55s/it][2KProtein:  1n8z Mutation:  GC19Q
+Extracting relevant residues
+C 19
+
+
+[2K426it [55:29,  6.54s/it][2KProtein:  1n8z Mutation:  MB25E
+Extracting relevant residues
+B 25
+
+
+[2K427it [55:38,  7.51s/it][2KProtein:  1n8z Mutation:  AC20F
+Extracting relevant residues
+C 20
+
+
+[2K428it [55:45,  7.25s/it][2KProtein:  1n8z Mutation:  QC5F
+Extracting relevant residues
+C 5
+
+
+[2K429it [55:50,  6.67s/it][2KProtein:  1n8z Mutation:  VA26E
+Extracting relevant residues
+A 26
+
+
+[2K430it [56:01,  7.91s/it][2KProtein:  1n8z Mutation:  LC24I
+Extracting relevant residues
+C 24
+
+
+[2K431it [56:08,  7.61s/it][2KProtein:  1n8z Mutation:  HB3S
+Extracting relevant residues
+B 3
+
+
+[2K432it [56:14,  7.27s/it][2KProtein:  1n8z Mutation:  DC13L
+Extracting relevant residues
+C 13
+
+
+[2K433it [56:20,  6.89s/it][2KProtein:  1n8z Mutation:  FB10S
+Extracting relevant residues
+B 10
+
+
+[2K434it [56:25,  6.30s/it][2KProtein:  1n8z Mutation:  LA7G
+Extracting relevant residues
+A 7
+
+
+[2K435it [56:40,  8.80s/it][2KProtein:  1n8z Mutation:  MA25V
+Extracting relevant residues
+A 25
+
+
+[2K436it [56:50,  9.11s/it][2KProtein:  1n8z Mutation:  QB5V
+Extracting relevant residues
+B 5
+
+
+[2K437it [57:00,  9.51s/it][2KProtein:  1n8z Mutation:  SB16I
+Extracting relevant residues
+B 16
+
+
+[2K438it [57:05,  8.20s/it][2KProtein:  1n8z Mutation:  GC23V
+Extracting relevant residues
+C 23
+
+
+[2K439it [57:12,  7.76s/it][2KProtein:  1n8z Mutation:  KA18P
+Extracting relevant residues
+A 18
+
+
+[2K440it [57:21,  7.93s/it][2KProtein:  1n8z Mutation:  SC16P
+Extracting relevant residues
+C 16
+
+
+[2K441it [57:26,  7.32s/it][2KProtein:  1n8z Mutation:  QB5W
+Extracting relevant residues
+B 5
+
+
+[2K442it [57:37,  8.23s/it][2KProtein:  1n8z Mutation:  VA8F
+Extracting relevant residues
+A 8
+
+
+[2K443it [57:46,  8.61s/it][2KProtein:  1n8z Mutation:  VA8C
+Extracting relevant residues
+A 8
+
+
+[2K444it [57:55,  8.73s/it][2KProtein:  1n8z Mutation:  KB6F
+Extracting relevant residues
+B 6
+
+
+[2K445it [58:01,  7.87s/it][2KProtein:  1n8z Mutation:  AC20E
+Extracting relevant residues
+C 20
+
+
+[2K446it [58:08,  7.49s/it][2KProtein:  1n8z Mutation:  GC23R
+Extracting relevant residues
+C 23
+
+
+[2K447it [58:14,  7.26s/it][2KProtein:  1n8z Mutation:  VC26I
+Extracting relevant residues
+C 26
+
+
+[2K448it [58:22,  7.25s/it][2KProtein:  1n8z Mutation:  KC18T
+Extracting relevant residues
+C 18
+
+
+[2K449it [58:28,  6.98s/it][2KProtein:  1n8z Mutation:  DC13K
+Extracting relevant residues
+C 13
+
+
+[2K450it [58:34,  6.67s/it][2KProtein:  1n8z Mutation:  FC9H
+Extracting relevant residues
+C 9
+
+
+[2K451it [58:40,  6.59s/it][2KProtein:  1n8z Mutation:  LB7N
+Extracting relevant residues
+B 7
+
+
+[2K452it [58:50,  7.35s/it][2KProtein:  1n8z Mutation:  FC9D
+Extracting relevant residues
+C 9
+
+
+[2K453it [58:56,  7.07s/it][2KProtein:  1n8z Mutation:  AB11I
+Extracting relevant residues
+B 11
+
+
+[2K454it [59:05,  7.63s/it][2KProtein:  1n8z Mutation:  IC22Y
+Extracting relevant residues
+C 22
+
+
+[2K455it [59:11,  7.33s/it][2KProtein:  1n8z Mutation:  MB25E
+Extracting relevant residues
+B 25
+
+
+[2K456it [59:21,  8.04s/it][2KProtein:  1n8z Mutation:  IB21C
+Extracting relevant residues
+B 21
+
+
+[2K457it [59:27,  7.44s/it][2KProtein:  1n8z Mutation:  GC15T
+Extracting relevant residues
+C 15
+
+
+[2K458it [59:33,  6.82s/it][2KProtein:  1n8z Mutation:  KC18V
+Extracting relevant residues
+C 18
+
+
+[2K459it [59:38,  6.48s/it][2KProtein:  1n8z Mutation:  GC15K
+Extracting relevant residues
+C 15
+
+
+[2K460it [59:44,  6.18s/it][2KProtein:  1n8z Mutation:  IA22Q
+Extracting relevant residues
+A 22
+
+
+[2K461it [59:54,  7.27s/it][2KProtein:  1n8z Mutation:  DC13G
+Extracting relevant residues
+C 13
+
+
+[2K462it [1:00:00,  6.99s/it][2KProtein:  1n8z Mutation:  VA8K
+Extracting relevant residues
+A 8
+
+
+[2K463it [1:00:09,  7.61s/it][2KProtein:  1n8z Mutation:  LB7M
+Extracting relevant residues
+B 7
+
+
+[2K464it [1:00:18,  7.98s/it][2KProtein:  1n8z Mutation:  SC16Q
+Extracting relevant residues
+C 16
+
+
+[2K465it [1:00:24,  7.37s/it][2KProtein:  1n8z Mutation:  SA16N
+Extracting relevant residues
+A 16
+
+
+[2K466it [1:00:30,  6.96s/it][2KProtein:  1n8z Mutation:  EB12I
+Extracting relevant residues
+B 12
+
+
+[2K467it [1:00:39,  7.79s/it][2KProtein:  1n8z Mutation:  IA21H
+Extracting relevant residues
+A 21
+
+
+[2K468it [1:00:50,  8.47s/it][2KProtein:  1n8z Mutation:  IA22I
+Extracting relevant residues
+A 22
+
+
+[2K469it [1:00:59,  8.73s/it][2KProtein:  1n8z Mutation:  SA16L
+Extracting relevant residues
+A 16
+
+
+[2K470it [1:01:04,  7.59s/it][2KProtein:  1n8z Mutation:  SA16T
+Extracting relevant residues
+A 16
+
+
+[2K471it [1:01:09,  6.88s/it][2KProtein:  1n8z Mutation:  GC15Y
+Extracting relevant residues
+C 15
+
+
+[2K472it [1:01:14,  6.37s/it][2KProtein:  1n8z Mutation:  KB18R
+Extracting relevant residues
+B 18
+
+
+[2K473it [1:01:24,  7.46s/it][2KProtein:  1n8z Mutation:  LC7A
+Extracting relevant residues
+C 7
+
+
+[2K474it [1:01:30,  6.99s/it][2KProtein:  1n8z Mutation:  IC21F
+Extracting relevant residues
+C 21
+
+
+[2K475it [1:01:36,  6.80s/it][2KProtein:  1n8z Mutation:  MC25Y
+Extracting relevant residues
+C 25
+
+
+[2K476it [1:01:43,  6.84s/it][2KProtein:  1n8z Mutation:  NA17H
+Extracting relevant residues
+A 17
+
+
+[2K477it [1:01:49,  6.54s/it][2KProtein:  1n8z Mutation:  VB8A
+Extracting relevant residues
+B 8
+
+
+[2K478it [1:01:54,  6.03s/it][2KProtein:  1n8z Mutation:  DC13F
+Extracting relevant residues
+C 13
+
+
+[2K479it [1:02:00,  6.12s/it][2KProtein:  1n8z Mutation:  KB18W
+Extracting relevant residues
+B 18
+
+
+[2K480it [1:02:10,  7.20s/it][2KProtein:  1n8z Mutation:  AB11M
+Extracting relevant residues
+B 11
+
+
+[2K481it [1:02:19,  7.83s/it][2KProtein:  1n8z Mutation:  IA21D
+Extracting relevant residues
+A 21
+
+
+[2K482it [1:02:29,  8.37s/it][2KProtein:  1n8z Mutation:  VB26A
+Extracting relevant residues
+B 26
+
+
+[2K483it [1:02:38,  8.67s/it][2KProtein:  1n8z Mutation:  LA7Y
+Extracting relevant residues
+A 7
+
+
+[2K484it [1:02:53, 10.45s/it][2KProtein:  1n8z Mutation:  HA3V
+Extracting relevant residues
+A 3
+
+
+[2K485it [1:03:04, 10.48s/it][2KProtein:  1n8z Mutation:  VB14E
+Extracting relevant residues
+B 14
+
+
+[2K486it [1:03:13, 10.20s/it][2KProtein:  1n8z Mutation:  IC22K
+Extracting relevant residues
+C 22
+
+
+[2K487it [1:03:20,  9.12s/it][2KProtein:  1n8z Mutation:  GB23R
+Extracting relevant residues
+B 23
+
+
+[2K488it [1:03:25,  7.88s/it][2KProtein:  1n8z Mutation:  AC20I
+Extracting relevant residues
+C 20
+
+
+[2K489it [1:03:31,  7.51s/it][2KProtein:  1n8z Mutation:  SB16Q
+Extracting relevant residues
+B 16
+
+
+[2K490it [1:03:37,  6.80s/it][2KProtein:  1n8z Mutation:  FC10Y
+Extracting relevant residues
+C 10
+
+
+[2K491it [1:03:43,  6.82s/it][2KProtein:  1n8z Mutation:  EB12V
+Extracting relevant residues
+B 12
+
+
+[2K492it [1:03:53,  7.73s/it][2KProtein:  1n8z Mutation:  FA9Q
+Extracting relevant residues
+A 9
+
+
+[2K493it [1:04:07,  9.66s/it][2KProtein:  1n8z Mutation:  DB13V
+Extracting relevant residues
+B 13
+
+
+[2K494it [1:04:17,  9.66s/it][2KProtein:  1n8z Mutation:  GA15I
+Extracting relevant residues
+A 15
+
+
+[2K495it [1:04:22,  8.33s/it][2KProtein:  1n8z Mutation:  GB23C
+Extracting relevant residues
+B 23
+
+
+[2K496it [1:04:27,  7.22s/it][2KProtein:  1n8z Mutation:  GC15E
+Extracting relevant residues
+C 15
+
+
+[2K497it [1:04:33,  6.74s/it][2KProtein:  1n8z Mutation:  EA12T
+Extracting relevant residues
+A 12
+
+
+[2K498it [1:04:38,  6.21s/it][2KProtein:  1n8z Mutation:  EC12Y
+Extracting relevant residues
+C 12
+
+
+[2K499it [1:04:44,  6.37s/it][2KProtein:  1n8z Mutation:  NC17W
+Extracting relevant residues
+C 17
+
+
+[2K500it [1:04:50,  6.14s/it]500it [1:04:50,  7.78s/it]
+[2K

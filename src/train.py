@@ -85,7 +85,7 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
             best_model = copy.deepcopy(model)
             t = time.time()
             stamp = datetime.utcfromtimestamp(t).strftime('%Y_%m_%d_%H_%M_%S')
-            best_model_path = "models/model_{}.pt".format(tstamp, stamp)
+            best_model_path = "models/less_model_{}.pt".format(tstamp, stamp)
             torch.save(model.state_dict(), best_model_path)
             
         else:
@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
     #Create dataset and dataloaders
     dataset = MutationDataset(index_xlsx="index.xlsx", root="dataset12aa")
-    train_size = int(len(dataset)*0.9)
+    train_size = int(len(dataset)*0.5)
     val_size = (len(dataset)-train_size)
     train_dataset, val_dataset = torch.utils.data.random_split(dataset, [train_size, val_size])
     train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)

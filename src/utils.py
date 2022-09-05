@@ -12,7 +12,6 @@ import errno
 import glob
 import shutil
 from mendeleev import element
-import multiprocessing as mp
 
 
 
@@ -23,6 +22,12 @@ AMINO_CODES = {
     'P': 'Pro', 'O': 'Pyl', 'S': 'Ser', 'U': 'Sec', 'T': 'Thr', 'W': 'Trp', 'Y': 'Tyr', 
     'V': 'Val', 'B': 'Asx', 'Z': 'Glx', 'X': 'Xaa', 'J': 'Xle'}
 
+STD_AMINO_CODES = {
+    'A': 'Ala', 'R': 'Arg', 'N': 'Asn', 'D': 'Asp', 'C': 'Cys', 'Q': 'Gln', 'E': 'Glu', 
+    'G': 'Gly', 'H': 'His', 'I': 'Ile', 'L': 'Leu', 'K': 'Lys', 'M': 'Met', 'F': 'Phe', 
+    'P': 'Pro', 'S': 'Ser', 'T': 'Thr', 'W': 'Trp', 'Y': 'Tyr', 
+    'V': 'Val'}
+
 AMINO_CODES_R = dict((v.upper(), k) for k,v in AMINO_CODES.items())
 COORDINATE_NAMES = ["x_coord", "y_coord", "z_coord"]
 ELEMENTS = {'C':0, 'N':1, 'O':2, 'S':3, 'F':4, 'P':5, 'Cl':6, 'B':7, 'H':8}
@@ -31,7 +36,7 @@ AMINO_ACIDS = dict((v.upper(), i) for i, (k, v) in enumerate(AMINO_CODES.items()
 CHAIN_IDS = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7, 'I': 8, 'J': 9, 'K': 10, 'L': 11, 'M': 12, 'N': 13, 'O': 14, 'P': 15, 'Q': 16, 'R': 17, 'S': 18, 'T': 19, 'U':20, 'V':21, 'W':22, 'X':23, 'Y':24, 'Z':25}
 
 PDB_DIR = "PDBs"
-RAW_DATASET_DIR="dataset/raw"
+RAW_DATASET_DIR="cancer_dataset/raw"
 
 
 
