@@ -13,6 +13,11 @@ probind*
 validation*
 runs/
 model*
+*dataset*
+logs/
+_data
+val*
+*.txt
 # C extensions
 *.so
 

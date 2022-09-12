@@ -22,7 +22,7 @@ class MLP(nn.Module):
             self.mlp.add_module('lay_{}'.format(i),nn.Linear(in_features=dims[i], out_features=dims[i+1]))
             #self.mlp.add_module("dropout_{}".format(i), nn.Dropout(0.1))
             if i+2 < len(dims):
-                self.mlp.add_module('act_{}'.format(i), nn.LeakyReLU())
+                self.mlp.add_module('act_{}'.format(i), nn.Tanh())
     def reset_parameters(self):
         for i, l in enumerate(self.mlp):
             if type(l) == nn.Linear:
@@ -37,10 +37,10 @@ class GGNN(torch.nn.Module):
     """
     A Gated Graph Neural Network.
     """
-    def __init__(self, features_in, features_hidden, features_out):
+    def __init__(self, features_in, layers):
         super(GGNN, self).__init__()
          
-        self.conv1 = GatedGraphConv(features_in, 50)
+        self.conv1 = GatedGraphConv(features_in, layers)
         
         
         
@@ -59,33 +59,6 @@ class GGNN(torch.nn.Module):
         
         return o
 
-
-class ddGPredictor(torch.nn.Module):
-    """
-    The model which calculates the final ddG values.
-    """
-    def __init__(self,config = { "features_in" :15, "features_hidden":15, "gnn_features_out":15, "mlp_hidden_dim" : [15, 15, 15], "out_dim":1}):
-        super(ddGPredictor, self).__init__()
-
-        self.config = config
-    
-        self.mlp = MLP(config["gnn_features_out"], config["mlp_hidden_dim"], config["out_dim"])
-       
-        self.model_a = GGNN(config["features_in"], config["features_hidden"], config["gnn_features_out"])
-        self.model_b = GGNN(config["features_in"], config["features_hidden"], config["gnn_features_out"])
-      
-    def forward(self, x, y):
-        
-        msg_x = self.model_a(x, x.batch)
-        msg_y = self.model_b(y, y.batch)        
-
-        out = msg_x- msg_y
-
-
-        out = self.mlp(out)
-        return out
-    
-    
     
 class ProBindNN(torch.nn.Module):
     """

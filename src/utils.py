@@ -161,6 +161,7 @@ def node_id_to_feature_matrix(x):
         atom = element(atom[0])
         elem = x.nodes[node]
         feature = torch.concat([one_hot(torch.tensor(ELEMENTS[atom.symbol]), num_classes=9),
+                                one_hot(torch.tensor(AMINO_ACIDS[elem["residue_name"]]), num_classes=26),
                             torch.tensor([atom.electronegativity()]),
                             torch.tensor([atom.nvalence()])])
         features.append(feature.unsqueeze(0))

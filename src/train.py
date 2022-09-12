@@ -1,4 +1,3 @@
-from genericpath import isfile
 from re import T
 import sys
 sys.path.append("./src")
@@ -57,9 +56,10 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
                     loss.backward()
                     optimizer.step()
                     epoch_loss += loss.item()
-                    clear_output(wait=True)
+                
+               
                     
-                epoch_loss/=len(loaders[loader])
+                epoch_loss/=(len(loaders[loader]))
                 
                 writer.add_scalar("Loss/train", epoch_loss, epoch)
                 print("Epoch: {}, Loss: {}".format(epoch, epoch_loss))
@@ -68,16 +68,17 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
                 model.eval()
                 
                 val_loss = 0
-
+                """
                 for i, batch in enumerate(loaders[loader]):
                     x, y = batch["mutated"].to(device), batch["non_mutated"].to(device)
                     ddg = x.ddg.to(device).squeeze()
                     out = model(x,y).squeeze()
                     loss = loss_fn(out, ddg)
                     val_loss+=loss.item()
-                    
+                
                 val_loss /= len(loaders[loader]) 
                 writer.add_scalar("Loss/val", val_loss, epoch)
+                """
                 print("Validation loss:", val_loss)
         
         if epoch_loss<best_loss:
@@ -85,37 +86,45 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
             best_model = copy.deepcopy(model)
             t = time.time()
             stamp = datetime.utcfromtimestamp(t).strftime('%Y_%m_%d_%H_%M_%S')
-            best_model_path = "models/less_model_{}.pt".format(tstamp, stamp)
+            best_model_path = "models/aminos_model_lal{}.pt".format(tstamp, stamp)
             torch.save(model.state_dict(), best_model_path)
             
         else:
             
             scheduler.step()
     return best_model, best_model_path
+
+
+
     
 if __name__ == "__main__":
 
     #Create dataset and dataloaders
     dataset = MutationDataset(index_xlsx="index.xlsx", root="dataset12aa")
-    train_size = int(len(dataset)*0.5)
+    train_size = int(len(dataset)*0.9)
     val_size = (len(dataset)-train_size)
     train_dataset, val_dataset = torch.utils.data.random_split(dataset, [train_size, val_size])
     train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
-    val_loader = DataLoader(val_dataset, batch_size=64, shuffle=True)
+    val_loader = DataLoader(val_dataset, batch_size=128, shuffle=True)
     loaders = {"val_loader": val_loader, "train_loader":train_loader}
     
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    model = ProBindNN().to(device)
+
+    config={"features_in":15, "layers":30, "gnn_features_out":15, "out_dim":1, "mlp_hidden_dim":[15, 15, 15, 15, 15,15]}
+ 
+    model = ProBindNN(config).to(device)
 
     if os.path.isfile("pretrained_model.pt"):
         model.load_state_dict(torch.load("pretrained_model.pt"))
         
     print("Using {} device".format(device))
 
-    optimizer = torch.optim.Adam(model.parameters())
+    optimizer = torch.optim.Adadelta(model.parameters())
     scheduler = scheduler = ExponentialLR(optimizer, gamma=0.9)
 
     loss_fn =  nn.MSELoss()
-    epochs = 1500
-
-    train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1500)
+    epochs = 3000
+    d = torch.tensor(val_dataset.indices)
+    torch.save(d, "val_indices_train double.pt")
+    train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=2000)
+    

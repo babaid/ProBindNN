@@ -1,233 +1,0 @@
-To use the Graphein submodule graphein.protein.features.sequence.embeddings, you need to install: biovec 
-biovec cannot be installed via conda
-To use the Graphein submodule graphein.protein.visualisation, you need to install: pytorch3d 
-To do so, use the following command: conda install -c pytorch3d pytorch3d
-Mutations...
-0it [00:00, ?it/s]1n8z G
-Selector: chain A and residue 19 --------------------------
-Starting  mutation wizard...
- PyMOL not running, entering library mode (experimental)
-Selecting  chain A and residue 19
-Selected!
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=0.79
-Mutant: Gly
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=0.79
-[2K1it [00:01,  1.03s/it][2K1n8z K
-Selector: chain A and residue 13 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 13
-Selected!
- Mutagenesis: no rotamers found in library.
-Mutant: Lys
- Mutagenesis: no rotamers found in library.
-[2K2it [00:02,  1.08s/it][2K1n8z Y
-Selector: chain A and residue 6 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 6
-Selected!
- Mutagenesis: 13 rotamers loaded.
- Rotamer 5/13, strain=19.83
-Mutant: Tyr
- Mutagenesis: 13 rotamers loaded.
- Rotamer 5/13, strain=19.83
-[2K3it [00:03,  1.17s/it][2K1n8z A
-Selector: chain A and residue 12 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 12
-Selected!
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=12.59
-Mutant: Ala
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=12.59
-[2K4it [00:04,  1.10s/it][2K1n8z L
-Selector: chain A and residue 25 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 25
-Selected!
- Mutagenesis: no rotamers found in library.
-Mutant: Leu
- Mutagenesis: no rotamers found in library.
-[2K5it [00:05,  1.05s/it][2K1n8z Q
-Selector: chain A and residue 8 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 8
-Selected!
- Mutagenesis: 2 rotamers loaded.
- Rotamer 1/2, strain=14.82
-Mutant: Gln
- Mutagenesis: 2 rotamers loaded.
- Rotamer 1/2, strain=14.82
-[2K6it [00:06,  1.04s/it][2K1n8z G
-Selector: chain A and residue 6 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 6
-Selected!
- Mutagenesis: 13 rotamers loaded.
- Rotamer 5/13, strain=19.83
-Mutant: Gly
- Mutagenesis: 13 rotamers loaded.
- Rotamer 5/13, strain=19.83
-[2K7it [00:07,  1.12s/it][2K1n8z D
-Selector: chain A and residue 24 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 24
-Selected!
- Mutagenesis: 21 rotamers loaded.
- Rotamer 4/21, strain=7.38
-Mutant: Asp
- Mutagenesis: 21 rotamers loaded.
- Rotamer 4/21, strain=7.38
-[2K8it [00:09,  1.27s/it][2K1n8z F
-Selector: chain A and residue 19 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 19
-Selected!
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=0.79
-Mutant: Phe
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=0.79
-[2K9it [00:10,  1.19s/it][2K1n8z E
-Selector: chain A and residue 7 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 7
-Selected!
- Mutagenesis: 3 rotamers loaded.
- Rotamer 1/3, strain=12.04
-Mutant: Glu
- Mutagenesis: 3 rotamers loaded.
- Rotamer 1/3, strain=12.04
-[2K10it [00:11,  1.13s/it][2K1n8z W
-Selector: chain A and residue 14 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 14
-Selected!
- Mutagenesis: 3 rotamers loaded.
- Rotamer 1/3, strain=2.76
-Mutant: Trp
- Mutagenesis: 3 rotamers loaded.
- Rotamer 1/3, strain=2.76
-[2K11it [00:12,  1.09s/it][2K1n8z I
-Selector: chain A and residue 8 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 8
-Selected!
- Mutagenesis: 2 rotamers loaded.
- Rotamer 1/2, strain=14.82
-Mutant: Ile
- Mutagenesis: 2 rotamers loaded.
- Rotamer 1/2, strain=14.82
-[2K12it [00:13,  1.07s/it][2K1n8z P
-Selector: chain A and residue 6 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 6
-Selected!
- Mutagenesis: 13 rotamers loaded.
- Rotamer 5/13, strain=19.83
-Mutant: Pro
- Mutagenesis: 13 rotamers loaded.
- Rotamer 5/13, strain=19.83
-[2K13it [00:14,  1.13s/it][2K1n8z T
-Selector: chain A and residue 19 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 19
-Selected!
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=0.79
-Mutant: Thr
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=0.79
-[2K14it [00:15,  1.10s/it][2K1n8z E
-Selector: chain A and residue 12 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 12
-Selected!
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=12.59
-Mutant: Glu
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=12.59
-[2K15it [00:16,  1.07s/it][2K1n8z A
-Selector: chain A and residue 6 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 6
-Selected!
- Mutagenesis: 13 rotamers loaded.
- Rotamer 5/13, strain=19.83
-Mutant: Ala
- Mutagenesis: 13 rotamers loaded.
- Rotamer 5/13, strain=19.83
-[2K16it [00:17,  1.13s/it][2K1n8z L
-Selector: chain A and residue 7 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 7
-Selected!
- Mutagenesis: 3 rotamers loaded.
- Rotamer 1/3, strain=12.04
-Mutant: Leu
- Mutagenesis: 3 rotamers loaded.
- Rotamer 1/3, strain=12.04
-[2K17it [00:18,  1.09s/it][2K1n8z Y
-Selector: chain A and residue 11 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 11
-Selected!
- Mutagenesis: 6 rotamers loaded.
- Rotamer 3/6, strain=14.01
-Mutant: Tyr
- Mutagenesis: 6 rotamers loaded.
- Rotamer 3/6, strain=14.01
-[2K18it [00:19,  1.08s/it][2K1n8z P
-Selector: chain A and residue 7 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 7
-Selected!
- Mutagenesis: 3 rotamers loaded.
- Rotamer 1/3, strain=12.04
-Mutant: Pro
- Mutagenesis: 3 rotamers loaded.
- Rotamer 1/3, strain=12.04
-[2K19it [00:20,  1.06s/it][2K1n8z A
-Selector: chain A and residue 27 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 27
-Selected!
- Mutagenesis: 14 rotamers loaded.
- Rotamer 1/14, strain=28.88
-Mutant: Ala
- Mutagenesis: 14 rotamers loaded.
- Rotamer 1/14, strain=28.88
-[2K20it [00:22,  1.13s/it][2K1n8z V
-Selector: chain A and residue 19 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 19
-Selected!
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=0.79
-Mutant: Val
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=0.79
-[2K21it [00:23,  1.09s/it][2K1n8z T
-Selector: chain A and residue 12 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 12
-Selected!
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=12.59
-Mutant: Thr
- Mutagenesis: 3 rotamers loaded.
- Rotamer 2/3, strain=12.59
-[2K22it [00:24,  1.06s/it][2K1n8z C
-Selector: chain A and residue 26 --------------------------
-Starting  mutation wizard...
-Selecting  chain A and residue 26
-Selected!
- Mutagenesis: 3 rotamers loaded.
- Rotamer 1/3, strain=17.77
-Mutant: Cys
- Mutagenesis: 3 rotamers loaded.
- Rotamer 1/3, strain=17.77
-[2K23it [00:25,  1.04s/it]

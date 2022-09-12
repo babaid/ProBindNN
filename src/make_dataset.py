@@ -14,14 +14,14 @@ from biopandas.pdb import PandasPdb
 from graphein.protein.config import ProteinGraphConfig
 from graphein.protein.graphs import construct_graph
 from graphein.ml.conversion import GraphFormatConvertor
-from graphein.protein.edges.atomic import add_atomic_edges, add_bond_order, add_ring_status
+from graphein.protein.edges.atomic import add_bond_order, add_ring_status
 from graphein.protein.edges.distance import add_hydrogen_bond_interactions, add_ionic_interactions, add_peptide_bonds
 
 
 
 from utils import *
 from mutagenesis import create_mutations_pymol
-
+from new_atomic import add_atomic_edges
 
 
 
@@ -80,8 +80,8 @@ def make_dataset(index_xlsx: str,root:str):
             print(chain_id, resid)
             if not os.path.isfile(path_interface_mutated):
 
-                interface_mutated = find_relevant(chain_id, int(resid), pdb_mutated,cutout=2, cutoff=12.)
-                interface_non_mutated = find_relevant(chain_id, int(resid), pdb_non_mutated,cutout=2,cutoff = 12.)
+                interface_mutated = find_relevant(chain_id, int(resid), pdb_mutated,cutout=5, cutoff=12.)
+                interface_non_mutated = find_relevant(chain_id, int(resid), pdb_non_mutated,cutout=5,cutoff = 12.)
                 save_to_pdb(interface_mutated, path_interface_mutated)
                 save_to_pdb(interface_non_mutated, path_interface_non_mutated)
             
@@ -114,4 +114,4 @@ def make_dataset(index_xlsx: str,root:str):
             clear_output(wait=True)
     
 if __name__ == "__main__":
-    make_dataset(index_xlsx="./1n8z.xlsx", root="cancer_dataset")
+    make_dataset(index_xlsx="./index.xlsx", root="dataset12aa5co")
