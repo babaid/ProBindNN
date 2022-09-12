@@ -76,7 +76,7 @@ class ProBindNN(torch.nn.Module):
             mlp_hidden_dim: List[int]
                 A list of length of the layers in the MLP with does the final predictions, integers in the list are the number of neurons for each layer. 
     """
-    def __init__(self, config={"features_in":15, "layers":30, "gnn_features_out":15, "out_dim":1, "mlp_hidden_dim":[15, 15, 15]}):
+    def __init__(self, config={"features_in":15, "layers":30, "gnn_features_out":15, "out_dim":1, "mlp_hidden_dim":[15, 15, 15, 15, 15,15]}):
         super(ProBindNN, self).__init__()
     
         self.GGNN_a = GatedGraphConv(config["features_in"], config["layers"])
