@@ -102,6 +102,8 @@ if __name__ == "__main__":
     if not os.path.exists("logs"):
         os.mkdir("logs/nohup")
         os.mkdir("logs/tensorboard")
+    if not os.path.exists("models"):
+        os.mkdir("models")
 
     #Create dataset and dataloaders
     dataset = MutationDataset(index_xlsx="index.xlsx", root="dataset")
