@@ -114,4 +114,13 @@ def make_dataset(index_xlsx: str,root:str):
             clear_output(wait=True)
     
 if __name__ == "__main__":
-    make_dataset(index_xlsx="./index.xlsx", root="dataset12aa5co")
+    if not os.path.exists("dataset"):
+        os.mkdir("dataset")
+        os.mkdir("dataset/raw")
+        os.mkdir("dataset/raw/temp")
+        os.mkdir("dataset/processed")
+        os.mkdir("dataset/processed/mutated")
+        os.mkdir("dataset/processed/non_mutated")
+    if not os.path.exists("./index.xlsx"):
+        print("Error, index.xlsx not found in ./")
+    make_dataset(index_xlsx="./index.xlsx", root="dataset")

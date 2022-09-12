@@ -99,8 +99,12 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
     
 if __name__ == "__main__":
 
+    if not os.path.exists("logs"):
+        os.mkdir("logs/nohup")
+        os.mkdir("logs/tensorboard")
+
     #Create dataset and dataloaders
-    dataset = MutationDataset(index_xlsx="index.xlsx", root="dataset12aa")
+    dataset = MutationDataset(index_xlsx="index.xlsx", root="dataset")
     train_size = int(len(dataset)*0.9)
     val_size = (len(dataset)-train_size)
     train_dataset, val_dataset = torch.utils.data.random_split(dataset, [train_size, val_size])
