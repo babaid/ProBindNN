@@ -68,7 +68,7 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
                 model.eval()
                 
                 val_loss = 0
-                """
+                
                 for i, batch in enumerate(loaders[loader]):
                     x, y = batch["mutated"].to(device), batch["non_mutated"].to(device)
                     ddg = x.ddg.to(device).squeeze()
@@ -78,7 +78,7 @@ def train(model, loaders, optimizer, loss_fn, scheduler, n_epochs=1000):
                 
                 val_loss /= len(loaders[loader]) 
                 writer.add_scalar("Loss/val", val_loss, epoch)
-                """
+            
                 print("Validation loss:", val_loss)
         
         if epoch_loss<best_loss:
@@ -106,7 +106,7 @@ if __name__ == "__main__":
         os.mkdir("models")
 
     #Create dataset and dataloaders
-    dataset = MutationDataset(index_xlsx="index.xlsx", root="dataset")
+    dataset = MutationDataset(index_xlsx="index.xlsx", root="dataset12aa")
     train_size = int(len(dataset)*0.9)
     val_size = (len(dataset)-train_size)
     train_dataset, val_dataset = torch.utils.data.random_split(dataset, [train_size, val_size])
@@ -116,9 +116,10 @@ if __name__ == "__main__":
     
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    config={"features_in":15, "layers":30, "gnn_features_out":15, "out_dim":1, "mlp_hidden_dim":[15, 15, 15, 15, 15,15]}
+    config={"features_in":15, "layers":30, "gnn_features_out":15, "out_dim":1, "mlp_hidden_dim":[15, 15, 15]}
  
     model = ProBindNN(config).to(device)
+    model = nn.DataParallel(model)
 
     if os.path.isfile("pretrained_model.pt"):
         model.load_state_dict(torch.load("pretrained_model.pt"))

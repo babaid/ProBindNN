@@ -12,7 +12,6 @@ probinder_runs2/
 probind*
 validation*
 runs/
-model*
 *dataset*
 logs/
 _data
