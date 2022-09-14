@@ -26,7 +26,7 @@ from new_atomic import add_atomic_edges
 
 
 
-def make_dataset(index_xlsx: str,root:str):
+def make_dataset(index_xlsx: str,root:str, pdb_dir):
 
     raw_dir = os.path.join(root, "raw")
     processed_dir = os.path.join(root, "processed")
@@ -71,7 +71,7 @@ def make_dataset(index_xlsx: str,root:str):
             print("Protein: ", pdb_id, "Mutation: ", mutation)
             
             pdb_mutated = pdb_to_df(file_mut, raw_dir)
-            pdb_non_mutated = pdb_to_df(pdb_id, PDB_DIR)
+            pdb_non_mutated = pdb_to_df(pdb_id, pdb_dir)
 
             path_interface_mutated = os.path.join(raw_dir, "temp", str(index)+"_mutated_interface.pdb")
             path_interface_non_mutated = os.path.join(raw_dir,"temp",  str(index)+"_non_mutated_interface.pdb")
