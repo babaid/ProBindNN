@@ -1,2 +1,2 @@
 # ProBindNN
-My bachelors thesis on predicting relative protein-protein binding affinitiy changes upon point mutations using graph neural networks.
+The code used in my bachelor thesis on predicting mutation effects on protein-protein binding affinities using graph neural networks.
