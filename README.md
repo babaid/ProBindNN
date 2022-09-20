@@ -1,4 +1,6 @@
 # ProBindNN
+
+## General use
 The code used in my bachelor thesis on predicting mutation effects on protein-protein binding affinities using graph neural networks.
 The development of the took place on Linux in a Conda environment. To install all the dependencies run the following code in virtual environment in the terminal:
 
@@ -31,7 +33,7 @@ tensorboard --logdir logs/tensorboard
 This will automatically launch Tensorboard and open a browser window where the training process can be observed. 
 
 Another option is to open the main.ipynb Jupiter notebook and run it line by line, remember this is only recommended for short sessions, because the python kernel dies after closing your IDE.
-# Plans for the future
+## Plans for the future
 A useful upgrade in the future would be to use a hyperparameter tuner like RayTune.
 
 
