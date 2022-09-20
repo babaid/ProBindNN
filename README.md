@@ -37,6 +37,8 @@ Another option is to open the main.ipynb Jupiter notebook and run it line by lin
 A useful upgrade in the future would be to use a hyperparameter tuner like RayTune.
 Also, graphein is a really nice package, but the edge construction functions have to be costumized more.
 
+## Further remarks
+
 My thesis can be found [here](./_paper/Thesis_Babai.pdf).
 
 If you have some issues with the code or just want to share your opinion on my work, don't hesitate to contact me!
