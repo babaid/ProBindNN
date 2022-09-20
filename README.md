@@ -2,9 +2,9 @@
 The code used in my bachelor thesis on predicting mutation effects on protein-protein binding affinities using graph neural networks.
 The development of the took place on Linux in a Conda environment. To install all the dependencies run the following code in virtual environment in the terminal:
 
- \begin{minted}[]{bash}
+ ´´´
  python -m pip install -r requirements.txt
- \end{minted}
+ ´´´
 With the requirements.txt provided in the repository.
 
 The usage of the aboe code is as follows:
