@@ -35,7 +35,7 @@ This will automatically launch Tensorboard and open a browser window where the t
 Another option is to open the main.ipynb Jupiter notebook and run it line by line, remember this is only recommended for short sessions, because the python kernel dies after closing your IDE.
 ## Plans for the future
 A useful upgrade in the future would be to use a hyperparameter tuner like RayTune.
-
+Also, graphein is a really nice package, but the edge construction functions have to be costumized more.
 
 My thesis can be found [here](./_paper/Thesis_Babai.pdf).
 
