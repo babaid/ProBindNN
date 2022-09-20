@@ -10,25 +10,24 @@ With the requirements.txt provided in the repository.
 The usage of the aboe code is as follows:
 For the creation of the dataset make\_dataset.py can be used either as an import into a submodule, or directly calling
 
- \begin{minted}[]{bash}
+ ```
  cd ProBindNN
  nohup python src/make_dataset.py > logs/nohup/make_dataset.txt
- \end{minted}
+ ```
  
  The folder of the dataset will be automatically created.
  For training the same applies, one can either import the train method, or directly run it from the command line:
  
- \begin{minted}[]{bash}
+ ```
  nohup python src/make_dataset.py > training.txt
- \end{minted}
+ ```
 
 The use of nohup is just an optional convenience for logging purposes.
 The automatically generated logs folder contains a tensorboard subfolder, where the training and validation losses are saved with a unique timestamp as an identifier. To look at the data, use the following command:
 
- \begin{minted}[]{bash}
+```
 tensorboard --logdir logs/tensorboard
- \end{minted}
-
+```
 This will automatically launch Tensorboard and open a browser window where the training process can be observed. 
 
 Another option is to open the main.ipynb Jupiter notebook and run it line by line, remember this is only recommended for short sessions, because the python kernel dies after closing your IDE.
