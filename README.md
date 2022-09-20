@@ -32,3 +32,7 @@ This will automatically launch Tensorboard and open a browser window where the t
 
 Another option is to open the main.ipynb Jupiter notebook and run it line by line, remember this is only recommended for short sessions, because the python kernel dies after closing your IDE.
 A useful upgrade in the future would be to use a hyperparameter tuner like RayTune.
+
+
+My thesis can be found [here](./_paper/Thesis_Babai.pdf)
+If you have some issues with the code or just want to share your opinion on my work, don't hesitate to contact me!
