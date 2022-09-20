@@ -31,6 +31,7 @@ tensorboard --logdir logs/tensorboard
 This will automatically launch Tensorboard and open a browser window where the training process can be observed. 
 
 Another option is to open the main.ipynb Jupiter notebook and run it line by line, remember this is only recommended for short sessions, because the python kernel dies after closing your IDE.
+# Plans for the future
 A useful upgrade in the future would be to use a hyperparameter tuner like RayTune.
 
 
